@@ -4,9 +4,9 @@
 #
 
 import os       # For Directory travelling
-# import codecs   # For Unicode Processing
-from THLCatalog.THLSource import THLSource
-from THLCatalog.THLText import THLText
+import codecs   # For Unicode Processing
+from THLTextProcessing import THLSource, THLText
+from lxml import etree
 
 if __name__ == "__main__":
 
@@ -28,8 +28,23 @@ if __name__ == "__main__":
     vol_in_url = '/Users/thangrove/Documents/Project Data/THL/DegeKT/ProofedVols/005 FINAL tags.txt'
     test_text_url = '/Users/thangrove/Sites/texts/dev/catalogs/xml/kt/d/texts/0002/kt-d-0002-text.xml'
 
+    outpath = '/Users/thangrove/Documents/Project Data/THL/DegeKT/ProofedVols/test/'
+    outfile = outpath + 'kd-d-0002-replaced.xml'
+
     proofed = THLSource(vol_in_url)
+    proofed.convert_input_to_xml()
+
     text = THLText(test_text_url)
+    msrange = text.getrange()
+    #print range
+
+    chunk = proofed.getchunk(msrange[0], msrange[1]) # by default wraps in <p> tag
+    print chunk
+    exit(0)
+    outtext = text.replace_p(chunk)
+    fout = codecs.open(outfile, 'w', encoding="utf-8")
+    fout.write(outtext)
+    fout.close()
 
     # TODO: now that source and text have been loaded we need to get the chunk from the source and replace it in text
 

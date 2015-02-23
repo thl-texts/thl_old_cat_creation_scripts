@@ -5,6 +5,17 @@ from lxml import etree
 import re
 from StringIO import StringIO
 
+#### Common Functions ####
+
+def convert_milestone(ms1):
+    """Converts Milestone to one with unit attribute before n attribute"""
+    ms2 = etree.Element('milestone')
+    ms2.set('unit', ms1.get('unit'))
+    ms2.set('n',  ms1.get('n'))
+    ms2.tail = ms1.tail
+    return ms2
+
+
 ####  THLSource Class ####
 class THLSource(object):
     """THL Text: An Object for manipulating XML data about one text in a catalog
@@ -47,26 +58,42 @@ class THLSource(object):
 
     def getmilestone(self, msnum):
         lpath = '/*//milestone[@n="{0}"]'.format(msnum)
-        ms = self.source.xpath(lpath)
-        return ms[0]
+        msel = self.source.xpath(lpath)
+        if len(msel) > 0:
+            if len(msel) > 1:
+                print "More than one milestone with n={0}".format(msnum)
+            msel = msel[0]
+        else:
+            print "Milestone, {0}, not found!".format(msnum)
+            msel = False
+        return msel
 
     def getline(self, linenum):
         outln = u''
         if linenum.find(".1") > -1:
             pgnum = linenum.replace(".1", "")
             pg = self.getmilestone(pgnum)
-            outln += etree.tostring(pg)
+            if pg is not False:
+                pg = convert_milestone(pg)
+                outln += etree.tostring(pg)
         ln = self.getmilestone(linenum)
-        tail = ln.tail
-        ln.tail = u''
-        outln += etree.tostring(ln) + tail
+        if ln is not False:
+            ln = convert_milestone(ln)
+            tail = ln.tail
+            ln.tail = u''
+            outln += etree.tostring(ln) + tail
         return outln
 
-    def getchunk(self, stln, endln):
+    def getchunk(self, stln, endln, wrapper='p'):
         outchunk = u''
+        if len(wrapper) > 0:
+            outchunk = u'<{0}>'.format(wrapper)
         for pn in THLPageIterator(stln, endln):
+            # print "Loading {0}".format(pn)
             outln = self.getline(pn)
             outchunk += outln
+        if len(wrapper) > 0:
+            outchunk += u'</{0}>'.format(wrapper)
         return outchunk
 
     @staticmethod
@@ -82,7 +109,6 @@ class THLSource(object):
         vol_in_stream = codecs.open(url, 'r', encoding='utf-16')
         txt = vol_in_stream.read()
         return txt
-
 
 ####  THLText Class ####
 
@@ -159,7 +185,7 @@ class THLText(object):
 ####  THL Page Iterator for sides with a/b and ####
 
 class THLPageIterator:
-    def __init__(self, st, en, numlines=6):
+    def __init__(self, st, en, numlines=7):
         self.numlines = numlines
         pts = st.split('.')
         # go back one line to include start line given
@@ -206,15 +232,17 @@ if __name__ == "__main__":
     outfile = outpath + 'kd-d-0002-replaced.xml'
     text1 = THLText(text1url)
     rng = text1.getrange()
-    print "Before replaceing the text ranges from {0} to {1}".format(rng[0], rng[1])
-    test_path2 = '/Users/thangrove/Documents/Project Data/THL/DegeKT/ProofedVols/test/testvol.txt'
-    chunkout = '/Users/thangrove/Documents/Project Data/THL/DegeKT/ProofedVols/test/testchunk.xml'
-    text2 = THLSource(test_path2)
-    text2.convert_input_to_xml()
-    ms = text2.getmilestone('2a.6')
-    print etree.tostring(ms, encoding='utf-8')
+    print "Before replacing the text ranges from {0} to {1}".format(rng[0], rng[1])
 
-   # text2.write(outpath)
+    chunk = text2.getchunk('1b.1', '3a.1')
 
-    chunk = text2.getchunk('2a.5', '3a.1')
-    print chunk
+    #  OLD CODE
+
+    #test_path2 = '/Users/thangrove/Documents/Project Data/THL/DegeKT/ProofedVols/test/testvol.txt'
+    #chunkout = '/Users/thangrove/Documents/Project Data/THL/DegeKT/ProofedVols/test/testchunk.xml'
+    #text2 = THLSource(test_path2)
+    #text2.convert_input_to_xml()
+    #ms = text2.getmilestone('2a.6')
+    #print etree.tostring(ms, encoding='utf-8')
+
+    # text2.write(outpath)
