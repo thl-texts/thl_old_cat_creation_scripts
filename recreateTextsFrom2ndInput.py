@@ -3,50 +3,42 @@
 #  Recreates the XML Text files for Dege catalog from the *.txt files of the second input
 #
 
-import os       # For Directory travelling
+# import os       # For Directory travelling
 import codecs   # For Unicode Processing
-from THLTextProcessing import THLSource, THLText
-from lxml import etree
+from THLTextProcessing import THLSource, THLText  # Custom class for text processing
+# from lxml import etree
 
 if __name__ == "__main__":
 
-    #  Test text: /Users/thangrove/S4ites/texts/dev/catalogs/xml/kt/d/texts/0002/kt-d-0002-text.xml
-    #  Test Source volume: /Users/thangrove/Documents/Project Data/THL/DegeKT/ProofedVols/005 FINAL tags.txt
-    #  test_path = '/Users/thangrove/Sites/texts/dev/catalogs/xml/kt/d/texts/0002/kt-d-0002-text.xml'
+    # testout_dir = "/Users/thangrove/Documents/Project Data/THL/DegeKT/ProofedVols/test-out/"
 
-    #  Define Variables
-    txtnum = 2                                                                          # Text being processesd
-    volnum = 5                                                                          # Vol. Num Being Processed
-    volstr = str(volnum).zfill(3)                                                       # Vol num with leading zeros (3 dig)
-    mydir = os.path.dirname(__file__)                                                     # This script's dir
-    vol_in_url = '{0}/../../../2ndInput/{1} FINAL tags.txt'.format(mydir, volstr)      # Vol in file
-    orig_cat_dir = '/usr/local/projects/thlib-texts/cocoon/texts/catalogs/xml/kt/d/'    # Dege orig (dev) texts folder
-    orig_vol_dir = '{0}texts/{1}'.format(orig_cat_dir, volstr.zfill(4))                 # Dege orig (dev) vol folder
-    out_dir = os.path.dirname(__file__) + '/../z-out'                                   # Output directory name
-    test_dir = '/Users/thangrove/Documents/Project Data/THL/DegeKT/ProofedVols/test/'
+    source_dir = "/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/source-vols/"
+    source_in = source_dir + "005 FINAL tags.txt"
 
-    vol_in_url = '/Users/thangrove/Documents/Project Data/THL/DegeKT/ProofedVols/005 FINAL tags.txt'
-    test_text_url = '/Users/thangrove/Sites/texts/dev/catalogs/xml/kt/d/texts/0002/kt-d-0002-text.xml'
+    texts_clone_dir = "/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/texts-clone/"
+    texts_in_dir = texts_clone_dir + "catalogs/xml/kt/d/texts/"
+    texts_out_dir = texts_clone_dir + "catalogs/xml/kt/d/texts-new/"
+    test_text = "0002/kt-d-0002-text.xml"
+    text_in_url = texts_in_dir + test_text
+    text_out_url = texts_out_dir + test_text
 
-    outpath = '/Users/thangrove/Documents/Project Data/THL/DegeKT/ProofedVols/test/'
-    outfile = outpath + 'kd-d-0002-replaced.xml'
+    # test_in_dir = '/usr/local/projects/thlib-texts/current/cocoon/catalogs/xml/kt/d/texts/'
+    # text_in_url = test_in_dir + test_text
 
-    proofed = THLSource(vol_in_url)
+    proofed = THLSource(source_in)
     proofed.convert_input_to_xml()
-
-    text = THLText(test_text_url)
+    print "Text in url: {0}".format(text_in_url)
+    text = THLText(text_in_url)
     msrange = text.getrange()
-    #print range
 
-    chunk = proofed.getchunk(msrange[0], msrange[1]) # by default wraps in <p> tag
-    print chunk
-    exit(0)
+
+    chunk = proofed.getchunk(msrange[0], msrange[1])  # by default wraps in <p> tag
+
     outtext = text.replace_p(chunk)
-    fout = codecs.open(outfile, 'w', encoding="utf-8")
+    fout = codecs.open(text_out_url, 'w', encoding="utf-8")
     fout.write(outtext)
     fout.close()
 
-    # TODO: now that source and text have been loaded we need to get the chunk from the source and replace it in text
 
 
 
