@@ -32,7 +32,7 @@ if __name__ == "__main__":
     msrange = text.getrange()
 
 
-    chunk = proofed.getchunk(msrange[0], msrange[1])  # by default wraps in <p> tag
+    chunk = proofed.getchunk(msrange[0], msrange[1], 'p')  # wraps in <p> tag
 
     outtext = text.replace_p(chunk)
     fout = codecs.open(text_out_url, 'w', encoding="utf-8")
