@@ -200,10 +200,17 @@ class THLText(object):
         self.bibl = self.get_xml_root(self.bibl_url)
 
     def getrange(self):
-        """Returns the page rage of text as a 2 item list, first item is start line, second is end line"""
+        """Returns the page rage of text as a 2 item list, first item is start line, second is end line
+
+        Returns:
+            array containing start and end milestone n attribute or False if no or just one milestone found
+        """
         xp = '/*//body//milestone[@unit="line"]/@n'
         mss = self.xml_text.xpath(xp)
-        return [mss[0],  mss.pop()]
+        if len(mss) < 2:
+            return False
+        else:
+            return [mss[0],  mss.pop()]
 
     def getline(self, lnum, mstype='line'):
         """Returns a single line from the text"""
