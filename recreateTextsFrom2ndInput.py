@@ -6,14 +6,17 @@
 import codecs   # For Unicode Processing
 from os import listdir, makedirs
 from os.path import exists, isfile, join
-from THLTextProcessing import THLSource, THLText  # Custom class for text processing
+import shutil
+from THLTextProcessing import THLSource, THLText, THLBibl  # Custom class for text processing
 # from lxml import etree
-import pprint
+# import pprint
 
-cocoon_base = "/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/texts-clone/"
-texts_dir = cocoon_base + "catalogs/xml/kt/d/texts/"
-new_texts_dir  = cocoon_base + "catalogs/xml/kt/d/texts-new/"
+base_folder = "/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/texts-clone/"
+proof_folder = "/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/source-vols/"
+texts_dir = base_folder + "catalogs/xml/kt/d/texts/"
+new_texts_dir  = base_folder + "catalogs/xml/kt/d/texts-new/"
 proofed = None
+proofednum = 0
 
 def extract_one_text_from_proofed_data():
     """Extracts a single text based on locations set and creates a catalog XML file for it
@@ -54,7 +57,7 @@ def extract_one_text_from_proofed_data():
 
 def extract_folder(fpath='', outpath=''):
     """Scans a folder in texts folder and extracts recreates its contents with proofed data
-        NOTE: Only works with text contained in a single volume.
+        NOTE: FOR TESTING ONLY. Only works with text contained in a single volume.
     Args:
         fpath (string): Path to folder to copy
         outpath (string): Path to folder for writing output
@@ -85,8 +88,11 @@ def extract_folder(fpath='', outpath=''):
 
     return True
 
-def extract_file(fpath, fname):
-    """Given a path and file name this function returns the text to write out to a file
+
+def extract_proofed_text(xmldoc):
+    """Given THLText object that has read in a text xml file, returns a proofed version of that text object
+
+        NOTE: "proofed" is global variable set elsewhere.
 
     Args:
         fpath (string): path to the folder containing the file
@@ -96,7 +102,7 @@ def extract_file(fpath, fname):
         A string containing the XML to print out to a file
 
     """
-    xmldoc = THLText(fpath + fname)
+
     txtrange = xmldoc.getrange()
     if txtrange:
         chunk = proofed.getchunk(txtrange[0], txtrange[1], 'p')  # wraps in <p> tag
@@ -104,6 +110,7 @@ def extract_file(fpath, fname):
         return outtext
     else:
         return False
+
 
 def get_source_volume(vnum=5):
     """Returns the object representing the proofed source volume from which texts are created
@@ -121,7 +128,108 @@ def get_source_volume(vnum=5):
     source.convert_input_to_xml()
     return source
 
+
+def get_bibl_path(txtpath):
+    print "textpath: {0}".format(txtpath)
+    pparts = txtpath.split('/')
+    tnum = pparts.pop()
+    fnum = tnum[0]
+    pparts.pop()
+    bibl_path = '/'.join(pparts) + "/{0}/kt-d-{1}-bib.xml".format(fnum, tnum)
+    return bibl_path
+
+
+def load_proofed_vol(vnum):
+    """Loads a volumes worth of proofed text and converts to xml. Assigns resulting THLSource object to
+        global variable proofed and the volumn number to proofednum so it can be reused
+        Used by convert_text
+
+    Args:
+        vnum (string): volume number to load
+
+    Returns:
+        Nothing but sets global variables proofed (THLSource) and proofednum (string)
+    """
+    global proofed, proofednum
+    vnum = str(vnum)
+    if vnum == proofednum:
+        return
+    proofednum = vnum
+    vnum = vnum.zfill(3)
+    volpath = proof_folder + "{0}/{0} FINAL tags.txt".format(vnum)
+    proofed = THLSource(volpath)
+
+
+def convert_text(inpath, outpath):
+    """Creates a proofed version of files in a text folder of any type
+
+    Args:
+        tpath (string): path to text folder, e.g. .../oldtexts/0003
+        outpath (string): directory in which to write the new files, e.g. ..../newtexts/0003.
+    """
+    global proofed
+
+    if not exists(outpath):
+        makedirs(outpath)
+
+    dfiles = [f for f in listdir(inpath) if isfile(join(inpath, f))]
+
+    if inpath[-1] is not '/':
+        inpath += '/'
+
+    if outpath[-1] is not '/':
+        outpath += '/'
+
+    if len(dfiles) == 1:  # Only a single file in the text folder
+        # Need to read bibl and get vol number from it
+        #print "only 1 file: {0}".format(dfiles[0])
+        fpath = inpath + dfiles[0]
+        foutpath = outpath + dfiles[0]
+        bibl = THLBibl(get_bibl_path(inpath))
+        volnum = bibl.get_volnums()
+        volnum = volnum[0]
+        load_proofed_vol(volnum)
+        xmltxt = THLText(fpath)
+        msrange = xmltxt.getrange()
+        chunk = proofed.getchunk(msrange[0], msrange[1], 'p')  # wraps in <p> tag
+
+        outtext = xmltxt.replace_p(chunk)
+        fout = codecs.open(foutpath, 'w', encoding="utf-8")
+        fout.write(outtext)
+        fout.close()
+
+    else:
+        maindoc = [f for f in dfiles if "-text.xml" in f]
+        print "Main doc file: {0}".format(maindoc[0])
+        maindocpath = inpath + maindoc[0]
+        maindocout = outpath + maindoc[0]
+        shutil.copy(maindocpath, maindocout)
+        main_xml = THLText(maindocpath)
+        voldivs = main_xml.xpath('/*//body/div[@type="vol"]')
+        for vd in voldivs:
+            volnum = vd.get('n')
+            print "Doing volume {0}".format(volnum)
+            print volnum
+            load_proofed_vol(volnum)
+            xrefs = vd.findall('.//xref')
+            for xref in xrefs:
+                docnm = xref.text
+                print "\t{0}".format(docnm)
+                docxml = THLText(inpath + docnm)
+                msrange = docxml.getrange()
+                chunk = proofed.getchunk(msrange[0], msrange[1], 'p')  # wraps in <p> tag
+                outtext = docxml.replace_p(chunk)
+                foutpath = outpath + docnm
+                fout = codecs.open(foutpath, 'w', encoding="utf-8")
+                fout.write(outtext)
+                fout.close()
+
+    return
+
+
 if __name__ == "__main__":
     # extract_one_text_from_proofed_data()
-    proofed = get_source_volume()
-    extract_folder(texts_dir + '0003test/', new_texts_dir + '0003/')
+    tnum = '0003'
+    txt_path = texts_dir + tnum
+    out_path = new_texts_dir + tnum
+    convert_text(txt_path, out_path)

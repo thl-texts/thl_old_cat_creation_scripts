@@ -44,6 +44,9 @@ class THLSource(object):
         self.source = self.read_doc(self.source_url)
         self.mytree = None
         self.xml_text = ''
+        if not is_xml:
+            self.convert_input_to_xml()
+            is_xml = True
         self.is_xml = is_xml
 
     def convert_input_to_xml(self):
@@ -54,7 +57,8 @@ class THLSource(object):
             
         """
         mysource = self.source
-        mysource = mysource.replace('[b1]', '[1b]', 1)
+        mysource = mysource.replace('[b1]', '[1b]', 1)  # fix mistaken page found in one vol
+        mysource = mysource.replace('[]', '')  # remove empty brackets anywhere
         newsource = re.sub(r'\[([^\]\.]+)\]', r'<milestone n="\1" unit="page"/>', mysource)
         newsource = re.sub(r'\[([^\.]+\.[\d])\]', r'<milestone n="\1" unit="line"/>', newsource)
         self.xml_text = u'<div><p>' + newsource + u'</p></div>'
@@ -167,10 +171,52 @@ class THLSource(object):
         txt = vol_in_stream.read()
         return txt
 
+####  THLBibl Class ####
+class THLBibl(object):
+    """THL Bibl: An object for reading in and extracting information from a Tib Text catalog record or Tibbibl
+
+        Args:
+
+
+        Attributes:
+
+    """
+    def __init__(self, bibl_url):
+        print "bibl url: {0}".format(bibl_url)
+        self.bibl_url = bibl_url
+        self.root = self.read_bibl()
+
+    def read_bibl(self):
+        """
+        Reads in the bibl XML document and returns the root
+
+        Returns:
+            Root Element if URL given otherwise returns FALSE
+        """
+        if len(self.bibl_url) > 0:
+            print "url is: {0}".format(self.bibl_url)
+            tree = etree.parse(self.bibl_url)
+            return tree.getroot()
+        else:
+            return None
+
+    def get_text_number(self):
+        xpq = '/tibbibl/tibiddecl/tibid[@type="collection"]/tibid[@type="edition"]/tibid[@system="sigla"]/' + \
+            'tibid[@type="text" and @system="number"]/text()'
+        res = self.root.xpath(xpq)
+        return res[0]
+
+    def get_volnums(self):
+        xpq = '/tibbibl/tibiddecl/tibid[@type="collection"]/tibid[@type="edition"]/tibid[@system="sigla"]/' + \
+            'tibid[@type="volume" and @system="number"]/text()[1]'
+        res = self.root.xpath(xpq)
+        return res
+
 ####  THLText Class ####
 
 class THLText(object):
-    """THL Text: An Object for manipulating XML data about one text in a catalog
+    """THL Text: An Object for manipulating XML data within a transcribed text file. This can either be a full text or
+        a part of a text as found in the /texts folder
 
         Args:
             text_url (string): Url to the source file for the text
@@ -180,7 +226,6 @@ class THLText(object):
             text_root (Element): root element of source
             bibl_root (Element): root element of bibl
     """
-
     def __init__(self, text_url='', bibl_url=''):
         self.xml_text_url = text_url                        # Url for the text XML file
         self.tree = None
@@ -261,6 +306,9 @@ class THLText(object):
         else:
             return False
 
+    def xpath(self, xpstr):
+        return self.xml_text.xpath(xpstr)
+
     @staticmethod
     def read_doc(url):
         """Reads in a Document
@@ -320,14 +368,22 @@ class THLPageIterator:
             return self.pg + "." + str(self.ln)
 
 if __name__ == "__main__":
-    text1url = '/Users/thangrove/Sites/texts/dev/catalogs/xml/kt/d/texts/0002/kt-d-0002-text.xml'
-    outpath = '/Users/thangrove/Documents/Project Data/THL/DegeKT/ProofedVols/test/'
-    outfile = outpath + 'kd-d-0002-replaced.xml'
-    text1 = THLText(text1url)
-    rng = text1.getrange()
-    print "Before replacing the text ranges from {0} to {1}".format(rng[0], rng[1])
+    biblurl = '/Users/thangrove/Sites/texts/dev/catalogs/xml/kt/d/0/kt-d-0001-bib.xml'
+    print biblurl
+    print "Bye"
 
-    chunk = text2.getchunk('1b.1', '3a.1')
+    #bibl = THLBibl(biblurl)
+    #print bibl.get_volnums()
+
+    # Old Code
+    #text1url = '/Users/thangrove/Sites/texts/dev/catalogs/xml/kt/d/texts/0002/kt-d-0002-text.xml'
+    #outpath = '/Users/thangrove/Documents/Project Data/THL/DegeKT/ProofedVols/test/'
+    #outfile = outpath + 'kd-d-0002-replaced.xml'
+    #text1 = THLText(text1url)
+    #rng = text1.getrange()
+    #print "Before replacing the text ranges from {0} to {1}".format(rng[0], rng[1])
+
+    #chunk = text2.getchunk('1b.1', '3a.1')
 
     #  OLD CODE
 
