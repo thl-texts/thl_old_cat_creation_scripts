@@ -132,8 +132,10 @@ def get_source_volume(vnum=5):
 def get_bibl_path(txtpath):
     print "textpath: {0}".format(txtpath)
     pparts = txtpath.split('/')
-    tnum = pparts.pop()
-    fnum = tnum[0]
+    tnuminpath = pparts.pop()
+    if not tnuminpath:
+        tnuminpath = pparts.pop()
+    fnum = tnuminpath[0]
     pparts.pop()
     bibl_path = '/'.join(pparts) + "/{0}/kt-d-{1}-bib.xml".format(fnum, tnum)
     return bibl_path
@@ -229,7 +231,10 @@ def convert_text(inpath, outpath):
 
 if __name__ == "__main__":
     # extract_one_text_from_proofed_data()
-    tnum = '0003'
-    txt_path = texts_dir + tnum
-    out_path = new_texts_dir + tnum
-    convert_text(txt_path, out_path)
+    for n in range(4, 7):
+        tnum = str(n).zfill(4)
+        print "****** Text {0} ******".format(tnum)
+        txt_path = texts_dir + tnum
+        out_path = new_texts_dir + tnum
+        convert_text(txt_path, out_path)
+        print "Done! \n\n"

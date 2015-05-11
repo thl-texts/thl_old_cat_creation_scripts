@@ -167,8 +167,19 @@ class THLSource(object):
     @staticmethod
     def read_doc(url):
         """Reads in a document from the given local url"""
-        vol_in_stream = codecs.open(url, 'r', encoding='utf-16')
-        txt = vol_in_stream.read()
+        txt = ""
+        try:
+            vol_in_stream = codecs.open(url, 'r', encoding='utf-8')
+            txt = vol_in_stream.read()
+
+        except UnicodeDecodeError:
+            try:
+                vol_in_stream = codecs.open(url, 'r', encoding='utf-16')
+                txt = vol_in_stream.read()
+
+            except UnicodeDecodeError:
+                print "Unable to open volume file as either utf8 or utf16"
+
         return txt
 
 ####  THLBibl Class ####
@@ -259,9 +270,15 @@ class THLText(object):
 
     def getline(self, lnum, mstype='line'):
         """Returns a single line from the text"""
-        xp = '/*//body//milestone[@unit="{0}" and @n={1}]'.format(mstype, lnum)
+        xp = '/*//body//milestone[@unit="{0}" and @n="{1}"]'.format(mstype, lnum)
         mss = self.xml_text.xpath(xp)
-        return mss[0] if len(mss) > 0 else False
+        if len(mss) == 0:
+            mss = False
+
+        elif len(mss) == 1:
+            mss = etree.tostring(mss[0], encoding='UTF-8')
+
+        return mss
 
     def replace_p(self, newp='<p></p>'):
         """Replaces the content of the text'sp element with new (proofed) Tibetan text"""
@@ -307,6 +324,7 @@ class THLText(object):
             return False
 
     def xpath(self, xpstr):
+        print "Xpath query is: {0}".format(xpstr)
         return self.xml_text.xpath(xpstr)
 
     @staticmethod

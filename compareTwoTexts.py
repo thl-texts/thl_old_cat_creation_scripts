@@ -4,24 +4,48 @@
 #
 
 # import os       # For Directory travelling
-import codecs   # For Unicode Processing
+# import codecs   # For Unicode Processing
+import re
 from THLTextProcessing import THLPageIterator, THLSource, THLText  # Custom class for text processing
 # from lxml import etree
+
+
+def normspace(txt2norm=''):
+    newtxt = re.sub("[\x00-\x20]+", "\x20", txt2norm)
+    #newtxt = re.sub("\s", " ", newtxt)
+    return newtxt
 
 if __name__ == "__main__":
 
     base_dir = "/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/texts-clone/"
     texts_root = base_dir + "catalogs/xml/kt/d/"
-    text1url = texts_root + "texts/0002/kt-d-0002-text.xml"
-    text2url = texts_root + "texts-new/0002/kt-d-0002-text.xml"
+    old_texts = texts_root + "texts/"
+    new_texts = texts_root + "texts-new/"
 
-    text1 = THLText(text1url)
-    text2 = THLText(text2url)
+    filenm = '0006/kt-d-0006-da-09.xml'
+    pgroot = '201b'
 
-    rng = text1.getrange()
 
-    for pn in THLPageIterator(rng[0], rng[1]):
-        pg1 = text1.getline(pn)
-        pg2 = text2.getline(pn)
 
+    oldtext = THLText(old_texts + filenm)
+    newtext = THLText(new_texts + filenm)
+    #print normspace(newtext.getline(pagenum))
+    for i in range(1, 2):
+        pagenum = pgroot + "." + str(i)
+        oldline = normspace(oldtext.getline(pagenum))
+        newline = normspace(newtext.getline(pagenum))
+        cnum = 0
+        for ch in oldline.decode('utf-8'):
+            print cnum, ch, newline[cnum].decode('utf-8')
+            cnum += 1
+
+
+        # if newline == oldline:
+        #    print "{0} is identical".format(pagenum)
+        # else:
+         #   print "Different:"
+         #   print oldline
+         #   print newline
+         #   if newline.find("/xA0") > -1:
+         #       print "Found non-breaking space"
 
