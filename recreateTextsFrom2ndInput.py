@@ -3,6 +3,7 @@
 #  Recreates the XML Text files for Dege catalog from the *.txt files of the second input
 #
 
+import sys
 import codecs   # For Unicode Processing
 from os import listdir, makedirs
 from os.path import exists, isfile, join
@@ -12,9 +13,12 @@ from THLTextProcessing import THLSource, THLText, THLBibl  # Custom class for te
 # import pprint
 
 base_folder = "/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/texts-clone/"
-proof_folder = "/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/source-vols/"
-texts_dir = base_folder + "catalogs/xml/kt/d/texts/"
-new_texts_dir  = base_folder + "catalogs/xml/kt/d/texts-new/"
+# Old proof_folder used in commented out line ~165
+#proof_folder = "/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/source-vols/"
+proof_folder = '/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/source-vols-latest/eKangyur_W4CZ5369-normalized-nocr/'
+ed_dir = base_folder + "catalogs/xml/kt/d/"
+texts_dir = ed_dir + "texts/"
+new_texts_dir = base_folder + "catalogs/xml/kt/d/texts-new/"
 proofed = None
 proofednum = 0
 
@@ -24,6 +28,8 @@ def extract_one_text_from_proofed_data():
     Returns:
         true if successful
     """
+    global proofed
+
     # testout_dir = "/Users/thangrove/Documents/Project Data/THL/DegeKT/ProofedVols/test-out/"
 
     source_dir = "/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/source-vols/"
@@ -44,7 +50,6 @@ def extract_one_text_from_proofed_data():
     print "Text in url: {0}".format(text_in_url)
     text = THLText(text_in_url)
     msrange = text.getrange()
-
 
     chunk = proofed.getchunk(msrange[0], msrange[1], 'p')  # wraps in <p> tag
 
@@ -100,7 +105,6 @@ def extract_proofed_text(xmldoc):
 
     Returns:
         A string containing the XML to print out to a file
-
     """
 
     txtrange = xmldoc.getrange()
@@ -158,8 +162,20 @@ def load_proofed_vol(vnum):
         return
     proofednum = vnum
     vnum = vnum.zfill(3)
-    volpath = proof_folder + "{0}/{0} FINAL tags.txt".format(vnum)
-    proofed = THLSource(volpath)
+    #volpath = proof_folder + "{0}/".format(vnum) # goes with old proof_folder
+    volfilepath = proof_folder + "{0}-FINAL-tags-cvd.txt".format(vnum)
+    proofed = THLSource(volfilepath)
+    # volfiles = listdir(volpath)
+    # print volpath, volfiles
+    # for vf in volfiles:
+    #     volfilepath = volpath + vf
+    #     # Sometimes volume proofed is 0000 FINAL tag.txt and sometimes 0000 Final tags.txt
+    #     if vf.find('FINAL tag') > -1 and vf.find('.txt') > -1:
+    #         print "Opening volume: {0}".format(volfilepath)
+    #         proofed = THLSource(volfilepath)
+    #         break
+    #     else:
+    #         print "Not suitable vol file: {0}".format(volfilepath)
 
 
 def convert_text(inpath, outpath):
@@ -175,21 +191,23 @@ def convert_text(inpath, outpath):
         makedirs(outpath)
 
     dfiles = [f for f in listdir(inpath) if isfile(join(inpath, f))]
-
+    print "There are {0} files".format(len(dfiles))
     if inpath[-1] is not '/':
         inpath += '/'
 
     if outpath[-1] is not '/':
         outpath += '/'
+    print "Converting text: {0}".format(inpath)
+    print "Writing output to: {0}".format(outpath)
+    bibl = THLBibl(get_bibl_path(inpath))
+    vols = bibl.get_volnums()
+    volnum = vols[0]
 
     if len(dfiles) == 1:  # Only a single file in the text folder
         # Need to read bibl and get vol number from it
         #print "only 1 file: {0}".format(dfiles[0])
         fpath = inpath + dfiles[0]
         foutpath = outpath + dfiles[0]
-        bibl = THLBibl(get_bibl_path(inpath))
-        volnum = bibl.get_volnums()
-        volnum = volnum[0]
         load_proofed_vol(volnum)
         xmltxt = THLText(fpath)
         msrange = xmltxt.getrange()
@@ -209,32 +227,86 @@ def convert_text(inpath, outpath):
         main_xml = THLText(maindocpath)
         voldivs = main_xml.xpath('/*//body/div[@type="vol"]')
         for vd in voldivs:
-            volnum = vd.get('n')
-            print "Doing volume {0}".format(volnum)
-            print volnum
+            print "Loading volume {0}".format(volnum)
             load_proofed_vol(volnum)
             xrefs = vd.findall('.//xref')
             for xref in xrefs:
                 docnm = xref.text
-                print "\t{0}".format(docnm)
-                docxml = THLText(inpath + docnm)
-                msrange = docxml.getrange()
-                chunk = proofed.getchunk(msrange[0], msrange[1], 'p')  # wraps in <p> tag
-                outtext = docxml.replace_p(chunk)
-                foutpath = outpath + docnm
-                fout = codecs.open(foutpath, 'w', encoding="utf-8")
-                fout.write(outtext)
-                fout.close()
+                process_doc(docnm, inpath, outpath)
+            volnum = int(volnum) + 1
+            volnum = str(volnum)
+        return
 
-    return
+
+def process_doc(docnm, dinpath, doutpath):
+    global proofed
+    print "Processing Doc {0}".format(docnm)
+    docxml = THLText(dinpath + docnm)
+    msrange = docxml.getrange()
+
+    if proofed is not None:
+
+        chunk = proofed.getchunk(msrange[0], msrange[1], 'p')  # wraps in <p> tag
+        outtext = docxml.replace_p(chunk)
+        foutpath = doutpath + docnm
+        fout = codecs.open(foutpath, 'w', encoding="utf-8")
+        fout.write(outtext)
+        fout.close()
+
+    else:
+
+        print "Unable to get proofed vol, it  is null. {0}".format(docnm)
+
+
+def process_single_doc(volnm, docnm, dinpath, doutpath):
+    load_proofed_vol(volnm)
+    process_doc(docnm, dinpath, doutpath)
+
+
+def get_text_bibl(prefix, mytnum):
+    tbfol = 0
+    if 999 < mytnum < 2000:
+        tbfol = 1
+    bibl_path = ed_dir + str(tbfol) + '/' + prefix + str(mytnum).zfill(4) + "-bib.xml"
+    return THLBibl(bibl_path)
 
 
 if __name__ == "__main__":
-    # extract_one_text_from_proofed_data()
-    for n in range(4, 7):
-        tnum = str(n).zfill(4)
-        print "****** Text {0} ******".format(tnum)
-        txt_path = texts_dir + tnum
-        out_path = new_texts_dir + tnum
-        convert_text(txt_path, out_path)
-        print "Done! \n\n"
+
+    contype = 'multi'  # Type of conversion to perform
+
+    if contype == 'single':
+        # Do just one text or limited range of text
+        svolnum = 9
+        for n in range(6, 17):
+            sdocnm = 'kt-d-0009-tha-{0}.xml'.format(str(n).zfill(2))
+            docpath = "{0}/{1}".format(str(svolnum).zfill(4), sdocnm)
+            basepath = '/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/texts-clone/catalogs/xml/kt/d'
+            sinpath = '{0}/texts/'.format(basepath)
+            soutpath = '{0}/texts-new/'.format(basepath)
+            print "Processing {0}".format(sdocnm)
+            process_single_doc(svolnum, docpath, sinpath, soutpath)
+
+    elif contype == 'multi':
+
+        # extract_one_text_from_proofed_data()
+
+        # Print standard out to file for documentation
+        outbase = '/Users/thangrove/Documents/Project_Data/THL/DegeKT/conversions'
+        sttxt = 64
+        endtxt = 67
+        outurl = '{0}/kt-d-v{1}-{2}-conversion.log'.format(outbase, sttxt, endtxt)
+        sys.stdout = codecs.open(outurl, 'w', encoding='utf-8')
+        for n in range(sttxt, endtxt + 1):
+            tnum = str(n).zfill(4)
+            print "****** Text {0} ******".format(tnum)
+            txt_path = texts_dir + tnum
+            out_path = new_texts_dir + tnum
+            convert_text(txt_path, out_path)
+
+    else:
+        # Final else is for testing/debugging
+        bobj = get_text_bibl('kt-d-', 45)
+        print bobj.get_volnums()
+
+    print "Done! \n\n"
