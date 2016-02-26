@@ -54,7 +54,7 @@ class THLCatalog():
         if dtype == 'str':  # Return String ID for doxographical category
             return doxid
         elif dtype == 'tib':  # Return array of tib, wyl for doxographical category label
-            return [parentdiv.find('bibl/title/title[1]'), parentdiv.find('bibl/title/title[2]')]
+            return [parentdiv.find('bibl/title/title[1]').text, parentdiv.find('bibl/title/title[2]').text]
         elif dtype == 'root':  # return the root element of the doxographical doc that lists its titles
             doxpath = '{0}/genres/{1}-bib.xml'.format(self.catpath, doxid)
             doxdoc = etree.parse(doxpath)
@@ -96,5 +96,7 @@ if __name__ == "__main__":
     tl = cat.get_text_list('nobibl')
     txtnum = 65
     res = cat.get_dox_for_text(txtnum, 'tib')
+    print tl, res[0], res[1]
+
 
 

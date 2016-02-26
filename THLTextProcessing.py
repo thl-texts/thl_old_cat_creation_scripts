@@ -22,404 +22,90 @@ def convert_milestone(ms1):
     return ms2
 
 ####  THLCatalog Class ####
-# Taken from OCRProcessing Catalog.py
-
-my_path = dirname(__file__)
-tmpl_path = join(my_path, 'templates')
-data_path = join(my_path, '..', 'data')
-vol_dir = join(my_path, '..', '..', 'volsource')  # directory which contains OCR volume files
-
-
 class THLCatalog():
-    """A class for processing an XML document that is a list of texts.
-       The XML expected here is based on the simple schema for mapping from an Excell document,
-       Peltsek_Excell_Datamap.xsd This is a <spreadsheet> element with a series of <textrecord>s in it. Each text
-       record has the following children:
-         tnum, key, title, vnum, startpage, endpage, numofchaps, chaptype, doxography, translators, crossrefs, notes """
+    """A class for processing THL catalog documents (not to be confused with OCRProcessing's Catalog)
+       Takes a regular THL catalog XML document and extracts information from it
+       Initialized with a path to the catalog xml file (catpath) and a machine name/id (name) for the catalog"""
 
-    docpath = ""
-    tree = None
-    colname = {
-        "eng": "",
-        "tib": "",
-        "wyl": ""
-    }
-    coll = ""
-    sigla = ""
-    vols = {}
-    texts = {}
-    textcount = 0
-    volcount = 0
-    voldir = ""
+    name = ""
+    catpath = ""
+    catdoc = ''
+    xmltree = None
+    root = None
 
-    def __init__(self, path, name, voldir=vol_dir):
-        """Takes a path to an XML document and parse it, creating two dictionary attributes:
-            1. vols = an dictionary of volumes keyed on vol num and 2. texts a dictionary of texts keyed on text num"""
-        try:
-            self.name = name
-            self.voldir = voldir
-            seqvnum = 0
-            oldvnum = 0
-            # done = False
-
-            # Load XML doc and perform xpath search for text elements
-            self.tree = etree.parse(path)
-            root = self.tree.getroot()
-            textels = root.xpath('/*//' + Vars.textelement)
-
-            # Iterate through the text elements found in the XML doc
-            for txt in textels:
-                vnum = txt.find(Vars.vnumelement).text  # volume number in catalog
-                if vnum != oldvnum:                    # sequential volume number
-                    seqvnum += 1
-                    oldvnum = vnum
-
-                # Calculate sequential numbering by counting number of preceding text elements
-                pt = txt.itersiblings(tag=Vars.textelement, preceding=True)
-                tnum = len(list(pt)) + 1  # calculate text number as number of preceding siblings plus one
-
-                # Add the text to the volumes text list or else start a new vol text list
-                if seqvnum in self.vols:
-                    self.vols[seqvnum]["texts"].append(tnum)
-                else:
-                    self.vols[seqvnum] = {"texts": [tnum]}
-
-                # If there is no ID element with sequential number then add one
-                if txt.find(Vars.idel) is None:
-                    se = etree.Element(Vars.idel)
-                    se.text = unicode(str(tnum))
-                    txt.find("tnum").addprevious(se)
-
-                # Add the element to the text list using its sequential number as id
-                self.texts[tnum] = txt
-
-            # set the object's textcount and volcount
-            self.textcount = len(self.texts)
-            self.volcount = len(self.vols)
-
-            #print "Automatically fixing missing paginations and line numbers."
-            #print "To disable this, comment out Catalog.py line 88 and 89."
-            #self.fixMissingPaginations()
-            #self.fixMissingPaginations()
-            #  above is hack to cover those ending paginations where there is not start pagination for following texts
-        except IOError:
-            print "\nError! '{0}' is not a valid file name. Cannot continue. Sorry!".format(path)
-
-    @staticmethod
-    def __type__():
-        return "THL Catalog"
-
-    # General THL Catalog Functions
-    def write(self, path, outtype="simple", doc="self"):
-        """Function to write either the catalog, volume tocs or volume bibls"""
-        if outtype == "simple":
-            if doc == "self":
-                doc = self.tree
-            fout = codecs.open(path, 'w', encoding='utf-8')
-            fout.write(etree.tostring(doc, encoding=unicode))
-            fout.close()
-
-        # vols outtype produces a div structure of volumes in TEI format
-        elif outtype == "vols":
-            catroot = etree.Element("div", {"type": "vols"})
-            voltemplate = join(tmpl_path, 'toc-vol.xml')
-            txttemplate = join(tmpl_path, 'toc-text.xml')
-            for k, v in self.vols.iteritems():
-                vdoc = etree.parse(voltemplate).getroot()
-                vid = "ngb-pt-v" + str(int(k)).zfill(3)
-                print "VID is: {0}".format(vid)
-                vnum = int(k)
-                vdoc.set('id', vid)
-                set_template_val(vdoc, '/*//title[@id="vtitle"]', "Volume {0}".format(vnum))
-                vnumel = vdoc.xpath('/*//num[@id="vnum"]')[0]
-                vnumel.set('n', v['wylie'])
-                vnumel.set('value', str(vnum))
-                vnumel.text = v['tib']
-                vnumel.attrib.pop("id")
-                set_template_val(vdoc, '/*//num[@id="starttxt"]', v['texts'][0])
-                set_template_val(vdoc, '/*//num[@id="endtxt"]', v['texts'][-1])
-                for txt in self.get_volume_toc(k, 'list'):
-                    tdoc = etree.parse(txttemplate).getroot()
-                    tid = "ngb-pt-{0}".format(txt["key"].zfill(4))
-                    tdoc.set("id", tid)
-                    title = txt["title"]
-                    set_template_val(tdoc, '/*//title[@id="tibtitle"]', title)
-                    set_template_val(tdoc, '/*//title[@id="wylietitle"]', self.tib_to_wylie(title))
-                    set_template_val(tdoc, '/*//idno[@id="tid"]', txt["key"].zfill(4))
-                    if txt["start"] is not None:
-                        stpg = txt["start"].split('.')
-                        set_template_val(tdoc, '/*//num[@id="stpg"]', stpg[0])
-                        if len(stpg) == 2:
-                            set_template_val(tdoc, '/*//num[@id="stln"]', stpg[1])
-                        else:
-                            set_template_val(tdoc, '/*//num[@id="stln"]', "1")
-                    else:
-                        self.remove_attributes(tdoc, 'id', ['stpg', 'stln'])
-                    if txt["end"] is not None:
-                        endpg = txt["end"].split('.')
-                        set_template_val(tdoc, '/*//num[@id="endpg"]', endpg[0])
-                        if len(endpg) == 2:
-                            set_template_val(tdoc, '/*//num[@id="endln"]', endpg[1])
-                        else:
-                            set_template_val(tdoc, '/*//num[@id="endln"]', "6")
-                    else:
-                        self.remove_attributes(tdoc, 'id', ['endpg', 'endln'])
-                    vdoc.append(tdoc)
-                catroot.append(vdoc)
-            fout = codecs.open(path, 'w', encoding='utf-8')
-            fout.write(etree.tostring(catroot, encoding=unicode))
-            fout.close()
-
-        # Output of volume bibls using template
-        elif outtype == "volbibs":
-            voltemplate = join(tmpl_path, 'volbib.xml')
-            for k, v in self.vols.iteritems():
-                vdoc = etree.parse(voltemplate).getroot()
-                vid = "ngb-pt-v" + str(int(k)).zfill(3)
-                print "VID is: {0}".format(vid)
-                #  vnum = int(k)
-                vdoc.set('id', vid)
-                set_template_val(vdoc, '/*//sysid[@id="sysid"]', vid)
-                set_template_val(vdoc, '/*/controlinfo/date', str(date.today()))
-                set_template_val(vdoc, '/*//tibid[@id="vid"]', k)
-                set_template_val(vdoc, '/*//altid[@id="vlet"]', v['tib'], v['wylie'])
-                set_template_val(vdoc, '/*//rs[@id="vollabel"]', u"༼" + v['tib'] + u"༽")
-                set_template_val(vdoc, '/*//divcount[@id="texttotal"]', v['tcount'])
-                set_template_val(vdoc, '/*//extent[@id="textfirst"]', "Pt." + str(v['texts'][0]))
-                set_template_val(vdoc, '/*//extent[@id="textlast"]', "Pt." + str(v['texts'][-1]))
-                set_template_val(vdoc, '/*//extent[@id="sides"]', v['lastpage'])
-                set_template_val(vdoc, '/*//num[@id="pagelast"]', v['lastpage'])
-                fout = codecs.open(join(path, vid + "-bib.xml"), 'w', encoding='utf-8')
-                fout.write(etree.tostring(vdoc, encoding=unicode))
-                fout.close()
-
-    # Volume Functions in THL Catalog
-    def import_vol_info(self, path):
-        voldoc = etree.parse(path).getroot()
-        volels = voldoc.xpath('/*//volume')
-        for vol in volels:
-            vnum = int(vol.find('num').text)
-            vobj = self.get_volume(vnum)
-            if vobj is not None:
-                vobj['wylie'] = vol.find('name[@lang="wylie"]').text
-                vobj['tib'] = vol.find('name[@lang="tib"]').text
-                vobj['dox'] = vol.find('dox').text
-                vobj['tcount'] = vol.find('textcount').text
-                vsstr = "vol" + str(vnum).zfill(2)
-                lasttext = self.get_text(vobj['texts'][-1])
-                if lasttext and isinstance(lasttext.endpage, str):
-                    vobj['lastpage'] = int(float(lasttext.endpage))
-                for f in listdir(self.voldir):
-                    if vsstr in f:
-                        vobj['ocrfile'] = join(self.voldir, f)
-                        break
-
-    def fix_missing_paginations(self):
-        """This function inserts missing paginations based on the previous or subsequent texts' paginations"""
-        # First fix problem with start page
-        spct = 0
-        enct = 0
-        nofix = 0
-        tlist = {}
-        for tn in self.texts:
-            ptxt = self.texts[tn - 1] if tn > 1 else None
-            ntxt = self.texts[tn + 1] if tn < len(self.texts) else None
-            t = self.texts[tn]
-            tid = t.find("key").text
-
-            # Fix Start pages
-            startpg = t.find("startpage").text
-            if isinstance(startpg, str):
-                # if no line number for start page assume, get line from prev text if page same
-                # otherwise assume line .1
-                linenm = ".1"
-                if not "." in startpg:
-                    if ptxt is not None:
-                        pend = ptxt.find("endpage").text
-                        if isinstance(pend, str) and "." in pend:
-                            pendpts = pend.split('.')
-                            if pendpts[0] == startpg and len(pendpts) > 1:
-                                linenm = "." + pendpts[1]
-                            elif int(pendpts[0]) == int(startpg) - 1 and int(pendpts[1]) == 6:
-                                linenm = ".1"
-                    t.find("startpage").text = startpg + linenm
-                    spct += 1
-                    tlist[tid] = 1
-            elif ptxt is not None:
-                # if no page number then get it from the previous texts ending
-                pend = ptxt.find("endpage").text
-                if pend:
-                    if ".6" in pend:  # if previous text ends at .6 assume this test starts at .1 of next page
-                        pend = str(int(float(pend)) + 1) + ".1"
-                    t.find("startpage").text = pend
-                    spct += 1
-                    tlist[tid] = 1
-            else:
-                print "text {0} has no start page and can't find previous text".format(tid)
-                nofix += 1
-
-            # Fix End pages
-            endpage = t.find("endpage").text
-            if isinstance(endpage, str):
-                # if not end line number get from next text start page if the same page
-                # else assume line 6
-                linenm = ".6"
-                if not "." in endpage:
-                    if ntxt is not None:
-                        nst = ntxt.find("startpage").text
-                        if isinstance(nst, str) and "." in nst:
-                            nstpts = nst.split('.')
-                            if nstpts[0] == endpage and len(nstpts) > 1:
-                                linenm = "." + nstpts[1]
-                            if int(nstpts[0]) == int(endpage) + 1 and int(nstpts[1]) == 1:
-                                linenm = ".6"
-                    t.find("endpage").text = endpage + linenm
-                    enct += 1
-                    tlist[tid] = 1
-            elif ntxt is not None:
-                nstart = ntxt.find("startpage").text
-                if nstart:
-                    if ".1" in nstart or "." not in nstart:
-                        # if next text starts at .1, assume this ends .6 of previous page
-                        nstart = str(int(float(nstart)) - 1) + ".6"
-                    t.find("endpage").text = nstart
-                    enct += 1
-                    tlist[tid] = 1
-            else:
-                print "text {0} has no end page and can't find next text".format(tid)
-                nofix += 1
-
-                # print "Startpages changed: {0}".format(spct)
-                #print "Endpages changed: {0}".format(enct)
-                #print "Missing pages unable to change: {0}".format(nofix)
-                #print "Total text records changed: {0}".format(len(tlist))
-                #print "Texts changed: "
-                #knum = 0
-                #for k in sorted(tlist.iterkeys(), key=int):
-                #  print k.zfill(3),
-                #  knum += 1
-                #  if knum % 10 == 0:
-                #    print ""
-                #print ""
-
-    def get_volume(self, n):
-        n = int(n)
-        if n in self.vols.keys():
-            return self.vols[n]
+    def __init__(self, catpath, name):
+        self.name = name
+        catpts = catpath.rpartition('/')
+        self.catpath = catpts[0]
+        if len(catpts) < 3:
+            print "Initial path must contain catalog file name too"
+            self.catdoc = ''
         else:
-            return None
+            self.catdoc = catpts[2]
+            self.xmltree = etree.parse(self.catpath + "/" + self.catdoc)
+            self.root = self.xmltree.getroot()
 
-    def get_volume_toc(self, n, method='plain'):
-        n = int(n)
-        voltoc = []
-        if n in self.vols.keys():
-            vol = self.get_volume(n)
-            for tn in vol["texts"]:
-                txt = self.get_text(tn)
-                if method == 'list':
-                    voltoc.append({
-                        "key": txt.key,
-                        "tnum": txt.tnum,
-                        "title": txt.title,
-                        "vnum": txt.vnum,
-                        "start": txt.startpage,
-                        "end": txt.endpage
-                    })
-                elif method == 'texts':
-                    voltoc.append(self.get_text(txt.key))
-                else:
-                    title = self.tib_to_wylie(txt.title)
-                    print txt.key, txt.tnum, title, txt.vnum, txt.startpage, txt.endpage
-        else:
-            print "There is no volume {0}".format(n)
-        if method != 'plain':
-            return voltoc
+    def get_name(self):
+        return self.name
 
-    # Text functions in THL Catalog
-    def get_text(self, n, mytype="object"):
-        """Returns a text object"""
-        if isinstance(n, str):
-            n = int(n)
-        if n in self.texts.keys():
-            if mytype == "element":
-                return self.texts[n]
-            elif mytype == "string":
-                return etree.tostring(self.texts[n], encoding=unicode)
-            else:
-                return Text.Text(self.texts[n], self)
-        else:
-            return None
+    def get_root(self):
+        """Get the xml root for the catalog document"""
+        return False if not self.root else self.root
 
-    def get_text_list(self, listtype="tuple", tibformat="unicode"):
-        """Get a list of texts in one of three formats: tuples (default), arrays, or dictionaries"""
-        out = []
-        for t in self.iter_texts():
-            out.append(t.getData(listtype, tibformat))
-        return out
+    def get_dox_for_text(self, tnum, dtype='str'):
+        """Get the doxographical category for a text numb either as a id/label (str),
+         a list of tib, wylie names for the category, or as an xml element (root) of its text list
+         :param tnum: integer text number whose dox cat you want to find
+         :param dtype: string type of return value desired ('str', 'tib', 'root') """
+        if not self.xmltree:
+            return False
+        tnum = int(tnum)
+        tnumstr = str(tnum).zfill(4)
+        parentdiv = self.root.xpath('/*//body//bibl/xptr[@n="' + tnumstr + '"]/ancestor::div[1]')[0]
+        doxid = parentdiv.get('id')
+        if dtype == 'str':  # Return String ID for doxographical category
+            return doxid
+        elif dtype == 'tib':  # Return array of tib, wyl for doxographical category label
+            #print etree.tostring(parentdiv)
+            titles = parentdiv.xpath('./bibl/title/title')
+            #print "titles in catalog", titles
+            tibtitle = titles[0].text if len(titles) > 0 else ""
+            wytitle = titles[1].text if len(titles) > 1 else ""
+            return [tibtitle, wytitle]
+        elif dtype == 'root':  # return the root element of the doxographical doc that lists its titles
+            doxpath = '{0}/genres/{1}-bib.xml'.format(self.catpath, doxid)
+            doxdoc = etree.parse(doxpath)
+            doxroot = doxdoc.getroot()
+            return doxroot
 
-    def iter_texts(self, ttype="object"):
-        txts = self.texts
-        for k, txt in txts.iteritems():
-            if ttype == "xml":
-                yield txt
-            else:
-                yield Text.Text(txt, self)
+    def get_text_title(self, tnum, lang='tib'):
+        """Get the title for a text in a catalog in the desired language
+        :param tnum: integer number of text
+        :param lang: string lang to return title in ('tib', 'wyl', 'san')
+        :return: the title string in that language
+        """
+        if not self.xmltree:
+            return False
+        tnum = int(tnum)
+        doxroot = self.get_dox_for_text(tnum, 'root')
+        textbibl = doxroot.xpath('/*//idno[@n="dgnum" and text()="' + str(tnum) + '"]/ancestor::bibl[1]')[0]
+        tind = 0
+        if lang == 'wyl':
+            tind = 1
+        elif lang == 'san':
+            tind = 2
+        return textbibl[tind].text
 
-    def iter_volumes(self):
-        vols = self.vols
-        for k, v in vols.iteritems():
-            yield v
+    def get_text_list(self, ltype='all'):
+        """Returns a list of texts in catalog
+        :param ltype: string denoting type of list to return (all or nobibl only)
+        """
+        sel = ' and @rend="nobibl"' if ltype == 'nobibl' else ""
+        return self.root.xpath('/*//xptr[@type="texts"{0}]/@n'.format(sel))
 
-    @staticmethod
-    def tib_to_wylie(txt):
-        url = 'http://local.thlib.org/cgi-bin/thl/lbow/wylie.pl?'  # Only Local
-        q = {'conversion': 'uni2wy', 'plain': 'true', 'input': unicode(txt).encode('utf-8')}
-        out = ''
-        fh = urlopen(url + urlencode(q))
-        for l in fh.readlines():
-            out += l
-        fh.close()
-        return out
-
-    @staticmethod
-    def remove_attributes(doc, att, vals):
-        for v in vals:
-            xp = "/*//*[@" + att + "='" + v + "']"
-            els = doc.xpath(xp)
-            if len(els) > 0:
-                el = els[0]
-                el.attrib.pop(att)
-            else:
-                print "Could not find attribute to remove with xpath: {0}".format(xp)
-
-    def renumber_texts(self):
-        tnum = 0
-        for t in self.iter_texts("xml"):
-            tnum += 1
-            t.find("key").text = str(tnum)
-
-
-def set_template_val(doc, xp, val, cmt=""):
-    atnm = "id"
-    match = search(r'\[@(\w+)=', xp)
-    if match:
-        atnm = match.group(1)
-    els = doc.xpath(xp)
-    if len(els) == 0:
-        print "Xpath: {0} not found".format(xp)
-    else:
-        el = els[0]
-        #  for sel in el:
-        #     list(el).pop()
-        if cmt != "":
-            c = etree.Comment(cmt)
-            c.tail = val
-            el.insert(0, c)
-        else:
-            if isinstance(val, int) or isinstance(val, float):
-                val = str(val)
-            el.text = val
-        el.attrib.pop(atnm)
+    def xpath(self, xpathstr):
+        """Perform an xpath search on main catalog document"""
+        return self.root.xpath(xpathstr)
 
 #### End of THLCatalog Class ###
 
@@ -575,6 +261,7 @@ class THLSource(object):
                 outchunk += u'<{0}>'.format(en)
         elif len(wrapper) > 0:
             outchunk = u'<{0}>'.format(wrapper)
+        print "Start ln {0}; End ln {1}".format(stln, endln)
         for pn in THLPageIterator(stln, endln):
             # print "Loading {0}".format(pn)
             outln = self.getline(pn)
@@ -826,11 +513,18 @@ class THLPageIterator:
             return self.pg + "." + str(self.ln)
 
 if __name__ == "__main__":
-    myurl = '/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/test-out/crlftest.txt'
-    srcobj = THLSource(myurl)
-    srcobj.removecrlf()
 
-    print srcobj.sourcetxt
+    mycatpath = '/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/' \
+                'texts-clone/catalogs/xml/kt/d/kt-d-cat.xml'
+    cat = THLCatalog(mycatpath, 'mycat')
+    tl = cat.get_text_list('nobibl')
+    print tl
+
+    # myurl = '/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/test-out/crlftest.txt'
+    # srcobj = THLSource(myurl)
+    # srcobj.removecrlf()
+    #
+    # print srcobj.sourcetxt
 
     #biblurl = '/Users/thangrove/Sites/texts/dev/catalogs/xml/kt/d/0/kt-d-0001-bib.xml'
     #print biblurl

@@ -1,0 +1,1119 @@
+dbid,dbid-alt,kg,stvol,stvol2,stvol-let,text-in-vol,stpg,stln,stsd,endvol,endvol-2,endvol-let,endpg,endln,endsd,tibtitle,santitle,cat1,cat2,cat3
+1,1,KG,1,1,ka,1,1,1,2,4,4,nga,302,5,1,'Dul ba gzhi,Vinaya-vastu,K 'Dul ba,'Dul ba,
+2,2,KG,5,5,ca,1,1,1,2,5,5,ca,21,1,1,So sor thar ba'i mdo,Pr_timok_a-s_tra,K 'Dul ba,'Dul ba,
+3,3,KG,5,5,ca,2,21,1,1,8,8,nya,269,6,1,'Dul ba rnam par 'byed pa,Vinaya-vibha_ga,K 'Dul ba,'Dul ba,
+4,4,KG,9,9,ta,1,1,1,2,9,9,ta,25,1,2,dGe slong ma'i so sor thar ba'i mdo,Bhik_u__-pr_timok_a-s_tra,K 'Dul ba,'Dul ba,
+5,5,KG,9,9,ta,2,25,1,2,9,9,ta,328,6,1,dGe slong ma'i 'dul ba rnam par 'byed pa,Bhik_u__-vinaya-vibha_ga,K 'Dul ba,'Dul ba,
+6,6,KG,10,10,tha,1,1,1,2,11,11,da,333,7,1,'Dul ba phran tshegs kyi gzhi,Vinaya-k_udraka-vastu,K 'Dul ba,'Dul ba,
+7,7,KG,12,12,na,1,1,1,2,12,12,na,92,1,2,'Dul ba gzung bla ma,Vinaya-uttaragrantha,K 'Dul ba,'Dul ba,
+8,8,KG,14,14,ka,1,1,1,2,25,25,a,395,6,1,Shes rab kyi pha rol tu phyin pa stong phrag brgya pa,_atas_hasrik_-praj–_p_ramit_,K Sher phyin,[ Sher phyin ],'Bum
+9,9,KG,26,26,ka,1,1,1,2,28,28,ga,381,5,1,Shes rab kyi pha rol tu phyin pa stong phrag nyi shu lnga pa,Pa–cavi__atis_hasrik_-praj–_p_ramit_,K Sher phyin,[ Sher phyin ],Nyi khri
+10,10,KG,29,29,ka,1,1,1,2,31,31,ga,206,7,1,Shes rab kyi pha rol tu phyin pa khri brgyad stong pa zhes bya ba theg pa chen po'i mdo,A___da_as_hasrik_-praj–_p_ramit_-n_ma-mah_y_na-s_tra,K Sher phyin,[ Sher phyin ],Khri brgyad
+11,11,KG,31,31,ga,2,1,1,2,32,32,nga,397,7,1,Shes rab kyi pha rol tu phyin pa khri pa zhes bya ba theg pa chen po'i mdo,Da_as_hasrik_-praj–_p_ramit_-n_ma-mah_y_na-s_tra,K Sher phyin,[ Sher phyin ],Khri pa
+12,12,KG,33,33,ka,1,1,1,2,33,33,ka,286,6,1,Shes rab kyi pha rol tu phyin pa brgyad stong pa,A__as_hasrik_praj–_p_ramit_,K Sher phyin,[ Sher phyin ],brGyad stong
+13,13,KG,34,34,ka,1,1,1,2,34,34,ka,20,1,1,Shes rab kyi pha rol tu phyin pa sdud pa tshigs su bcad pa,Praj–_p_ramit_-sa–cayag_th_,K Sher phyin,[ Sher phyin ],Shes rab sna tshogs
+14,14,KG,34,34,ka,2,20,1,1,34,34,ka,104,1,1,Rab kyi rtsal gyis rnam par gnon pas zhus pa shes rab kyi pha rol tu phyin pa bstan pa,Suvikr_ntavikr_mi-parip_cch_-praj–_p_ramit_-nirde_a,K Sher phyin,[ Sher phyin ],Shes rab sna tshogs
+15,15,KG,34,34,ka,3,104,1,1,34,34,ka,121,1,1,Shes rab kyi pha rol tu phyin pa lnga brgya pa,Pa–ca_atik_-praj–_p_ramit_,K Sher phyin,[ Sher phyin ],Shes rab sna tshogs
+16,16,KG,34,34,ka,4,121,1,1,34,34,ka,133,1,1,Shes rab kyi pha rol tu phyin pa rdo rje gcod pa zhes bya ba theg pa chen po'i mdo,Vajracchedik_-n_ma-praj–_p_ramit_-mah_y_na-s_tra,K Sher phyin,[ Sher phyin ],Shes rab sna tshogs
+17,17,KG,34,34,ka,5,133,1,1,34,34,ka,139,6,2,Shes rab kyi pha rol tu phyin pa'i tshul brgya lnga bcu pa,Praj–_p_ramit_-naya-_atapa–ca_atik_,K Sher phyin,[ Sher phyin ],Shes rab sna tshogs
+18,18,KG,34,34,ka,6,139,6,2,34,34,ka,142,4,1,bCom ldan 'das ma shes rab kyi pha rol tu phyin pa lnga bcu pa ,Bhagavat_-praj–_p_ramit_-pa–ca_atik_,K Sher phyin,[ Sher phyin ],Shes rab sna tshogs
+19,19,KG,34,34,ka,7,142,4,1,34,34,ka,143,5,2,Shes rab kyi pha rol tu phyin pa kau shi ka zhes bya ba,Kau_ika-praj–_p_ramit_-n_ma,K Sher phyin,[ Sher phyin ],Shes rab sna tshogs
+20,20,KG,34,34,ka,8,143,5,2,34,34,ka,144,6,2,Shes rab kyi pha rol tu phyin pa'i sgo nyi shu rtsa lnga pa zhes bya ba theg pa chen po'i mdo,Pa–cavi__atik_-praj–_p_ramit_-mukha-n_ma-mah_y_na-s_tra,K Sher phyin,[ Sher phyin ],Shes rab sna tshogs
+21,21,KG,34,34,ka,9,144,6,2,34,34,ka,146,3,1,bCom ldan 'das ma shes rab kyi pha rol tu phyin pa'i snying po,Bhagavat_-praj–_p_ramit_-h_daya,K Sher phyin,[ Sher phyin ],Shes rab sna tshogs
+22,22,KG,34,34,ka,10,146,3,1,34,34,ka,147,3,2,Shes rab kyi pha rol tu phyin pa yi ge nyung ngu zhes bya ba theg pa chen po'i mdo,Svalp_k_ar_-praj–_p_ramit_-n_ma-mah_y_na-s_tra,K Sher phyin,[ Sher phyin ],Shes rab sna tshogs
+23,23,KG,34,34,ka,11,147,3,2,34,34,ka,148,1,1,De bzhin gshegs pa thams cad kyi yum shes rab kyi pha rol tu phyin ma yi ge gcig ma zhes bya ba,Ek_k_ar_m_t_-n_ma-sarvatath_gata-praj–_p_ramit_,K Sher phyin,[ Sher phyin ],Shes rab sna tshogs
+24,24,KG,34,34,ka,12,148,1,1,34,34,ka,174,2,1,Shes rab kyi pha rol tu phyin pa bdun brgya pa zhes bya ba theg pa chen po'i mdo,Sapta_atik_-praj–_p_ramit_-n_ma-mah_y_na-s_tra,K Sher phyin,[ Sher phyin ],Shes rab sna tshogs
+25,25,KG,34,34,ka,13,174,2,1,34,34,ka,175,3,2,Shes rab kyi pha rol tu phyin pa'i mtshan brgya rtsa brgyad pa zhes bya ba,Praj–_p_ramit_-n_m___a_ataka,K Sher phyin,[ Sher phyin ],Shes rab sna tshogs
+26,26,KG,34,34,ka,14,175,3,2,34,34,ka,176,6,2,Shes rab kyi pha rol tu phyin pa'i nyi ma'i snying po theg pa chen po'i mdo,Praj–_p_ramit_-s_ryagarbha-mah_y_na-s_tra,K Sher phyin,[ Sher phyin ],Shes rab sna tshogs
+27,27,KG,34,34,ka,15,176,6,2,34,34,ka,177,6,2,Zla ba'i snying po shes rab kyi pha rol tu phyin pa theg pa chen po'i mdo,Candragarbha-praj–_p_ramit_-mah_y_na-s_tra,K Sher phyin,[ Sher phyin ],Shes rab sna tshogs
+28,28,KG,34,34,ka,16,177,6,2,34,34,ka,178,6,1,Shes rab kyi pha rol tu phyin pa kun tu bzang po theg pa chen po'i mdo,Praj–_p_ramit_-samantabhadra-mah_y_na-s_tra,K Sher phyin,[ Sher phyin ],Shes rab sna tshogs
+29,29,KG,34,34,ka,17,178,6,1,34,34,ka,178,6,2,Shes rab kyi pha rol tu phyin pa lag na rdo rje'i mdo theg pa chen po,Praj–_p_ramit_-vajrap__i-mah_y_na-s_tra,K Sher phyin,[ Sher phyin ],Shes rab sna tshogs
+30,30,KG,34,34,ka,18,178,6,2,34,34,ka,180,1,2,Shes rab kyi pha rol tu phyin pa rdo rje rgyal mtshan gyi mdo theg pa chen po,Praj–_p_ramit_-vajraketu-mah_y_na-s_tra,K Sher phyin,[ Sher phyin ],Shes rab sna tshogs
+31,31,KG,34,34,ka,19,180,1,2,34,34,ka,183,7,1,Chos kyi 'khor lo rab tu bskor ba'i mdo,Dharmacakra-pravartana-s_tra,K Paritta,[ Sher phyin ],Shes rab sna tshogs
+32,32,KG,34,34,ka,20,183,7,1,34,34,ka,250,5,1,sKyes pa rabs kyi gleng gzhi,J_takanid_na,K Paritta,[ Sher phyin ],Shes rab sna tshogs
+33,33,KG,34,34,ka,21,250,5,1,34,34,ka,259,4,2,lCang lo can gyi pho brang gi mdo,___n___ya-s_tra,K Paritta,[ Sher phyin ],Shes rab sna tshogs
+34,34,KG,34,34,ka,22,259,4,2,34,34,ka,263,4,1,'Dus pa chen po'i mdo,Mah_samaya-s_tra,K Paritta,[ Sher phyin ],Shes rab sna tshogs
+35,35,KG,34,34,ka,23,263,4,1,34,34,ka,270,1,1,Byams pa'i mdo,Maitr_-s_tra,K Paritta,[ Sher phyin ],Shes rab sna tshogs
+36,36,KG,34,34,ka,24,270,1,1,34,34,ka,271,1,1,Byams pa bsgom pa'i mdo,Maitr_-bh_van_-s_tra,K Paritta,[ Sher phyin ],Shes rab sna tshogs
+37,37,KG,34,34,ka,25,271,1,1,34,34,ka,276,5,1,bSlab pa lnga'i phan yon gyi mdo,Pa–ca_ik__nu_a_s_-s_tra,K Paritta,[ Sher phyin ],Shes rab sna tshogs
+38,38,KG,34,34,ka,26,276,5,1,34,34,ka,279,2,1,Ri'i kun dga' bo'i mdo,Giri-_nanda-s_tra,K Paritta,[ Sher phyin ],Shes rab sna tshogs
+39,39,KG,34,34,ka,27,279,2,1,34,34,ka,281,1,2,Klu'i rgyal po dga' bo nyer dga' 'dul ba'i mdo,Nandopanandan_gar_jadamana-s_tra,K Paritta,[ Sher phyin ],Shes rab sna tshogs
+40,40,KG,34,34,ka,28,281,1,2,34,34,ka,282,6,1,'Od srung chen po'i mdo,Mah_k__yapa-s_tra,K Paritta,[ Sher phyin ],Shes rab sna tshogs
+41,41,KG,34,34,ka,29,282,6,1,34,34,ka,282,6,2,Nyi ma'i mdo,S_rya-s_tra,K Paritta,[ Sher phyin ],Shes rab sna tshogs
+42,42,KG,34,34,ka,30,282,6,2,34,34,ka,283,5,1,Zla ba'i mdo,Candra-s_tra,K Paritta,[ Sher phyin ],Shes rab sna tshogs
+43,43,KG,34,34,ka,31,283,5,1,34,34,ka,284,7,1,bKra shis chen po'i mdo,Mah_ma_gala-s_tra,K Paritta,[ Sher phyin ],Shes rab sna tshogs
+44,44,KG,35,35,ka,1,1,1,2,38,38,a,363,6,1,Sangs rgyas phal po che zhes bya ba shin tu rgyas pa chen po'i mdo,Buddha-avata_saka-n_ma-mah_vaipulya-s_tra,K Phal chen,Phal chen,
+45,45,KG,39,39,ka,1,1,1,2,39,39,ka,45,1,2,sDom pa gsum bstan pa'i le'u zhes bya ba theg pa chen po'i mdo,Trisa_vara-nirde_a-parivarta-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+46,46,KG,39,39,ka,2,45,1,2,39,39,ka,100,1,1,sGo mtha' yas pa rnam par sbyong ba bstan pa'i le'u zhes bya ba theg pa chen po'i mdo,Anantamukha-pari_odhana-nirde_a-parivarta-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+47,47,KG,39,39,ka,3,100,1,1,39,39,ka,203,1,2,De bzhin gshegs pa'i gsang ba bsam gyis mi khyab pa bstan pa zhes bya ba theg pa chen po'i mdo,Tath_gata-acintya-guhya-nirde_a-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+48,48,KG,39,39,ka,4,203,1,2,39,39,ka,237,1,2,rMi lam bstan pa zhes bya ba theg pa chen po'i mdo,Svapnanirde_a-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+49,49,KG,39,39,ka,5,237,1,2,39,39,ka,270,5,1,'Od dpag med kyi bkod pa zhes bya ba theg pa chen po'i mdo,Amit_bhavy_ha-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+50,50,KG,40,40,kha,1,1,1,2,40,40,kha,70,1,2,De bzhin gshegs pa 'khrugs pa'i bkod pa zhes bya ba theg pa chen po'i mdo,Ak_obhya-tath_gatasya vy_ha-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+51,51,KG,40,40,kha,2,70,1,2,40,40,kha,140,1,2,Go cha'i bkod pa bstan pa zhes bya ba theg pa chen po'i mdo,Varmavy_ha-nirde_a-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+52,52,KG,40,40,kha,3,140,1,2,40,40,kha,164,6,1,Chos kyi dbyings kyi rang bzhin dbyer med pa bstan pa zhes bya ba theg pa chen po'i mdo,Dharmadh_tu-prak_ti-asa_bheda-nirde_a-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+53,53,KG,40,40,kha,4,164,6,1,40,40,kha,184,6,2,Chos bcu pa zhes bya ba theg pa chen po'i mdo,Da_adharmaka-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+54,54,KG,40,40,kha,5,184,6,2,40,40,kha,195,1,2,Kun nas sgo'i le'u zhes bya ba theg pa chen po'i mdo,Samantamukha-parivarta-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+55,55,KG,40,40,kha,6,195,1,2,40,40,kha,255,1,2,'Od zer kun du bkye ba bstan pa zhes bya ba theg pa chen po'i mdo,Ra_misamantamukta-nirde_a-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+56,56,KG,40,40,kha,7,255,1,2,41,41,ga,205,1,2,Byang chub sems dpa'i sde snod ces bya ba theg pa chen po'i mdo,,K dKon brtsegs,dKon brtsegs,
+57,57,KG,41,41,ga,2,205,1,2,41,41,ga,237,1,1,dGa' bo la mngal na gnas pa bstan pa zhes bya ba theg pa chen po'i mdo,Nandagarbh_vakr_nti-nirde_a-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+58,58,KG,41,41,ga,3,237,1,1,41,41,ga,248,1,2,Tshe dang ldan pa dga' bo la mngal du 'jug pa bstan pa zhes bya ba theg pa chen po'i mdo,_yu_man-nandagarbh_vakr_nti-nirde_a-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+59,59,KG,41,41,ga,4,248,1,2,41,41,ga,297,3,1,'Jam dpal gyi sangs rgyas kyi zhing gi yon tan bkod pa zhes bya ba theg pa chen po'i mdo,Ma–ju_r_-buddhak_etra-gu_a-vy_ha-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+60,60,KG,42,42,nga,1,1,1,2,42,42,nga,168,1,2,Yab dang sras mjal ba zhes bya ba theg pa chen po'i mdo,Pit_putra-sam_gamana-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+61,61,KG,42,42,nga,2,168,1,2,42,42,nga,227,7,1,Gang pos zhus pa zhes bya ba theg pa chen po'i mdo,P_r_aparip_cch_-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+62,62,KG,42,42,nga,3,227,7,1,42,42,nga,257,7,1,Yul 'khor skyong gis zhus pa zhes bya ba theg pa chen po'i mdo,R___rap_la-parip_cch_-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+63,63,KG,42,42,nga,4,257,7,1,42,42,nga,288,4,1,Khyim bdag drag shul can gyis zhus pa zhes bya ba theg pa chen po'i mdo,G_hapati-ugraparip_cch_-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+64,64,KG,43,43,ca,1,1,1,2,43,43,ca,17,4,2,Glog thob kyis zhus pa zhes bya ba theg pa chen po'i mdo,Vidyutpr_pta-parip_cch_-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+65,65,KG,43,43,ca,2,17,4,2,43,43,ca,36,1,1,sGyu ma mkhan bzang po lung bstan pa zhes bya ba theg pa chen po'i mdo,Bhadram_y_k_ra-vy_kara_a-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+66,66,KG,43,43,ca,3,36,1,1,43,43,ca,68,1,1,Cho 'phrul chen po bstan pa zhes bya ba theg pa chen po'i mdo,Mah_pr_tih_rya-nirde_a-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+67,67,KG,43,43,ca,4,68,1,1,43,43,ca,115,1,1,Byams pa'i seng ge'i sgra chen po zhes bya ba theg pa chen po'i mdo,Maitreya-mah_si_han_da-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+68,68,KG,43,43,ca,5,115,1,1,43,43,ca,131,7,1,'Dul ba rnam par gtan la dbab pa nye bar 'khor gyis zhus pa zhes bya ba theg pa chen po'i mdo,Vinayavini_caya-up_liparip_cch_-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+69,69,KG,43,43,ca,6,131,7,1,43,43,ca,154,1,1,lHag pa'i bsam pa bskul ba zhes bya ba theg pa chen po'i mdo,Adhy__ayasa_codana-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+70,70,KG,43,43,ca,7,154,1,1,43,43,ca,181,1,1,Lag bzangs kyis zhus pa zhes bya ba theg pa chen po'i mdo,Sub_hu-parip_cch_-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+71,71,KG,43,43,ca,8,181,1,1,43,43,ca,194,1,1,Des pas zhus pa zhes bya ba theg pa chen po'i mdo,Surata-parip_cch_-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+72,72,KG,43,43,ca,9,194,1,1,43,43,ca,204,1,2,Khyim bdag dpal byin gyis zhus pa zhes bya ba theg pa chen po'i mdo [ dpas not dpal ?],V_radatta-g_hapati-parip_cch_-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+73,73,KG,43,43,ca,10,204,1,2,43,43,ca,216,1,1,Ba+t sa'i rgyal po 'char byed kyis zhus pa zhes bya ba'i le'u,Udayanavatsar_ja-parip_cch_-n_ma-parivarta,K dKon brtsegs,dKon brtsegs,
+74,74,KG,43,43,ca,11,216,1,1,43,43,ca,222,3,1,Bu mo blo gros bzang mos zhus pa zhes bya ba theg pa chen po'i mdo,Sumatid_rik_-parip_cch_-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+75,75,KG,43,43,ca,12,222,3,1,43,43,ca,225,3,2,Ga..ng gaa'i mchog gis zhus pa zhes bya ba theg pa chen po'i mdo,Ga_gottar_-parip_cch_-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+76,76,KG,43,43,ca,13,225,3,2,43,43,ca,241,1,1,Mya ngan med kyis byin pa lung bstan pa zhes bya ba theg pa chen po'i mdo,A_okadatta-vy_kara_a-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+77,77,KG,43,43,ca,14,241,1,1,43,43,ca,261,6,2,Dri ma med kyis byin pas zhus pa zhes bya ba theg pa chen po'i mdo,Vimaladatt_-parip_cch_-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+78,78,KG,43,43,ca,15,261,6,2,43,43,ca,266,6,2,Yon tan rin chen me tog kun tu rgyas pas zhus pa zhes bya ba theg pa chen po'i mdo,Gu_aratna-sa_kusumita-parip_cch_-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+79,79,KG,43,43,ca,16,266,6,2,43,43,ca,285,1,1,Sangs rgyas kyi yul bsam gyis mi khyab pa bstan pa zhes bya ba theg pa chen po'i mdo,Acintya-buddhavi_ayanirde_a-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+80,80,KG,43,43,ca,17,285,1,1,44,44,cha,27,4,1,lHa'i bu blo gros rab gnas kyis zhus pa zhes bya ba theg pa chen po'i mdo,Susthitamati-devaputra-parip_cch_-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+81,81,KG,44,44,cha,2,27,4,1,44,44,cha,30,1,1,Seng ges zhus pa zhes bya ba theg pa chen po'i mdo,Si_haparip_cch_-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+82,82,KG,44,44,cha,3,30,1,1,44,44,cha,71,1,1,Sangs rgyas thams cad kyi gsang chen thabs la mkhas pa byang chub sems dpa' ye shes dam pas zhus pa'i le'u zhes bya ba theg pa chen po'i mdo,Sarvabuddha-mah_rahasyop_yakau_alya-j–_nottarabodhisattva-parip_cch_-parivarta-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+83,83,KG,44,44,cha,4,71,1,1,44,44,cha,95,1,1,Tshong dpon bzang skyong gis zhus pa zhes bya ba theg pa chen po'i mdo,Bhadrap_la_re__hi-parip_cch_-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+84,84,KG,44,44,cha,5,95,1,1,44,44,cha,104,1,2,Bu mo rnam dag dad pas zhus pa zhes bya ba theg pa chen po'i mdo,D_rik_-vimala_raddh_-parip_cch_-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+85,85,KG,44,44,cha,6,104,1,2,44,44,cha,116,2,2,Byams pas zhus pa zhes bya ba theg pa chen po'i mdo,Maitreya-parip_cch_-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+86,86,KG,44,44,cha,7,116,2,2,44,44,cha,119,1,2,Byams pas zhus pa zhes bya ba theg pa chen po'i mdo,Maitreya-parip_cch_-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+87,87,KG,44,44,cha,8,119,1,2,44,44,cha,152,1,1,'Od srung gi le'u zhes bya ba theg pa chen po'i mdo,K__yapa-parivarta-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+88,88,KG,44,44,cha,9,152,1,1,44,44,cha,175,2,2,Rin po che'i phung po zhes bya ba theg pa chen po'i mdo,Ratnar__i-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+89,89,KG,44,44,cha,10,175,2,2,44,44,cha,182,6,2,Blo gros mi zad pas zhus pa zhes bya ba theg pa chen po'i mdo,Ak_ayamati-parip_cch_-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+90,90,KG,44,44,cha,11,182,6,2,44,44,cha,210,1,1,Shes rab kyi pha rol tu phyin pa bdun brgya pa zhes bya ba theg pa chen po'i mdo,Sapta_atik_-n_ma-praj–_p_ramit_-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+91,91,KG,44,44,cha,12,210,1,1,44,44,cha,255,1,1,gTsug na rin po ches zhus pa zhes bya ba theg pa chen po'i mdo,Ratnac__a-parip_cch_-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+92,92,KG,44,44,cha,13,255,1,1,44,44,cha,278,1,1,lHa mo dpal phreng gi seng ge'i sgra zhes bya ba theg pa chen po'i mdo,_r_m_l_dev_-si_han_da-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+93,93,KG,44,44,cha,14,278,1,1,44,44,cha,299,7,1,Drang srong rgyas pas zhus pa zhes bya ba theg pa chen po'i mdo,R_ivy_sa-parip_cch_-n_ma-mah_y_na-s_tra,K dKon brtsegs,dKon brtsegs,
+94,94,KG,45,45,ka,1,1,1,2,45,45,ka,340,5,1,bsKal pa bzang po zhes bya ba theg pa chen po'i mdo,Bhadrakalpika-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+95,95,KG,46,46,kha,1,1,1,2,46,46,kha,217,1,1,rGya cher rol pa zhes bya ba theg pa chen po'i mdo,Lalitavistara-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+96,96,KG,46,46,kha,2,217,1,1,46,46,kha,242,1,1,'Jam dpal rnam par rol pa zhes bya ba theg pa chen po'i mdo,Ma–ju_r_-vikr__ita-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+97,97,KG,46,46,kha,3,242,1,1,46,46,kha,258,1,1,'Jam dpal rnam par 'phrul ba'i le'u zhes bya ba theg pa chen po'i mdo,Ma–ju_r_-vikurv__a-parivarta-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+98,98,KG,46,46,kha,4,258,1,1,46,46,kha,278,4,1,De bzhin gshegs pa thams cad kyi byin gyi rlabs sems can la gzigs shing sangs rgyas kyi zhing gi bkod pa kun tu ston pa zhes bya ba theg pa chen po'i mdo,Sarvatath_gat_dhi__h_na-sattv_valokena buddhak_etra-nirde_a-vy_ha-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+99,99,KG,47,47,ga,1,1,1,2,47,47,ga,276,1,1,bCom ldan 'das kyi ye shes rgyas pa'i mdo sde rin po che mtha' yas pa mthar phyin pa zhes bya ba theg pa chen po'i mdo,Ni__h_gatabhagavajj–_na-vaipulya-s_tra-ratn_nanta-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+100,100,KG,47,47,ga,2,276,1,1,47,47,ga,305,7,1,Sangs rgyas thams cad kyi yul la 'jug pa'i ye shes snang ba'i rgyan zhes bya ba theg pa chen po'i mdo,Sarvabuddhavi_ay_vat_ra-j–_n_loka-ala_k_ra-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+101,101,KG,48,48,nga,1,1,1,2,48,48,nga,228,1,1,dGe ba'i rtsa ba yongs su 'dzin pa zhes bya ba theg pa chen po'i mdo,Ku_alam_la-samparigraha-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+102,102,KG,48,48,nga,2,228,1,1,48,48,nga,275,1,1,Zung gi mdo'i chos kyi rnam grangs,Sa_gh__a-s_tra-dharmapary_ya,K mDo sde,mDo sde,
+103,103,KG,48,48,nga,3,275,1,1,48,48,nga,285,4,2,Khye'u snang ba bsam gyis mi khyab pas bstan pa zhes bya ba'i chos kyi rnam grangs,Acintyaprabh_sa-nirde_a-n_ma-dharmapary_ya,K mDo sde,mDo sde,
+104,104,KG,48,48,nga,4,285,4,2,48,48,nga,286,7,2,De bzhin gshegs pa rnams kyi sangs rgyas kyi zhing gi yon tan brjod pa'i chos kyi rnams grangs,Tath_gat_n__ buddhak_etra-gu_okta-dharmapary_ya,K mDo sde,mDo sde,
+105,105,KG,48,48,nga,5,286,7,2,48,48,nga,288,7,1,dKyil 'khor brgyad ces bya ba'i chos kyi rnam grangs theg pa chen po'i mdo,Ma__al___aka-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+106,106,KG,49,49,ca,1,1,1,2,49,49,ca,56,1,1,dGongs pa nges par 'grel pa zhes bya ba theg pa chen po'i mdo,Sa_dhinirmocana-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+107,107,KG,49,49,ca,2,56,1,1,49,49,ca,192,1,1,Lang kar gshegs pa'i theg pa chen pszo'i mdo,La_k_vat_ra-mah_y_na-s_tra,K mDo sde,mDo sde,
+108,108,KG,49,49,ca,3,192,1,1,49,49,ca,285,1,1,Lang kar gshegs pa rin po che'i mdo las sangs rgyas thams cad kyi gsung gi snying po zhes bya ba'i le'u,La_k_vat_ra-ratnasutroddh_ta-sarvabuddha-pravacanas_ra-n_ma-parivartta *,K mDo sde,mDo sde,
+109,109,KG,49,49,ca,4,285,1,1,49,49,ca,292,7,1,Ga yaa mgo'i ri zhes bya ba theg pa chen po'i mdo,Gay___r_a-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+110,110,KG,50,50,cha,1,1,1,2,50,50,cha,56,1,1,rGyan stug po bkod pa zhes bya ba theg pa chen po'i mdo,Ghanavy_ha-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+111,111,KG,50,50,cha,2,56,1,1,50,50,cha,129,1,1,sNying rje chen po'i pad ma dkar po zhes bya ba theg pa chen po'i mdo,Mah_karu__pu__ar_ka-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+112,112,KG,50,50,cha,3,129,1,1,50,50,cha,297,7,1,sNying rje pad ma dkar po zhes bya ba theg pa chen po'i mdo,Karu__pu__ar_ka-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+113,113,KG,51,51,ja,1,1,1,2,51,51,ja,181,1,1,Dam pa'i chos pad ma dkar po zhes bya ba theg pa chen po'i mdo,Saddharmapu__ar_ka-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+114,114,KG,51,51,ja,2,181,1,1,51,51,ja,195,4,2,Chos thams cad kyi yon tan bkod pa'i rgyal po zhes bya ba theg pa chen po'i mdo,Sarvadharmagu_avy_har_ja-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+115,115,KG,51,51,ja,3,195,4,2,51,51,ja,200,3,1,bDe ba can gyi bkod pa zhes bya ba theg pa chen po'i mdo,Sukh_vat_vy_ha-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+116,116,KG,51,51,ja,4,200,3,1,51,51,ja,248,1,1,Za ma tog bkod pa zhes bya ba theg pa chen po'i mdo,Kara__avy_ha-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+117,117,KG,51,51,ja,5,248,1,1,51,51,ja,290,1,2,dKon mchog gi za ma tog ces bya ba theg pa chen po'i mdo,Ratnakara__a-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+118,118,KG,51,51,ja,6,290,1,2,51,51,ja,298,7,1,Rin po che'i mtha' zhes bya ba theg pa chen po'i mdo,Ratnako_i-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+119,119,KG,52,52,nya,1,1,1,2,53,53,ta,339,7,1,Yongs su mya ngan las 'das pa chen po'i mdo,Mah_parinirv__a-mah_s_tra *,K Myang 'das,mDo sde,[ Myang 'das ]
+120,120,KG,54,54,tha,1,1,1,2,54,54,tha,151,4,1,Yongs su mya ngan las 'das pa chen po theg pa chen po'i mdo,Mah_parinirv__a-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+121,121,KG,54,54,tha,2,151,4,1,54,54,tha,153,1,1,Yongs su mya ngan las 'das pa chen po'i mdo,Mah_parinirv__a-s_tra,K mDo sde,mDo sde,
+122,122,KG,54,54,tha,3,153,1,1,54,54,tha,153,1,2,'Da ka ye shes zhes bya ba theg pa chen po'i mdo,Atyayaj–_na-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+123,123,KG,54,54,tha,4,153,1,2,54,54,tha,213,1,1,Sangs rgyas kyi mdzod kyi chos kyi yi ge,Buddhadharmako_ak_ra-n_ma-mah_y_na-s_tra *,K mDo sde,mDo sde,
+124,124,KG,54,54,tha,5,213,1,1,54,54,tha,293,1,1,dKon mchog 'byung gnas zhes bya ba theg pa chen po'i mdo,Ratn_kara-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+125,125,KG,54,54,tha,6,293,1,1,54,54,tha,293,7,1,gSer gyi mdo zhes bya ba theg pa chen po'i mdo,Suvar_as_tra-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+126,126,KG,54,54,tha,7,293,7,1,54,54,tha,296,7,1,gSer gyi bye ma lta bu zhes bya ba theg pa chen po'i mdo,Suvar_ab_lukopama-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+127,127,KG,55,55,da,1,1,1,2,55,55,da,171,1,1,Chos thams cad kyi rang bzhin mnyam pa nyid rnam par spros pa ting nge 'dzin gyi rgyal po zhes bya ba theg pa chen po'i mdo,Sarvadharma-svabh_va-samat_-vipa–cita-sam_dhir_ja-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+128,128,KG,55,55,da,2,171,1,1,55,55,da,174,4,2,Chos nyid rang gi ngo bo stong pa nyid las mi g.yo bar tha dad par thams cad la snang ba'i mdo,Dharmat_svabh_va-__nyat_cala-pratisarv_loka-s_tra,K mDo sde,mDo sde,
+129,129,KG,55,55,da,3,174,4,2,55,55,da,210,3,2,Rab tu zhi ba rnam par nges pa'i cho 'phrul gyi ting nge 'dzin zhes bya ba theg pa chen po'i mdo,Pra__nta-vini_cayapr_tih_rya-sam_dhi-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+130,130,KG,55,55,da,4,210,3,2,55,55,da,230,4,2,sGyu ma lta bu'i ting nge 'dzin zhes bya ba theg pa chen po'i mdo,Mayopam_-sam_dhi-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+131,131,KG,55,55,da,5,230,4,2,55,55,da,253,5,2,De bzhin gshegs pa'i ye shes kyi phyag rgya'i ting nge 'dzin zhes bya ba theg pa chen po'i mdo,Tath_gata-j–_namudr_-sam_dhi-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+132,132,KG,55,55,da,6,253,5,2,55,55,da,316,6,2,dPa' bar 'gro ba'i ting nge 'dzin zhes bya ba theg pa chen po'i mdo,__ra_gamasam_dhi-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+133,133,KG,56,56,na,1,1,1,2,56,56,na,70,2,2,Da ltar gyi sangs rgyas mngon sum du bzhugs pa'i ting nge 'dzin zhes bya ba theg pa chen po'i mdo,Pratyutpanne buddha-sa_mukh_vasthita-sam_dhi-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+134,134,KG,56,56,na,2,70,2,2,56,56,na,122,1,1,bSod nams thams cad bsdus pa'i ting nge 'dzin zhes bya ba theg pa chen po'i mdo,Sarvapu_ya-samuccaya-sam_dhi-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+135,135,KG,56,56,na,3,122,1,1,56,56,na,144,2,2,rDo rje'i ting nge 'dzin gyi chos kyi yi ge,Vajrasm_dhidharm_k_ara *,K mDo sde,mDo sde,
+136,136,KG,56,56,na,4,144,2,2,56,56,na,179,5,1,Khye'u bzhi'i ting nge 'dzin zhes bya ba theg pa chen po'i mdo,Caturd_raka-sam_dhi-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+137,137,KG,56,56,na,5,179,5,1,56,56,na,187,3,2,Ting nge 'dzin mchog dam pa,Sam_dhyagrottama,K mDo sde,mDo sde,
+138,138,KG,56,56,na,6,187,3,2,56,56,na,278,1,1,'Dus pa chen po rin po che tog gi gzungs zhes bya ba theg pa chen po'i mdo,Mah_sannip_ta-ratnaketu-dh_ra__-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+139,139,KG,56,56,na,7,278,1,1,56,56,na,289,4,2,rDo rje snying po'i gzungs zhes bya ba theg pa chen po'i mdo,Vajrama__a-n_ma-dh_ra__-mah_yana-s_tra,K mDo sde,mDo sde,
+140,140,KG,56,56,na,8,289,4,2,56,56,na,299,5,1,sGo mtha' yas pa sgrub pa zhes bya ba'i gzungs,Anantamukha-s_dhaka-n_ma-dh_ra__,K mDo sde,mDo sde,
+141,141,KG,56,56,na,9,299,5,1,56,56,na,300,3,1,sGo drug pa zhes bya ba'i gzungs,.Sa_mukh_ n_ma-dh_ra__,K mDo sde,mDo sde,
+142,142,KG,57,57,pa,1,1,1,2,57,57,pa,6,1,2,rNam par mi rtog par 'jug pa zhes bya ba'i gzungs,Avikalpaprave_a-n_ma-dh_ra__,K mDo sde,mDo sde,
+143,143,KG,57,57,pa,2,6,1,2,57,57,pa,6,6,2,Tshigs su bcad pa gnyis pa'i gzungs,G_th_dvaya-dh_ra__,K mDo sde,mDo sde,
+144,144,KG,57,57,pa,3,6,6,2,57,57,pa,34,4,1,Theg pa chen po la dad pa rab tu sgom pa zhes bya ba theg pa chen po'i mdo,Mah_y_napras_daprabh_vana-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+145,145,KG,57,57,pa,4,34,4,1,57,57,pa,82,3,1,dKon mchog ta la la'i gzungs zhes bya ba theg pa chen po'i mdo,Ratnolk_-n_ma-dh_ra__-mah_y_na-s_tra,K mDo sde,mDo sde,
+146,146,KG,57,57,pa,5,82,3,1,57,57,pa,142,1,1,Byang chub sems dpa'i spyod yul gyi thabs kyi yul la rnam par 'phrul ba bstan pa zhes bya ba theg pa chen po'i mdo,Bodhisattva-gocarop_yavi_aya-vikurv__a-nirde_a-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+147,147,KG,57,57,pa,6,142,1,1,57,57,pa,243,1,1,De bzhin gshegs pa'i snying rje chen po nges par bstan pa zhes bya ba theg pa chen po'i mdo,Tath_gatamah_karu__-nirde_a-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+148,148,KG,57,57,pa,7,243,1,1,57,57,pa,330,1,2,Nam mkha' mdzod kyis zhus pa zhes bya ba theg pa chen po'i mdo,Gaganaga–ja-parip_cch_-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+149,149,KG,57,57,pa,8,330,1,2,57,57,pa,331,2,1,Byams pas zhus pa zhes bya ba theg pa chen po'i mdo,Maitreya-parip_cch_-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+150,150,KG,57,57,pa,9,331,2,1,57,57,pa,331,5,2,sPyan ras gzigs dbang phyug gis zhus pa chos bdun pa zhes bya ba theg pa chen po'i mdo,Avalokite_vara-parip_cch_-saptadharmaka-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+151,151,KG,57,57,pa,10,331,5,2,57,57,pa,344,4,1,sPobs pa'i blo gros kyis zhus pa zhes bya ba theg pa chen po'i mdo,Pratibh_namati-parip_cch_-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+152,152,KG,58,58,pha,1,1,1,2,58,58,pha,116,1,1,Blo gros rgya mtshos zhus pa zhes bya ba theg pa chen po'i mdo,S_garamati-parip_cch_-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+153,153,KG,58,58,pha,2,116,1,1,58,58,pha,198,3,1,Klu'i rgyal po rgya mtshos zhus pa zhes bya ba theg pa chen po'i mdo,S_garan_gar_ja-parip_cch_-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+154,154,KG,58,58,pha,3,198,3,1,58,58,pha,205,6,1,Klu'i rgyal po rgya mtshos zhus pa zhes bya ba theg pa chen po'i mdo,S_garan_gar_ja-parip_cch_-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+155,155,KG,58,58,pha,4,205,6,1,58,58,pha,206,1,1,Klu'i rgyal po rgya mtshos zhus pa zhes bya ba theg pa chen po'i mdo,S_garan_gar_ja-parip_cch_-n_ma-mah_y_na-s_tra *,K mDo sde,mDo sde,
+156,156,KG,58,58,pha,5,206,1,1,58,58,pha,254,1,1,Klu'i rgyal po ma dros pas zhus pa zhes bya ba theg pa chen po'i mdo,Anavataptan_gar_ja-parip_cch_-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+157,157,KG,58,58,pha,6,254,1,1,58,58,pha,319,7,1,Mi 'am ci'i rgyal po sdong pos zhus pa zhes bya ba theg pa chen po'i mdo,Drumakinnarar_ja-parip_cch_-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+158,158,KG,59,59,ba,1,1,1,2,59,59,ba,10,4,2,Tshangs pas zhus pa zhes bya ba theg pa chen po'i mdo,Brahma-parip_cch_-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+159,159,KG,59,59,ba,2,10,4,2,59,59,ba,23,1,1,Tshangs pas byin gyis zhus pa zhes bya ba theg pa chen po'i mdo,Brahmadatta-parip_cch_-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+160,160,KG,59,59,ba,3,23,1,1,59,59,ba,101,1,1,Tshangs pa khyad par sems kyis zhus pa zhes bya ba theg pa chen po'i mdo,Brahmavi_e_acinti-parip_cch_-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+161,161,KG,59,59,ba,4,101,1,1,59,59,ba,139,5,2,lHa'i bu rab rtsal sems kyis zhus pa zhes bya ba theg pa chen po'i mdo,Suvikr_nta-cintadevaputra-parip_cch_-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+162,162,KG,59,59,ba,5,139,5,2,59,59,ba,144,1,1,dPal dbyig gis zhus pa zhes bya ba theg pa chen po'i mdo,_r_vasu-parip_cch_-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+163,163,KG,59,59,ba,6,144,1,1,59,59,ba,160,1,1,Rin chen dra ba can gyis zhus pa zhes bya ba theg pa chen po'i mdo,Ratnaj_li-parip_cch_-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+164,164,KG,59,59,ba,7,160,1,1,59,59,ba,167,2,2,Rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo,Ratnacandra-parip_cch_-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+165,165,KG,59,59,ba,8,167,2,2,59,59,ba,171,3,2,bDe byed kyis zhus pa zhes bya ba theg pa chen po'i mdo,K_ema_kara-parip_cch_-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+166,166,KG,59,59,ba,9,171,3,2,59,59,ba,175,1,2,Yul 'khor skyong gis zhus pa zhes bya ba theg pa chen po'i mdo,R___rap_la-parip_cch_-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+167,167,KG,59,59,ba,10,175,1,2,59,59,ba,211,1,1,rNam par 'phrul ba'i rgyal pos zhus pa zhes bya ba theg pa chen po'i mdo,Vikurv__ar_ja-parip_cch_-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+168,168,KG,59,59,ba,11,211,1,1,59,59,ba,260,1,1,Dri ma med pa'i 'od kyis zhus pa,Vimalaprabha-parip_cch_,K mDo sde,mDo sde,
+169,169,KG,59,59,ba,12,260,1,1,59,59,ba,307,1,2,Theg pa chen po'i man ngag ces bya ba theg pa chen po'i mdo,Mah_y_nopade_a-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+170,170,KG,59,59,ba,13,307,1,2,59,59,ba,310,4,2,Bram ze mo dpal ldan mas zhus pa zhes bya ba theg pa chen po'i mdo,_r_mat_br_hma__-parip_cch_-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+171,171,KG,59,59,ba,14,310,4,2,59,59,ba,314,7,1,bGres mos zhus pa zhes bya ba theg pa chen po'i mdo,Mah_lalik_-parip_cch_-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+172,172,KG,60,60,ma,1,1,1,2,60,60,ma,5,1,2,'Jam dpal gyis dris pa zhes bya ba theg pa chen po'i mdo,Ma–ju_r_-parip_cch_-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+173,173,KG,60,60,ma,2,5,1,2,60,60,ma,7,4,2,bDag med pa dris pa zhes bya ba theg pa chen po'i mdo,Nair_tmyaparip_cch_-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+174,174,KG,60,60,ma,3,7,4,2,60,60,ma,79,1,1,'Jig rten 'dzin gyis yongs su dris pa zhes bya ba'i mdo,Lokadhara-parip_cch_-n_ma-s_tra,K mDo sde,mDo sde,
+175,175,KG,60,60,ma,4,79,1,1,60,60,ma,175,1,1,Blo gros mi zad pas bstan pa zhes bya ba theg pa chen po'i mdo,Ak_ayamatinirde_a-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+176,176,KG,60,60,ma,5,175,1,1,60,60,ma,240,1,1,Dri ma med par grags pas bstan pa zhes bya ba theg pa chen po'i mdo,Vimalak_rtinirde_a-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+177,177,KG,60,60,ma,6,240,1,1,60,60,ma,240,5,2,'Jam dpal gyis bstan pa zhes bya ba theg pa chen po'i mdo,Ma–ju_r_nirde_a-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+178,178,KG,60,60,ma,7,240,5,2,60,60,ma,244,4,2,Byang chub kyi phyogs bstan pa zhes bya ba theg pa chen po'i mdo,Bodhipak_anirde_a-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+179,179,KG,60,60,ma,8,244,4,2,60,60,ma,267,1,1,Kun rdzob dang don dam pa'i bden pa bstan pa zhes bya ba theg pa chen po'i mdo,Sa_v_tiparam_rthasatya-nirde_a-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+180,180,KG,60,60,ma,9,267,1,1,60,60,ma,296,6,1,Chos thams cad 'byung ba med par bstan pa zhes bya ba theg pa chen po'i mdo,Sarvadharmaprav_ttinirde_a-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+181,181,KG,61,61,tsa,1,1,1,2,61,61,tsa,77,1,1,Pha rol tu phyin pa lnga bstan pa zhes bya ba theg pa chen po'i mdo,Pa–cap_ramit_-nirde_a-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+182,182,KG,61,61,tsa,2,77,1,1,61,61,tsa,95,2,2,sByin pa'i pha rol tu phyin pa zhes bya ba theg pa chen po'i mdo,D_nap_ramit_-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+183,183,KG,61,61,tsa,3,95,2,2,61,61,tsa,96,6,2,sByin pa'i phan yon bstan pa,D_n_nu_a_s_-nirde_a,K mDo sde,mDo sde,
+184,184,KG,61,61,tsa,4,96,6,2,61,61,tsa,106,1,1,Byang chub sems dpa'i spyod pa bstan pa zhes bya ba theg pa chen po'i mdo,Bodhisattvacary_-nirde_a-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+185,185,KG,61,61,tsa,5,106,1,1,61,61,tsa,143,4,2,De bzhin gshegs pa'i yon tan dang ye shes bsam gyis mi khyab pa'i yul la 'jug pa bstan pa zhes bya ba theg pa chen po'i mdo,Tath_gata-gu_aj–_n_cintya-vi_ay_vat_ra-nirde_a-n_ma-mah_y_na-s_tra.,K mDo sde,mDo sde,
+186,186,KG,61,61,tsa,6,143,4,2,61,61,tsa,158,4,1,Sangs rgyas kyi stobs skyed pa'i cho 'phrul rnam par 'phrul ba bstan pa zhes bya ba theg pa chen po'i mdo,Buddhabalavardhana-pr_tih_rya-vikurv__anirde_a-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+187,187,KG,61,61,tsa,7,158,4,1,61,61,tsa,191,1,2,Sangs rgyas kyi chos bsam gyis mi khyab pa bstan pa,Budhadharm_cintya-nirde_a,K mDo sde,mDo sde,
+188,188,KG,61,61,tsa,8,191,1,2,61,61,tsa,199,6,2,Mar me mdzad kyis lung bstan pa zhes bya ba theg pa chen po'i mdo,D_pa_kara-vy_kara_a-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+189,189,KG,61,61,tsa,9,199,6,2,61,61,tsa,201,6,1,Tshangs pa'i dpal lung bstan pa zhes bya ba theg pa chen po'i mdo,Brahma_r_-vy_kara_a-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+190,190,KG,61,61,tsa,10,201,6,1,61,61,tsa,224,5,2,Bud med 'gyur ba lung bstan pa zhes bya ba theg pa chen po'i mdo,Str_vivarta-vy_kara_a-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+191,191,KG,61,61,tsa,11,224,5,2,61,61,tsa,243,6,2,Bu mo zla mchog lung bstan pa zhes bya ba theg pa chen po'i mdo,Candrottar_d_rik_-vy_kara_a-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+192,192,KG,61,61,tsa,12,243,6,2,61,61,tsa,246,7,1,bDe ldan ma lung bstan pa zhes bya ba theg pa chen po'i mdo,K_emavat_vy_kara_a-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+193,193,KG,61,61,tsa,13,246,7,1,61,61,tsa,250,3,2,lHa mo chen mo dpal lung bstan pa,_r_mah_dev_-vy_kara_a,K mDo sde,mDo sde,
+194,194,KG,61,61,tsa,14,250,3,2,61,61,tsa,251,6,1,rGyal ba'i blo gros zhes bya ba theg pa chen po'i mdo,Jayamati-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+195,195,KG,61,61,tsa,15,251,6,1,61,61,tsa,266,1,2,sPyan ras gzigs zhes bya ba theg pa chen po'i mdo,Avalokana-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+196,196,KG,61,61,tsa,16,266,1,2,61,61,tsa,271,2,2,'Jam dpal gnas pa zhes bya ba theg pa chen po'i mdo,Ma–ju_r_vih_ra-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+197,197,KG,61,61,tsa,17,271,2,2,61,61,tsa,274,6,2,bDud rtsi brjod pa zhes bya ba theg pa chen po'i mdo,Am_tavy_hara_a-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+198,198,KG,61,61,tsa,18,274,6,2,61,61,tsa,296,1,2,Byams pa 'jug pa zhes bya ba theg pa chen po'i mdo,Maitreyaprasth_na-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+199,199,KG,61,61,tsa,19,296,1,2,61,61,tsa,303,6,1,Byang chub sems dpa' byams pa dga' ldan gnam du skye ba blangs pa'i mdo,Maitreyabodhisattvasya tu_itasvarge janmagraha_as_tram,K mDo sde,mDo sde,
+200,200,KG,61,61,tsa,20,303,6,1,61,61,tsa,308,7,1,'Jig rten gyi rjes su 'thun par 'jug pa zhes bya ba theg pa chen po'i mdo,Lok_nuvartana-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+201,201,KG,62,62,tsha,1,1,1,2,62,62,tsha,63,5,1,Dad pa'i stobs bskyed pa la 'jug pa'i phyag rgya zhes bya ba theg pa chen po'i mdo,_raddh_bal_dh_n_vat_ramudr_-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+202,202,KG,62,62,tsha,2,63,5,1,62,62,tsha,78,4,1,Nges pa dang ma nges par 'gro ba'i phyag rgya la 'jug pa zhes bya ba theg pa chen po'i mdo,Niyat_niyatagatimudr_vat_ra-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+203,203,KG,62,62,tsha,3,78,4,1,62,62,tsha,81,2,2,Chos kyi phyag rgya zhes bya ba theg pa chen po'i mdo,Dharmamudr_-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+204,204,KG,62,62,tsha,4,81,2,2,62,62,tsha,92,5,1,Mar me 'bul ba zhes bya ba theg pa chen po'i mdo,Prad_pad_n_ya-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+205,205,KG,62,62,tsha,5,92,5,1,62,62,tsha,94,1,1,Grong khyer gyis 'tsho ba zhes bya ba theg pa chen po'i mdo,N_gar_valambik_-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+206,206,KG,62,62,tsha,6,94,1,1,62,62,tsha,95,7,1,Zas kyi 'tsho ba rnam par dag pa zhes bya ba theg pa chen po'i mdo,Vi_uddhakh_dy_j_va-n_ma-mah_y_na-s_tra *,K mDo sde,mDo sde,
+207,207,KG,62,62,tsha,7,95,7,1,62,62,tsha,109,6,1,Glang po'i rtsal zhes bya ba theg pa chen po'i mdo,Hastikak_ya-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+208,208,KG,62,62,tsha,8,109,6,1,62,62,tsha,111,7,2,sGra chen po zhes bya ba theg pa chen po'i mdo,Mah_ra_a-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+209,209,KG,62,62,tsha,9,111,7,2,62,62,tsha,116,1,1,Seng ge'i sgra bsgrags pa zhes bya ba theg pa chen po'i mdo,Si_han_dika-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+210,210,KG,62,62,tsha,10,116,1,1,62,62,tsha,123,1,2,Saa lu'i ljang pa zhes bya ba theg pa chen po'i mdo,__listambha-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+211,211,KG,62,62,tsha,11,123,1,2,62,62,tsha,125,3,1,rTen cing 'brel bar 'byung ba dang po dang rnam par dbye ba bstan pa zhes bya ba'i mdo,Prat_tyasamutp_d_divibha_ga-nirde_a-n_ma-s_tra,K mDo sde,mDo sde,
+212,212,KG,62,62,tsha,12,125,3,1,62,62,tsha,126,1,1,rTen cing 'brel bar 'byung ba zhes bya ba theg pa chen po'i mdo,Prat_tyasamutp_da-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+213,213,KG,62,62,tsha,13,126,1,1,62,62,tsha,207,1,1,Sor mo'i phreng ba la phan pa zhes bya ba theg pa chen po'i mdo,A_gulim_l_ya-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+214,214,KG,62,62,tsha,14,207,1,1,62,62,tsha,210,3,1,rGyal po la gdams pa zhes bya ba theg pa chen po'i mdo,R_jade_a-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+215,215,KG,62,62,tsha,15,210,3,1,62,62,tsha,211,2,2,rGyal po la gdams pa zhes bya ba theg pa chen po'i mdo,R_jade_a-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+216,216,KG,62,62,tsha,16,211,2,2,62,62,tsha,269,1,1,Ma skyes dgra'i 'gyod pa bsal ba zhes bya ba theg pa chen po'i mdo,Aj_ta_atru-kauk_ttyavinodana-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+217,217,KG,62,62,tsha,17,269,1,1,62,62,tsha,284,3,1,dPal sbas zhes bya ba'i mdo,_r_gupta-n_ma-s_tra,K mDo sde,mDo sde,
+218,218,KG,62,62,tsha,18,284,3,1,62,62,tsha,297,5,2,Las kyi sgrib pa rnam par dag pa zhes bya ba theg pa chen po'i mdo,Karm_vara_a-vi_uddhi-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+219,219,KG,62,62,tsha,19,297,5,2,62,62,tsha,307,6,1,Las kyi sgrib pa rgyun gcod pa zhes bya ba theg pa chen po'i mdo,Karm_vara_a-pratipra_rabdhi-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+220,220,KG,63,63,dza,1,1,1,2,63,63,dza,78,1,1,Sangs rgyas kyi sde snod tshul khrims 'chal ba tshar gcod pa zhes bya ba theg pa chen po'i mdo,Buddhapi_aka-du___lanigraha-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+221,221,KG,63,63,dza,2,78,1,1,63,63,dza,84,5,2,rGyal po la gdams pa zhes bya ba theg pa chen po'i mdo,R_j_vav_daka-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+222,222,KG,63,63,dza,3,84,5,2,63,63,dza,127,1,1,rNga bo che chen po'i le'u zhes bya ba theg pa chen po'i mdo,Mah_bher_h_raka-parivarta-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+223,223,KG,63,63,dza,4,127,1,1,63,63,dza,164,2,1,Sum cu rtsa gsum pa'i le'u zhes bya ba theg pa chen po'i mdo,Trayastri__at-parivarta-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+224,224,KG,63,63,dza,5,164,2,1,63,63,dza,174,1,1,lHag pa'i bsam pa brtan pa'i le'u zhes bya ba theg pa chen po'i mdo,Sthir_dhy__aya-parivarta-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+225,225,KG,63,63,dza,6,174,1,1,63,63,dza,175,6,1,gSum la skyabs su 'gro ba zhes bya ba theg pa chen po'i mdo,Tri_ara_agamana-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+226,226,KG,63,63,dza,7,175,6,1,63,63,dza,177,3,1,Srid pa 'pho ba zhes bya ba theg pa chen po'i mdo,Bhavasa_kr_nti-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+227,227,KG,63,63,dza,8,177,3,1,63,63,dza,189,1,1,rNam par 'thag pa thams cad bsdus pa zhes bya ba theg pa chen po'i mdo,Sarvavaidalya-sa_graha-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+228,228,KG,63,63,dza,9,189,1,1,63,63,dza,226,1,2,Sangs rgyas bgro ba zhes bya ba theg pa chen po'i mdo,Buddhasa_g_ti-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+229,229,KG,63,63,dza,10,226,1,2,63,63,dza,266,1,1,De bzhin gshegs pa bgro ba zhes bya ba theg pa chen po'i mdo,Tath_gatasa_g_ti-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+230,230,KG,63,63,dza,11,266,1,1,63,63,dza,297,7,1,'Dus pa chen po theg pa chen po'i mdo sde las de bzhin gshegs pa'i dpal gyi dam tshig ces bya ba theg pa chen po'i mdo,Mah_sannip_t_n mah_y_nas_tr_t tath_gata-_r_samaya-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+231,231,KG,64,64,wa,1,1,1,2,64,64,wa,113,1,1,dKon mchog sprin zhes bya ba theg pa chen po'i mdo,Ratnamegha-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+232,232,KG,64,64,wa,2,113,1,1,64,64,wa,215,1,1,sPrin chen po zhes bya ba theg pa chen po'i mdo,Mah_megha-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+233,233,KG,64,64,wa,3,215,1,1,64,64,wa,246,1,1,sPrin chen po'i mdo las phyogs bcu'i byang chub sems dpa' rgya mtsho 'dus pa'i dga' ston chen po la rtse ba zhes bya ba'i le'u,Mah_meghas_tr_d da_adigbodhisattva-samudrasannip_ti-mahotsava-vikr__ita-n_ma- parivarta,K mDo sde,mDo sde,
+234,234,KG,64,64,wa,4,246,1,1,64,64,wa,250,2,2,sPrin chen po rlung gi dkyil 'khor gyi le'u klu thams cad kyi snying po zhes bya ba theg pa chen po'i mdo,Mah_megha-v_yu-ma__ala-parivarta-sarvan_ga-h_daya-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+235,235,KG,64,64,wa,5,250,2,2,64,64,wa,263,7,1,sPrin chen po,Mah_megha,K mDo sde,mDo sde,
+236,236,KG,64,64,wa,6,263,7,1,64,64,wa,287,4,1,bCom ldan 'das kyi gtsug tor chen po de bzhin gshegs pa'i gsang ba sgrub pa'i don mngon par thob pa'i rgyu byang chub sems dpa' thams cad kyi spyod pa dpa' bar 'gro ba'i mdo le'u stong phrag bcu pa las le'u bcu pa,Bhagavato maho____a tath_gata-guhya-s_dhan_rtha-pr_ptihetu- sarvabodhisattvacary___ramgame da_asahasraparivartte da_ama-parivartta *,K mDo sde,mDo sde,
+237,237,KG,64,64,wa,7,287,4,1,64,64,wa,299,4,1,gTsug tor chen po bam po dgu pa las bdud kyi le'u nyi tshe phyung ba,Maho____a-navamagucch_duddh_ta_ ka_cinm_raparivartta_ *,K mDo sde,mDo sde,
+238,238,KG,65,65,zha,1,1,1,2,65,65,zha,100,1,1,Chos yang dag par sdud pa zhes bya ba theg pa chen po'i mdo,Dharmasa_g_ti-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+239,239,KG,65,65,zha,2,100,1,1,65,65,zha,241,4,2,'Dus pa chen po las sa'i snying po'i 'khor lo bcu pa zhes bya ba theg pa chen po'i mdo,Da_acakrak_itigarbha-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+240,240,KG,65,65,zha,3,241,4,2,65,65,zha,302,1,1,Phyir mi ldog pa'i 'khor lo zhes bya ba theg pa chen po'i mdo,Avaivartacakra-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+0241?,241,KG,65,65,zha,4,302,1,1,65,65,zha,303,7,1,Ting nge 'dzin gyi 'khor lo zhes bya ba theg pa chen po'i mdo,Sam_dhicarka-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+0242?,242,KG,65,65,zha,5,303,7,1,65,65,zha,306,7,1,Yongs su bsngo ba'i 'khor lo zhes bya ba theg pa chen po'i mdo,Pari_atacakra-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+243,243,KG,66,66,za,1,1,1,2,66,66,za,15,2,2,Dam pa'i chos kyi rgyal po theg pa chen po'i mdo,Saddharma-r_ja-mah_y_na-s_tra,K mDo sde,mDo sde,
+244,244,KG,66,66,za,2,15,2,2,66,66,za,27,5,2,Chos kyi tshul zhes bya ba theg pa chen po'i mdo,Dharmanaya-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+245,245,KG,66,66,za,3,27,5,2,66,66,za,33,1,1,Chos kyi phung po zhes bya ba theg pa chen po'i mdo,Dharmaskandha-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+246,246,KG,66,66,za,4,33,1,1,66,66,za,42,5,2,Don dam pa'i chos kyis rnam par rgyal ba zhes bya ba theg pa chen po'i mdo,Param_rthadharmavijaya-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+247,247,KG,66,66,za,5,42,5,2,66,66,za,46,1,2,Chos dang don rnam par 'byed pa zhes bya ba theg pa chen po'i mdo,Dharm_rthavibha_ga-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+248,248,KG,66,66,za,6,46,1,2,66,66,za,59,5,1,Byang chub sems dpa'i so sor thar ba chos bzhi sgrub pa zhes bya ba theg pa chen po'i mdo,Bodhisattva-pr_timok_a-catu_ka-nirh_ra-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+249,249,KG,66,66,za,7,59,5,1,66,66,za,59,7,2,Chos bzhi bstan pa zhes bya ba theg pa chen po'i mdo,Caturdharma-nirde_a-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+250,250,KG,66,66,za,8,59,7,2,66,66,za,60,1,2,Chos bzhi pa'i mdo,Caturdharmaka-s_tra,K mDo sde,mDo sde,
+251,251,KG,66,66,za,9,60,1,2,66,66,za,61,2,1,Chos bzhi pa zhes bya ba theg pa chen po'i mdo,Caturdharmaka-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+252,252,KG,66,66,za,10,61,2,1,66,66,za,69,2,2,bZhi pa sgrub pa zhes bya ba theg pa chen po'i mdo,Catu_kanirh_ra-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+253,253,KG,66,66,za,11,69,2,2,66,66,za,70,3,2,Chos gsum pa zhes bya ba'i mdo,Tridharmaka-n_ma-s_tra,K mDo sde,mDo sde,
+254,254,KG,66,66,za,12,70,3,2,66,66,za,71,3,1,Chos kyi rgyal mtshan gyi mdo theg pa chen po,Dharmaketu-mah_y_na-s_tra,K mDo sde,mDo sde,
+255,255,KG,66,66,za,13,71,3,1,66,66,za,74,4,1,Theg pa chen po'i mdo chos rgya mtsho zhes bya ba,Dharmasamudra-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+256,256,KG,66,66,za,14,74,4,1,66,66,za,91,1,2,Chos kyi rgya mo,Dharmamudr_*,K mDo sde,mDo sde,
+257,257,KG,66,66,za,15,91,1,2,66,66,za,245,2,2,Shin tu rgyas pa chen po'i sde nyi ma'i snying po zhes bya ba'i mdo,S_ryagarbha-n_ma-m_havaipulya-s_tra,K mDo sde,mDo sde,
+258,258,KG,66,66,za,16,245,2,2,66,66,za,259,5,2,De bzhin gshegs pa'i snying po zhes bya ba theg pa chen po'i mdo,Tath_gatagarbha-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+259,259,KG,66,66,za,17,259,5,2,66,66,za,264,4,1,Yi ge med pa'i za ma tog rnam par snang mdzad kyi snying po zhes bya ba theg pa chen po'i mdo,Anak_arakara__aka-vairocana-garbha-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+260,260,KG,66,66,za,18,264,4,1,66,66,za,283,2,2,Nam mkha'i snying po zhes bya ba theg pa chen po'i mdo,_k__agarbha-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+261,261,KG,66,66,za,19,283,2,2,66,66,za,310,7,1,Thabs mkhas pa zhes bya ba theg pa chen po'i mdo,Up_yakau_alya-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+262,262,KG,67,67,'a,1,1,1,2,67,67,'a,90,1,1,Sangs rgyas kyi mtshan lnga stong bzhi brgya lnga bcu rtsa gsum pa,Buddha-n_ma-sahasrapa–ca_ata-caturtripa–cada_a,K mDo sde,mDo sde,
+263,263,KG,67,67,'a,2,90,1,1,67,67,'a,210,1,1,Yang dag par spyod pa'i tshul nam mkha'i mdog gis 'dul ba'i bzod pa zhes bya ba theg pa chen po'i mdo,Samyakcary_v_ttagaganavar_a-vinayak__nti-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+264,264,KG,67,67,'a,3,210,1,1,67,67,'a,264,1,1,Thar pa chen po phyogs su rgyas pa 'gyod tshangs kyi sdig sbyangs te sangs rgyas su sgrub par rnam par bkod pa zhes bya ba theg pa chen po'i mdo,Ghanaj_-mah_bhricaphula-karma-avirna_odhaya-bh_dharakusuma-sa–caya-n_ma-mah_y_na-s_tra *,K mDo sde,mDo sde,
+265,265,KG,67,67,'a,4,264,1,1,67,67,'a,288,1,1,rTogs pa chen po yongs su rgyas pa'i mdo,Mah_samaya-vaipulya s_tra *,K mDo sde,mDo sde,
+266,266,KG,67,67,'a,5,288,1,1,67,67,'a,319,6,1,Me tog gi tshogs zhes bya ba theg pa chen po'i mdo,Kusumasa–caya-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+267,267,KG,68,68,ya,1,1,1,2,68,68,ya,5,3,2,dPang skong phyag brgya pa zhes bya ba,S_k_ip_r_amudraka-n_ma,K mDo sde,mDo sde,
+268,268,KG,68,68,ya,2,5,3,2,68,68,ya,7,2,1,bSam gyis mi khyab pa'i rgyal po'i mdo zhes bya ba theg pa chen po'i mdo,Acintyar_jas_tra-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+269,269,KG,68,68,ya,3,7,2,1,68,68,ya,13,1,2,Phyogs bcu'i mun pa rnam par sel ba zhes bya ba theg pa chen po'i mdo,Da_adigandhak_ra-vidhva_sana-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+270,270,KG,68,68,ya,4,13,1,2,68,68,ya,17,3,2,Sangs rgyas bdun pa zhes bya ba theg pa chen po'i mdo,Saptabuddhaka-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+271,271,KG,68,68,ya,5,17,3,2,68,68,ya,21,1,2,Sangs rgyas brgyad pa zhes bya ba theg pa chen po'i mdo,A__abuddhaka-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+272,272,KG,68,68,ya,6,21,1,2,68,68,ya,26,5,1,Sangs rgyas bcu pa zhes bya ba theg pa chen po'i mdo,Da_abuddhaka-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+273,273,KG,68,68,ya,7,26,5,1,68,68,ya,29,6,2,Sangs rgyas bcu gnyis pa zhes bya ba theg pa chen po'i mdo,Dv_da_abuddhaka-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+274,274,KG,68,68,ya,8,29,6,2,68,68,ya,36,1,1,Sangs rgyas kyi dbu rgyan zhes bya ba theg pa chen po'i mdo chos kyi rnam grangs chen po,Buddhamuku_a-n_ma-mah_y_na-s_tra-mah_-dharmapary_ya,K mDo sde,mDo sde,
+275,275,KG,68,68,ya,9,36,1,1,68,68,ya,44,3,2,Sangs rgyas kyi sa zhes bya ba theg pa chen po'i mdo,Budhabh_mi-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+276,276,KG,68,68,ya,10,44,3,2,68,68,ya,49,6,2,Sangs rgyas mi spang pa zhes bya ba theg pa chen po'i mdo,Buddh_k_epa_a-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+277,277,KG,68,68,ya,11,49,6,2,68,68,ya,52,6,2,dKyil 'khor brgyad pa zhes bya ba theg pa chen po'i mdo,A__ama__alaka-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+278,278,KG,68,68,ya,12,52,6,2,68,68,ya,54,6,2,bKra shis brgyad pa zhes bya ba theg pa chen po'i mdo,Ma_gal___aka-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+279,279,KG,68,68,ya,13,54,6,2,68,68,ya,55,7,1,Sangs rgyas rjes su dran pa,Buddh_nusm_ti,K mDo sde,mDo sde,
+280,280,KG,68,68,ya,14,55,7,1,68,68,ya,55,4,2,Chos rjes su dran pa,Dharm_nusm_ti,K mDo sde,mDo sde,
+281,281,KG,68,68,ya,15,55,4,2,68,68,ya,55,6,2,dGe 'dun rjes su dran pa,Sa_gh_nusm_ti,K mDo sde,mDo sde,
+282,282,KG,68,68,ya,16,55,6,2,68,68,ya,56,5,1,bSlab pa gsum gyi mdo,_ik__traya-n_ma-s_tra,K mDo sde,mDo sde,
+283,283,KG,68,68,ya,17,56,5,1,68,68,ya,57,3,1,sKu gsum zhes bya ba theg pa chen po'i mdo,Trik_ya-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+284,284,KG,68,68,ya,18,57,3,1,68,68,ya,77,3,1,Phung po gsum pa zhes bya ba theg pa chen po'i mdo,Triskandhaka-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+285,285,KG,68,68,ya,19,77,3,1,68,68,ya,79,7,2,bSam pa thams cad yongs su rdzogs par byed pa zhes bya ba yongs su bsngo ba,Sarv__ayaparip_ra_a-n_ma-pari__man_ *,K mDo sde,mDo sde,
+286,286,KG,68,68,ya,20,79,7,2,68,68,ya,82,1,1,'Gro ba thams cad yongs su skyob par byed pa zhes bya ba'i yongs su bsngo ba,Sarvajagatparitr__a-n_ma-pari__man_ *,K mDo sde,mDo sde,
+287,287,KG,68,68,ya,21,82,1,1,71,71,sha,230,1,1,Dam pa'i chos dran pa nye bar gzhag pa,Saddharmasm_tyupasth_na,K mDo sde,mDo sde,
+288,288,KG,71,71,sha,2,230,1,1,71,71,sha,244,1,2,mDo chen po sgyu ma'i dra ba zhes bya ba,M_y_j_la-n_ma-mah_s_tra,K mDo sde,mDo sde,
+289,289,KG,71,71,sha,3,244,1,2,71,71,sha,250,1,1,mDo chen po gzugs can snying pos bsu ba zhes bya ba,Bimbis_rapratyudgamana-n_ma-mah_s_tra,K mDo sde,mDo sde,
+290,290,KG,71,71,sha,4,250,1,1,71,71,sha,253,2,2,mDo chen po stong pa nyid ces bya ba,__nyat_-n_ma-mah_s_tra,K mDo sde,mDo sde,
+291,291,KG,71,71,sha,5,253,2,2,71,71,sha,262,1,1,mDo chen po stong pa nyid chen po zhes bya ba,Mah___nyat_-n_ma-mah_s_tra,K mDo sde,mDo sde,
+292,292,KG,71,71,sha,6,262,1,1,71,71,sha,265,4,2,mDo chen po rgyal mtshan mchog ces bya ba,Dhvaj_gra-n_ma-mah_s_tra,K mDo sde,mDo sde,
+293,293,KG,71,71,sha,7,265,4,2,71,71,sha,267,1,2,mDo chen po rgyal mtshan dam pa,Dhvaj_gra-nam_-mah_s_tra,K mDo sde,mDo sde,
+294,294,KG,71,71,sha,8,267,1,2,71,71,sha,276,1,1,mDo chen po lnga gsum pa zhes bya ba,Pa–catraya-n_ma-mah_s_tra,K mDo sde,mDo sde,
+295,295,KG,71,71,sha,9,276,1,1,71,71,sha,295,2,2,rDo 'phangs pa'i mdo,_il_k_ipta-s_tra,K mDo sde,mDo sde,
+296,296,KG,71,71,sha,10,295,2,2,71,71,sha,297,2,1,gZhon nu dpe'i mdo,Kum_rad____nta-s_tra,K mDo sde,mDo sde,
+297,297,KG,71,71,sha,11,297,2,1,71,71,sha,301,2,2,Khams mang po'i mdo,Dh_tubahuka-s_tra,K mDo sde,mDo sde,
+298,298,KG,71,71,sha,12,301,2,2,71,71,sha,303,4,2,Ga.n .dii'i mdo,Ga___s_tra,K mDo sde,mDo sde,
+299,299,KG,71,71,sha,13,303,4,2,71,71,sha,304,3,2,Ga.n .dii'i dus kyi mdo,Ga___samaya-s_tra,K mDo sde,mDo sde,
+300,300,KG,71,71,sha,14,304,3,2,71,71,sha,305,7,1,dGe ba'i bshes gnyen bsten pa'i mdo,Kaly__amitra-sevana-s_tra,K mDo sde,mDo sde,
+301,301,KG,72,72,sa,1,1,1,2,72,72,sa,125,7,1,mNgon par 'byung ba'i mdo,Abhini_krama_a-s_tra,K mDo sde,mDo sde,
+302,302,KG,72,72,sa,2,125,7,1,72,72,sa,127,2,1,dGe slong la rab tu gces pa'i mdo zhes bya ba,Bhik_upriya-s_tra-n_ma,K mDo sde,mDo sde,
+303,303,KG,72,72,sa,3,127,2,1,72,72,sa,128,1,1,Tshul khrims yang dag par ldan pa'i mdo,__lasa_yukta-s_tra,K mDo sde,mDo sde,
+304,304,KG,72,72,sa,4,128,1,1,72,72,sa,130,4,2,lTung ba sde lnga'i dge ba dang mi dge ba'i 'bras bu brtag pa'i mdo,Pa–c_pattinik_ya-_ubh__ubha-phalapar_k__-s_tra,K mDo sde,mDo sde,
+305,305,KG,72,72,sa,5,130,4,2,72,72,sa,131,1,2,mChog tu gdags pa'i mdo,Parama-vi_uddha-s_tra *,K mDo sde,mDo sde,
+306,306,KG,72,72,sa,6,131,1,2,72,72,sa,139,4,1,rNam par grol ba'i lam las sbyangs pa'i yon tan bstan pa zhes bya ba,Vimuktim_rga-dhautagu_a-nirde_a-n_ma,K mDo sde,mDo sde,
+307,307,KG,72,72,sa,7,139,4,1,72,72,sa,145,4,2,Tshe'i mtha'i mdo,_yu_paryanta-s_tra,K mDo sde,mDo sde,
+308,308,KG,72,72,sa,8,145,4,2,72,72,sa,155,2,1,Tshe 'pho ba ji ltar 'gyur ba zhus pa'i mdo,_yu_pattiyath_k_ra-parip_cch_-s_tra,K mDo sde,mDo sde,
+309,309,KG,72,72,sa,9,155,2,1,72,72,sa,155,5,2,Mi rtag pa nyid kyi mdo,Anityat_-s_tra,K mDo sde,mDo sde,
+310,310,KG,72,72,sa,10,155,5,2,72,72,sa,157,6,1,Mi rtag pa nyid kyi mdo,Anityat_-s_tra,K mDo sde,mDo sde,
+311,311,KG,72,72,sa,11,157,6,1,72,72,sa,157,4,2,'Du shes bcu gcig bstan pa'i mdo,Sa_j–_naik_da_a-nirde_a-s_tra,K mDo sde,mDo sde,
+312,312,KG,72,72,sa,12,157,4,2,72,72,sa,161,1,2,Yangs pa'i grong khyer du 'jug pa'i mdo chen po,Vai__l_prave_a-mah_s_tra,K mDo sde,mDo sde,
+313,313,KG,72,72,sa,13,161,1,2,72,72,sa,163,6,2,mTshan mo bzang po zhes bya ba'i mdo,Bhadrakar_tr_-n_ma-s_tra,K mDo sde,mDo sde,
+314,314,KG,72,72,sa,14,163,6,2,72,72,sa,169,4,1,Mun gyi nags tshal gyi sgo zhes bya ba'i mdo,Tamovanamukha-n_ma-s_tra,K mDo sde,mDo sde,
+315,315,KG,72,72,sa,15,169,4,1,72,72,sa,170,1,1,Pha ma'i mdo,Pit_m_t_ s_tra,K mDo sde,mDo sde,
+316,316,KG,72,72,sa,16,170,1,1,72,72,sa,170,4,2,bDen pa'i bzh'i mdo,Catu_satya-s_tra,K mDo sde,mDo sde,
+317,317,KG,72,72,sa,17,170,4,2,72,72,sa,188,7,1,Don rnam par nges pa zhes bya ba'i chos kyi rnam grangs,Arthavini_caya-n_ma-dharmapary_ya,K mDo sde,mDo sde,
+318,318,KG,72,72,sa,18,188,7,1,72,72,sa,194,1,1,Don rgyas pa zhes bya ba'i chos kyi rnam grangs,Arthavistara-n_ma-dharmapary_ya,K mDo sde,mDo sde,
+319,319,KG,72,72,sa,19,194,1,1,72,72,sa,197,1,1,rMad du byung ba zhes bya ba'i chos kyi rnam grangs,Adbhuta-dharmapary_ya-n_ma,K mDo sde,mDo sde,
+320,320,KG,72,72,sa,20,197,1,1,72,72,sa,198,5,2,De bzhin gshegs pa'i gzugs brnyan bzhag pa'i phan yon yang dag par brjod pa zhes bya ba'i chos kyi rnam grangs,Tath_gata-pratibimba-prati__h_nu_a_sa-sa_vadana-n_ma-dharmapary_ya,K mDo sde,mDo sde,
+321,321,KG,72,72,sa,21,198,5,2,72,72,sa,201,6,1,mChod rten bskor ba'i tshigs su bcad pa,Caitya-pradak_i_a-g_th_,K mDo sde,mDo sde,
+322,322,KG,72,72,sa,22,201,6,1,72,72,sa,204,4,1,gSal rgyal gyi tshigs su bcad pa,Prasenajid-g_th_,K mDo sde,mDo sde,
+323,323,KG,72,72,sa,23,204,4,1,72,72,sa,204,6,1,Tshigs su bcad pa gcig pa,Ekag_th_,K mDo sde,mDo sde,
+324,324,KG,72,72,sa,24,204,6,1,72,72,sa,204,3,2,Tshigs su bcad pa bzhi pa,Caturg_th_,K mDo sde,mDo sde,
+325,325,KG,72,72,sa,25,204,3,2,72,72,sa,209,1,1,Klu'i rgyal po rnga sgra'i tshigs su bcad pa,N_gar_jabher_-g_th_,K mDo sde,mDo sde,
+326,326,KG,72,72,sa,26,209,1,1,72,72,sa,253,1,2,Ched du brjod pa'i tshoms,Ud_navarga,K mDo sde,mDo sde,
+327,327,KG,72,72,sa,27,253,1,2,72,72,sa,254,3,2,sKyes bu dam pa'i mdo,Satpuru_a-s_tra,K mDo sde,mDo sde,
+328,328,KG,72,72,sa,28,254,3,2,72,72,sa,257,7,1,dGa' bo rab tu byung ba'i mdo,Nandapravrajy_-s_tra,K mDo sde,mDo sde,
+329,329,KG,72,72,sa,29,257,7,1,72,72,sa,258,7,2,lHa'i mdo,Devat_-s_tra,K mDo sde,mDo sde,
+330,330,KG,72,72,sa,30,258,7,2,72,72,sa,259,3,2,lHa'i mdo nyung ngu,Alpadevat_-s_tra,K mDo sde,mDo sde,
+331,331,KG,72,72,sa,31,259,3,2,72,72,sa,260,5,1,Zla ba'i mdo,Candra-s_tra,K mDo sde,mDo sde,
+332,332,KG,72,72,sa,32,260,5,1,72,72,sa,263,6,2,Khang bu brtsegs pa'i mdo,K___g_ra-s_tra,K mDo sde,mDo sde,
+333,333,KG,72,72,sa,33,263,6,2,72,72,sa,268,5,1,gNas 'jog gi mdo zhes bya ba,Sth_nasth_paka-s_tra-n_ma *,K mDo sde,mDo sde,
+334,334,KG,72,72,sa,34,268,5,1,72,72,sa,271,5,1,dGa' ba can gyi mdo,Nandika-s_tra,K mDo sde,mDo sde,
+335,335,KG,72,72,sa,35,271,5,1,72,72,sa,274,7,1,'Khar gsil gyi mdo,Khakkara-s_tra *,K mDo sde,mDo sde,
+336,336,KG,72,72,sa,36,274,7,1,72,72,sa,275,6,1,'Khar gsil 'chang ba'i kun tu spyod pa'i cho ga,Khakkaradhar_c_ra-vidhi *,K mDo sde,mDo sde,
+337,337,KG,72,72,sa,37,275,6,1,72,72,sa,277,4,1,Chos kyi 'khor lo'i mdo,Dharmacakra-s_tra,K mDo sde,mDo sde,
+338,338,KG,72,72,sa,38,277,4,1,72,72,sa,298,7,2,Las rnam par 'byed pa,Karmavibha_ga,K mDo sde,mDo sde,
+339,339,KG,72,72,sa,39,298,7,2,72,72,sa,310,7,1,Las kyi rnam par 'gyur ba zhes bya ba'i chos kyi gzhung,Karmavibha_ga-n_ma-dharmagrantha,K mDo sde,mDo sde,
+340,340,KG,73,73,ha,1,1,1,2,74,74,a,129,1,1,Las brgya tham pa,Karma_ataka,K mDo sde,mDo sde,
+341,341,KG,74,74,a,2,129,1,1,74,74,a,298,1,2,mDzangs blun zhes bya ba'i mdo,Damam_ka-n_ma-s_tra *,K mDo sde,mDo sde,
+342,342,KG,74,74,a,3,298,1,2,74,74,a,300,4,1,Kun tu rgyu pa sen rings kyis zhus pa zhes bya ba'i mdo,D_rghanakha-parivr_jaka-parip_cch_-n_ma-s_tra,K mDo sde,mDo sde,
+343,343,KG,75,75,a..m,1,1,1,2,75,75,a..m,287,1,1,Gang po la sogs pa'i rtogs pa brjod pa brgya pa,P_r_a-pramukh_vad_na_ataka,K mDo sde,mDo sde,
+344,344,KG,75,75,a..m,2,287,1,1,75,75,a..m,289,2,2,Sangs rgyas kyi rtogs pa brjod pa zhes ldan gyi mdo,J–_nakas_tra-n_ma-buddh_vad_na,K mDo sde,mDo sde,
+345,345,KG,75,75,a..m,3,289,2,2,75,75,a..m,291,1,2,Phag mo'i rtogs pa brjod pa zhes bya ba'i mdo,S_karik_vad_na-n_ma-s_tra,K mDo sde,mDo sde,
+346,346,KG,75,75,a..m,4,291,1,2,75,75,a..m,298,6,1,Ma ga d+haa bzang mo'i rtogs pa brjod pa,Sumagadh_vad_na,K mDo sde,mDo sde,
+347,347,KG,76,76,a.h,1,1,1,2,76,76,a.h,22,4,1,bSod nams kyi stobs kyi rtogs pa brjod pa,Pu_yabal_vad_na,K mDo sde,mDo sde,
+348,348,KG,76,76,a.h,2,22,4,1,76,76,a.h,31,3,2,Zla 'od kyi rtogs pa brjod pa,Candraprabh_vad_na,K mDo sde,mDo sde,
+349,349,KG,76,76,a.h,3,31,3,2,76,76,a.h,50,5,1,dPal gyi sde'i rtogs pa brjod pa,_r_sen_vad_na,K mDo sde,mDo sde,
+350,350,KG,76,76,a.h,4,50,5,1,76,76,a.h,55,7,2,gSer mdog gi sngon gyi sbyor ba zhes bya ba,Kanakavar_a-p_rvayoga-n_ma,K mDo sde,mDo sde,
+351,351,KG,76,76,a.h,5,55,7,2,76,76,a.h,70,2,2,rGyal bu don grub kyi mdo,Jinaputra-arthasiddhi-s_tra *,K mDo sde,mDo sde,
+352,352,KG,76,76,a.h,6,70,2,2,76,76,a.h,86,2,1,Tshangs pa'i dra ba'i mdo,Brahmaj_la-s_tra,K mDo sde,mDo sde,
+353,353,KG,76,76,a.h,7,86,2,1,76,76,a.h,199,1,1,Thabs la mkhas pa chen po sangs rgyas drin lan bsab pa'i mdo,Mahop_ya-kau_alyabuddha-pratyupak_raka-s_tra *,K mDo sde,mDo sde,
+354,354,KG,76,76,a.h,8,199,1,1,76,76,a.h,209,1,1,Legs nyes kyi rgyu dang 'bras bu bstan pa zhes bya ba theg pa chen po'i mdo,_ubh__ubhak_ryak_ra_abh_va-nirde_a-n_ma-mah_y_na-s_tra *,K mDo sde,mDo sde,
+355,355,KG,76,76,a.h,9,209,1,1,76,76,a.h,216,5,1,dGe ba dang mi dge ba'i las kyi rnam par smin pa bstan pa'i mdo,_ubh__ubhakarmavip_ka-nirde_a-s_tra *,K mDo sde,mDo sde,
+356,356,KG,76,76,a.h,10,216,5,1,76,76,a.h,220,6,2,Zla ba'i snying pos zhus pa'i mdo las sangs rgyas kyi bstan pa gnas pa dang 'jig pa'i tshul lung bstan pa,Candragarbha-parip_cch_-s_tra-buddha__sana-sthitivin_-_agha_an_-nirde_a *,K mDo sde,mDo sde,
+357,357,KG,76,76,a.h,11,220,6,2,76,76,a.h,232,1,2,Glang ru lung bstan pa zhes bya ba theg pa chen po'i mdo,Go___gavy_kara_a-n_ma-mah_y_na-s_tra,K mDo sde,mDo sde,
+358,358,KG,76,76,a.h,12,232,1,2,76,76,a.h,277,5,2,sTag rna'i rtogs pa brjod pa,__rd_lakar__vad_na,K mDo sde,mDo sde,
+359,359,KG,76,76,a.h,13,277,5,2,76,76,a.h,281,1,2,Mig bcu gnyis pa zhes bya ba'i mdo,Dv_da_alocana-n_ma-s_tra,K mDo sde,mDo sde,
+360,360,KG,77,77,ka,1,1,1,2,77,77,ka,14,1,1,'Jam dpal ye shes sems dpa'i don dam pa'i mtshan yang dag par brjod pa,Ma–ju_r_j–_nasattvasya param_rtha-n_masa_g_ti,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+361,361,KG,77,77,ka,2,14,1,1,77,77,ka,22,1,2,dBang mdor bstan pa,Sekodde_a,K rGyud,rGyud 'bum,[ Dus-'khor ]
+362,362,KG,77,77,ka,3,22,1,2,77,77,ka,129,1,1,mChog gi dang po'i sangs rgyas las phyung ba rgyud kyi rgyal po dpal dus kyi 'khor lo zhes bya ba,Param_dibuddhoddh_ta-_r_k_lacakra-n_ma-tantrar_ja,K rGyud,rGyud 'bum,[ Dus-'khor ]
+363,363,KG,77,77,ka,4,129,1,1,77,77,ka,144,1,2,dPal dus kyi 'khor lo'i rgyud phyi ma rgyud kyi snying po,_r_-k_lacakra-tantrottara-tantra-h_daya,K rGyud,rGyud 'bum,[ Dus-'khor ]
+364,364,KG,77,77,ka,5,144,1,2,77,77,ka,146,7,1,dPal dus kyi 'khor lo zhes bya ba'i rgyud kyi snying po,_r_-k_lacakra-garbha-n_ma-tantra,K rGyud,rGyud 'bum,[ Dus-'khor ]
+365,365,KG,77,77,ka,6,146,7,1,77,77,ka,150,1,2,dBang gi rab tu byed pa,Sekaprakriy_,K rGyud,rGyud 'bum,[ Dus-'khor ]
+366,366,KG,77,77,ka,7,151,1,2,77,77,ka,193,6,1,dPal sangs rgyas thams cad dang mnyam par sbyor ba mkha' 'gro ma sgyu ma bde ba'i mchog ces bya ba'i rgyud phyi ma,_r_-sarvabuddha-sam_yoga__kin_-j_lasa_vara-n_ma-uttaratantra,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+367,367,KG,77,77,ka,8,193,6,1,77,77,ka,212,1,2,rTog pa thams cad 'dus pa zhes bya ba sangs rgyas thams cad dang mnyam par sbyor ba mkha' 'gro sgyu ma bde ba'i mchog gi rgyud phyi ma'i phyi ma,Sarvakalpa-samuccaya-n_ma-sarvabuddha-sam_yoga__kin_-j_lasa_vara-uttarottaratantra,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+368,368,KG,77,77,ka,9,213,1,2,77,77,ka,247,1,1,rGyud kyi rgyal po dpal bde mchog nyung ngu,Tantrar_ja-_r_laghu-sa_vara,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+369,369,KG,77,77,ka,10,247,1,1,77,77,ka,370,7,1,mNgon par brjod pa'i rgyud bla ma,Abhidh_na-uttaratantra,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+370,370,KG,78,78,kha,1,1,1,2,78,78,kha,125,1,2,rGyud kyi rgyal po chen po dpal rdo rje mkha' 'gro,_r_-vajra__ka-n_ma-mah_tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+371,371,KG,78,78,kha,2,125,1,2,78,78,kha,137,1,1,rDo rje mkha' 'gro zhes bya ba'i rgyud phyi ma,Vajra__ka-n_ma-uttaratantra,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+372,372,KG,78,78,kha,3,137,1,1,78,78,kha,265,1,1,dPal mkha' 'gro rgya mtsho rnal 'byor ma'i rgyud kyi rgyal po chen po,_r_-.d_k_r_ava-mah_yogin_-n_ma-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+373,373,KG,78,78,kha,4,265,1,1,78,78,kha,311,6,1,dPal bde mchog 'byung ba zhes bya ba'i rgyud kyi rgyal po chen po,_r_-mah_sa_varodaya-n_ma-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+374,374,KG,79,79,ga,1,1,1,2,79,79,ga,34,1,1,dPal khrag 'thung mngon par 'byung ba,_r_-heruk_bhyudaya,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+375,375,KG,79,79,ga,2,34,1,1,79,79,ga,44,6,2,rNal 'byor ma'i kun tu spyod pa,Yogin_sa–cary_,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+376,376,KG,79,79,ga,3,44,6,2,79,79,ga,52,5,2,rNal 'byor ma bzhi'i kha sbyor gyi rgyud ces bya ba,Caturyogin_-sampu_a-tantra-n_ma,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+377,377,KG,79,79,ga,4,52,5,2,79,79,ga,60,1,2,Phag mo mngon par brjod pa bshad pa'i rgyud phyi ma las phag mo mngon par byang chub pa,_khy_ta-tantrottara-vajrav_r_h_-abhidh_n_d var_hyabhibodhana,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+378,378,KG,79,79,ga,5,60,1,2,79,79,ga,71,3,1,mKha' 'gro ma thams cad kyi thugs gnyis su med pa bsam gyis mi khyab pa'i ye shes rdo rje phag mo mngon par 'byung ba'i rgyud kyi rgyal po,.D_kin_-sarvacitt_dvay_cintyaj–_na-vajrav_r_hyabhibhava-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+379,379,KG,79,79,ga,6,71,3,1,79,79,ga,72,7,2,mKha' 'gro ma thams cad kyi thugs gnyis su med pa'i ye shes bsam gyis mi khyab pa phag mo mngon par 'byung ba'i rgyud las rgyud phyi ma,.D_kin_-sarvacitt_dvay_cintyaj–_na-v_r_hyabhyudaya-tantroddh_tottara *,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+380,380,KG,79,79,ga,7,72,7,2,79,79,ga,73,1,2,Rig pa 'dzin pa rdo rje rnal 'byor ma'i sgrub thabs,Vidy_dhar_-vajrayogin_-s_dhana,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+381,381,KG,79,79,ga,8,73,1,2,79,79,ga,158,7,2,Yang dag par sbyor ba zhes bya ba'i rgyud chen po,Sampu_a-n_ma-mah_tantra,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+382,382,KG,79,79,ga,9,158,7,2,79,79,ga,184,1,2,rGyud kyi rgyal po chen po dpal yang dag par sbyor ba'i thig le,Mah_tantrar_ja-_r_-sampu_a-tilaka *,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+383,383,KG,79,79,ga,10,184,1,2,79,79,ga,187,2,1,dPal gsang ba rdo rje rgyud kyi rgyal po,_r_-guhyavajra-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+384,384,KG,79,79,ga,11,187,2,1,79,79,ga,196,1,1,dPal gsang ba thams cad gcod pa'i rgyud kyi rgyal po,_r_-guhyasarvacchinda-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+385,385,KG,79,79,ga,12,196,1,1,79,79,ga,199,7,1,dPal 'khor lo sdom pa gsang ba bsam gyis mi khyab pa'i rgyud kyi rgyal po,_r_-cakrasa_vara-guhy_cintya-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+386,386,KG,79,79,ga,13,199,7,1,79,79,ga,202,2,1,dPal nam mkha' dang mnyam pa'i rgyud kyi rgyal po,_r_-khasama-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+387,387,KG,79,79,ga,14,202,2,1,79,79,ga,203,1,2,dPal nam mkha' chen po'i rgyud kyi rgyal po,_r_-mah_kha-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+388,388,KG,79,79,ga,15,203,1,2,79,79,ga,208,2,2,dPal sku gsung thugs kyi rgyud kyi rgyal po,_r_-k_yav_kcitta-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+389,389,KG,79,79,ga,16,208,2,2,79,79,ga,213,4,2,dPal rin chen phreng ba'i rgyud kyi rgyal po,_r_-ratnam_la-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+390,390,KG,79,79,ga,17,213,4,2,79,79,ga,216,3,1,dPal dam tshig chen po'i rgyud kyi rgyal po,_r_-mah_samaya-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+391,391,KG,79,79,ga,18,216,3,1,79,79,ga,219,2,1,dPal stobs po che'i rgyud kyi rgyal po,_r_-mah_bala-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+392,392,KG,79,79,ga,19,219,2,1,79,79,ga,220,1,2,dPal ye shes gsang ba'i rgyud kyi rgyal po,_r_-j–_naguhya-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+393,393,KG,79,79,ga,20,220,1,2,79,79,ga,222,1,1,dPal ye shes phreng ba'i rgyud kyi rgyal po,_r_-j–_nam_l_-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+394,394,KG,79,79,ga,21,222,1,1,79,79,ga,223,7,1,dPal ye shes 'bar ba'i rgyud kyi rgyal po,_r_-j–_najv_l_-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+395,395,KG,79,79,ga,22,223,7,1,79,79,ga,224,4,2,dPal zla ba'i phreng ba'i rgyud kyi rgyal po,_r_-candram_l_-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+396,396,KG,79,79,ga,23,224,4,2,79,79,ga,227,3,2,dPal rin chen 'bar ba'i rgyud kyi rgyal po,_r_-ratnajv_l_-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+397,397,KG,79,79,ga,24,227,3,2,79,79,ga,229,2,1,dPal nyi ma'i 'khor lo'i rgyud kyi rgyal po,_r_-s_ryacakra-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+398,398,KG,79,79,ga,25,229,2,1,79,79,ga,230,2,1,dPal ye shes rgyal po'i rgyud kyi rgyal po,_r_-j–_nar_ja-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+399,399,KG,79,79,ga,26,230,2,1,79,79,ga,231,4,2,dPal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po,_r_-vajra__kaguhya-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+400,400,KG,79,79,ga,27,231,4,2,79,79,ga,233,5,1,dPal gsang ba me 'bar ba'i rgyud kyi rgyal po,_r_-jv_l_gniguhya-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+401,401,KG,79,79,ga,28,233,5,1,79,79,ga,235,5,1,dPal gsang ba bdud rtsi'i rgyud kyi rgyal po,_r_-am_taguhya-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+402,402,KG,79,79,ga,29,235,5,1,79,79,ga,237,5,1,dPal dur khrod rgyan pa'i rgyud kyi rgyal po,_r_-_ma__n_la_k_ra-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+403,403,KG,79,79,ga,30,237,5,1,79,79,ga,239,1,1,dPal rdo rje rgyal po chen po'i rgyud,_r_-vajrar_ja-mah_tantra,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+404,404,KG,79,79,ga,31,239,1,1,79,79,ga,240,1,1,dPal ye shes bsam pa'i rgyud kyi rgyal po,_r_-j–_n__aya-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+405,405,KG,79,79,ga,32,240,1,1,79,79,ga,242,7,2,dPal chags pa'i rgyal po'i rgyud kyi rgyal po,_r_-r_gar_ja-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+406,406,KG,79,79,ga,33,242,7,2,79,79,ga,244,1,2,dPal mkha' 'gro ma'i sdom pa'i rgyud kyi rgyal po,_r_-.d_kin_sa_vara-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+407,407,KG,79,79,ga,34,244,1,2,79,79,ga,245,6,2,dPal me'i phreng ba'i rgyud kyi rgyal po,_r_-agnim_l_-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+408,408,KG,79,79,ga,35,245,6,2,79,79,ga,247,4,1,dPal mkha' 'gro ma gsang ba 'bar ba'i rgyud kyi rgyal po,_r_-.d_kin_guhyajv_la-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+409,409,KG,79,79,ga,36,247,4,1,79,79,ga,248,1,1,dPal rdo rje 'jigs byed rnam par 'joms pa'i rgyud kyi rgyal po,_r_ vajrabhairava vid_ra_a-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+410,410,KG,79,79,ga,37,248,1,1,79,79,ga,249,6,2,dPal stobs chen ye shes rgyal po'i rgyud kyi rgyal po,_r_-mah_bala-j–_nar_ja-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+411,411,KG,79,79,ga,38,249,6,2,79,79,ga,251,3,2,dPal rdo rje grub pa dra ba'i sdom pa'i rgyud kyi rgyal po,_r_-vajrasiddhi-j_lasa_vara-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+412,412,KG,79,79,ga,39,251,3,2,79,79,ga,254,5,2,De bzhin gshegs pa thams cad kyi thugs kyi snying po don gyi rgyud,Sarvatath_gata-cittagarbh_rtha-tantra,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+413,413,KG,79,79,ga,40,254,5,2,79,79,ga,259,3,2,dPal 'khor lo sdom pa'i rgyud kyi rgyal po dur khrod kyi rgyan rmad du byung ba,_r_-cakrasa_vara-tantar_ja-adbhuta_ma__na-ala_k_ra,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+414,414,KG,79,79,ga,41,259,3,2,79,79,ga,261,3,2,rGyud kyi rgyal po rnyog pa med pa,An_vila-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+415,415,KG,79,79,ga,42,261,3,2,79,79,ga,263,1,2,dPal bde mchog nam mkha' dang mnyam pa'i rgyud kyi rgyal po,_r_-sa_varakhasama-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+416,416,KG,79,79,ga,43,263,1,2,79,79,ga,292,6,1,dPal rdo rje nag po chen po khros pa'i mgon po gsang ba dngos grub 'byung ba zhes bya ba'i rgyud,_r_-vajramah_k_la-khrodha-n_tharahasya-siddhibhava-tantra,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+419,419,KG,80,80,nga,2,30,4,1,80,80,nga,66,1,1,mKha' 'gro ma rdo rje gur zhes bya ba'i rgyud kyi rgyal po chen po'i brtag pa,.D_kin_-vajrapa–jar_-mah_tantrar_ja-kalpa,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+420,420,KG,80,80,nga,3,66,1,1,80,80,nga,91,1,1,dPal phyag rgya chen po'i thig le zhes bya ba rnal 'byor ma chen mo'i rgyud kyi rgyal po'i mnga' bdag,_r_-mah_mudr_tilaka-n_ma-mah_yogin_-tantrar_j_dhipati,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+421,421,KG,80,80,nga,4,91,1,1,80,80,nga,96,6,2,dPal ye shes snying po zhes bya ba rnal 'byor ma chen mo'i rgyud kyi rgyal po'i rgyal po,_r_-j–_nagarbha-n_ma-yogin_-mah_tantra-r_j_tir_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+422,422,KG,80,80,nga,5,96,6,2,80,80,nga,136,5,2,dPal ye shes thig le rnal 'byor ma'i rgyud kyi rgyal po chen po mchog tu rmad du byung ba,_r_-j–_natilakayogin_-tantrar_ja-parama-mah_dbhuta,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+423,423,KG,80,80,nga,6,136,5,2,80,80,nga,143,1,1,dPal de kho na nyid kyi sgron ma zhes bya ba'i rnal 'byor chen mo'i rgyud kyi rgyal po,_r_-tattvaprad_pa-n_ma-mah_yogin_-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+424,424,KG,80,80,nga,7,143,1,1,80,80,nga,167,6,1,dPal sangs rgyas thod pa zhes bya ba rnal 'byor ma'i rgyud kyi rgyal po,_r_-buddhakap_la-n_ma-yogin_-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+425,425,KG,80,80,nga,8,167,6,1,80,80,nga,171,2,1,dPal sgyu 'phrul chen po zhes bya ba'i rgyud kyi rgyal po,_r_-mah_m_y_-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+426,426,KG,80,80,nga,9,171,2,1,80,80,nga,176,2,1,rDo rje aa ra li zhes bya ba'i rgyud kyi rgyal po chen po,Vajr_rali-mah_tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+427,427,KG,80,80,nga,10,176,2,1,80,80,nga,181,1,1,Ri gi aa ra li'i rgyud kyi rgyal po,Rigi-_rali-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+428,428,KG,80,80,nga,11,181,1,1,80,80,nga,231,6,2,rNal 'byor ma'i rgyud kyi rgyal po chen po dpal gdan bzhi pa,_r_-catu_p__ha-mah_yogin_-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+429,429,KG,80,80,nga,12,231,6,2,80,80,nga,260,3,1,dPal gdan bzhi pa'i bshad pa'i rgyud kyi rgyal po sngags kyi cha,_r_-catu_p__h_khy_ta-tantrar_ja-mantr___a,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+430,430,KG,80,80,nga,13,260,3,1,80,80,nga,304,1,2,dPal gdan bzhi pa'i rnam par bshad pa'i rgyud kyi rgyal po,_r_-catu_p__ha-vikhy_ta-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+431,431,KG,80,80,nga,14,304,1,2,80,80,nga,343,1,1,dPal gtum po khro bo chen po'i rgyud kyi rgyal po dpa' bo gcig pa,Ekav_r_khy_-_r_ca__amah_ro_a_a-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+432,432,KG,81,81,ca,1,1,1,2,81,81,ca,12,1,2,Mi g.yo ba'i rtog pa'i rgyud kyi rgyal po,Acalakalpa-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+433,433,KG,81,81,ca,2,12,1,2,81,81,ca,14,4,2,Khro bo'i rgyal po thams cad gsang sngags gsang ba'i rgyud,Krodhar_ja-sarvamantra-guhya-tantra,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+434,434,KG,81,81,ca,3,14,4,2,81,81,ca,16,5,2,Mi g.yo ba'i gsang rgyud chen po,Acala-mah_guhya-tantra,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+435,435,KG,81,81,ca,4,16,5,2,81,81,ca,27,6,1,rDo rje bdud rtsi'i rgyud,Vajr_m_ta-tantra,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+436,436,KG,81,81,ca,5,27,6,1,81,81,ca,29,1,2,Rigs kyi 'jig rten mgon po lnga bcu pa,Kulalokan_tha-pa–cada_aka,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+437,437,KG,81,81,ca,6,29,1,2,81,81,ca,42,3,2,sGrol ma ku ru ku+l+le'i rtog pa,T_r_kurukulle-kalpa,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+438,438,KG,81,81,ca,7,42,3,2,81,81,ca,43,7,2,sGrol ma la phyag 'tshal nyi shu rtsa gcig gis bstod pa phan yon dang bcas pa,Namast_re ekavi__ati-stotra-gu_ahita-sahita,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+439,439,KG,81,81,ca,8,43,7,2,81,81,ca,45,6,2,[ rDo rje phur pa rtsa ba'i rgyud kyi dum bu ],[ Vajrak_laya-m_latantra-kha__a ],K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+440,440,KG,81,81,ca,9,45,6,2,81,81,ca,86,1,2,Nag po chen po zhes bya ba'i rgyud kyi rgyal po,Mah_k_la-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+441,441,KG,81,81,ca,10,86,1,2,81,81,ca,90,1,1,Ji bzhin brnyes pa nam mkha' dang mnyam pa zhes bya ba'i rgyud,Yath_labdhakhasama-tantra,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+442,442,KG,81,81,ca,11,90,1,1,81,81,ca,148,6,1,De bzhin gshegs pa thams cad kyi sku gsung thugs kyi gsang chen gsang ba 'dus pa zhes bya ba brtag pa'i rgyal po chen po,Sarvatath_gata-k_yav_kcittarahasya-guhyasam_ja-n_ma-mah_kalpar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+443,443,KG,81,81,ca,12,148,6,1,81,81,ca,158,1,1,rGyud phyi ma,Uttaratantra *,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+444,444,KG,81,81,ca,13,158,1,1,81,81,ca,208,1,1,dGongs pa lung bstan pa zhes bya ba'i rgyud,Sandhi-vy_kara_a-n_ma-tantra,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+445,445,KG,81,81,ca,14,208,1,1,81,81,ca,277,3,2,rNal 'byor chen po'i rgyud dpal rdo rje phreng ba mngon par brjod pa rgyud thams cad kyi snying po gsang ba rnam par phye ba,_r_-vajram_l_-abhidh_na-mah_yoga-tantra-sarvatantrah_daya-rahasya-vibha_ga,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+446,446,KG,81,81,ca,15,277,3,2,81,81,ca,282,1,1,lHa mo bzhis yongs su zhus pa,Caturdev_-parip_cch_,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+447,447,KG,81,81,ca,16,282,1,1,81,81,ca,286,1,2,Ye shes rdo rje kun las btus pa,Vajraj–_na-samuccaya-n_ma-tantra,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+448,448,KG,81,81,ca,17,286,1,2,81,81,ca,295,4,1,Phrin las thams cad 'byung ba'i sgrol ma 'dus pa don dam pa zhes bya ba rnal 'byor ma'i rgyud kyi rgyal po,Sam_ja-param_rtha-sarvakarmodaya-n_ma-t_r_yogin_-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+449,449,KG,81,81,ca,18,295,4,1,81,81,ca,309,6,1,Phrin las thams cad 'byung ba 'dus pa don dam pa las phyi ma'i rgyud kyi rgyal po,Sam_ja-param_rtha-sarvakarmodaya-uttara-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+450,450,KG,82,82,cha,1,1,1,2,82,82,cha,36,1,1,dPal ye shes rdo rje kun las bsdus pa,_r_-j–_navajra-samuccaya,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+451,451,KG,82,82,cha,2,36,1,1,82,82,cha,58,3,2,dPal rdo rje snying po rgyan gyi rgyud,_r_-vajrah_day_la_k_ra-tantra,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+452,452,KG,82,82,cha,3,58,3,2,82,82,cha,103,1,1,gNyis su med pa mnyam pa nyid rnam par rgyal ba zhes bya ba'i rtog pa'i rgyal po chen po,Advayasamat_-vijay_khy_-vikalpa-mah_r_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+453,453,KG,82,82,cha,4,103,1,1,82,82,cha,331,5,1,dPal de bzhin gshegs pa thams cad kyi gsang ba rnal 'byor chen po rnam par rgyal ba zhes bya ba mnyam pa nyid gnyis su med pa'i rgyud kyi rgyal po rdo rje dpal mchog chen po brtag pa dang po,_r_-sarvatath_gata-guhyatantrayoga-mah_r_j_dvayasamat_-vijaya-n_ma-vajra_r_vara-mah_kalp_di,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+454,454,KG,83,83,ja,1,1,1,2,83,83,ja,3,2,2,Lag na rdo rje gos sngon po can drag po gsum 'dul ba zhes bya ba'i rgyud,N_l_mbaradhara-vajrap__i-rudratrivinaya-tantra,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+455,455,KG,83,83,ja,2,3,2,2,83,83,ja,8,4,1,gSangs ba'i rgyud rnams kyi rnam par 'byed pa drag po gsum 'dul,Vibha_ga-guhya-tantr____ trirudradamana,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+456,456,KG,83,83,ja,3,8,4,1,83,83,ja,12,6,1,Lag na rdo rje gos sngon po can gyi cho ga rdo rje be con gyi rgyud,Vajrap__i-n_l_mbara-vidhi-vajrada__a-tantra,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+457,457,KG,83,83,ja,4,12,6,1,83,83,ja,15,5,1,Lag na rdo rje gos sngon po can rdo rje gdengs pa'i rgyud khams gsum las rnam par rgyal ba,N_l_mbaradhara-vajrap__i-vajra-pha_aka-tanra-trilokavijaya,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+458,458,KG,83,83,ja,5,15,5,1,83,83,ja,30,1,2,dPal rdo rje gtum po thugs gsang ba'i rgyud dpal gtum po,_r_-vajraca__acitta-guhya-tantra,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+459,459,KG,83,83,ja,6,30,1,2,83,83,ja,36,4,2,dPal rdo rje gtum po thugs gsang ba'i rgyud phyi ma,_r_-vajraca__acitta-guhya-tantrottara,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+460,460,KG,83,83,ja,7,36,4,2,83,83,ja,39,6,2,dPal rdo rje gtum po thugs gsang ba'i rgyud phyi ma'i phyi ma,_r_-vajraca__acitta-guhya-tantrottarottara,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+461,461,KG,83,83,ja,9,40,1,1,83,83,ja,65,7,2,Phyag na rdo rje gos sngon po can gnod sbyin drag po chen po rdo rje me lce'i rgyud,N_l_mbaradhara-vajrap__i-yak_a-mah_rudra-vajr_nalajihva-tantra,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+462,462,KG,83,83,ja,10,65,7,2,83,83,ja,68,1,1,rDo rje snying po rdo rje lce 'bar ba zhes bya ba'i gzungs,Vajrah_daya-vajrajihv_nala-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+463,463,KG,83,83,ja,11,68,1,1,83,83,ja,69,7,1,dPal phyag na rdo rje gsang ba bstan pa'i rgyud,_r_-vajrap__i-guhy_bhide_a-tantra,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+464,464,KG,83,83,ja,12,69,7,1,83,83,ja,90,4,2,bCom ldan 'das phyag na rdo rje gsang ba mngon par bstan pa'i rgyud kyi rgyal po,Bhagavad-vajrap__i-guhy_bhide_a-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+465,465,KG,83,83,ja,13,90,4,2,83,83,ja,94,1,1,rDo rje bde khros rgyud kyi rgyal po ,Vajrasukhakrodha-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+466,466,KG,83,83,ja,14,94,1,1,83,83,ja,134,1,2,rGyud kyi rgyal po chen po sgyu 'phrul dra ba,M_y_j_la-mah_tantrar_ja,K rGyud,rGyud 'bum,[ rNal-'byor-rgyud ]
+467,467,KG,83,83,ja,15,134,1,2,83,83,ja,151,4,2,De bzhin gshegs pa thams cad kyi sku gsung thugs gshin rje gshed nag po zhes bya ba'i rgyud,Sarvatath_gata-k_yav_kcitta-k___ayam_ri-n_ma-tantra,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+468,468,KG,83,83,ja,16,151,4,2,83,83,ja,164,1,1,dPal rdo rje 'jigs byed chen po'i rgyud,_r_-vajramah_bhairava-n_ma-tantra,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+469,469,KG,83,83,ja,17,164,1,1,83,83,ja,167,5,2,dPal gshin rje'i gshed nag po'i rgyud kyi rgyal po rtog pa gsum pa,_r_-k___ayam_ri-tantrar_ja-trikalpa,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+470,470,KG,83,83,ja,18,167,5,2,83,83,ja,173,3,2,dPal rdo rje 'jigs byed kyi rtog pa'i rgyud kyi rgyal po,_r_-vajrabhairava-kalpa-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+471,471,KG,83,83,ja,19,173,3,2,83,83,ja,174,2,1,gTam rgyud kyi rtog pa,P_rampar_yikakath_kalpa *,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+472,472,KG,83,83,ja,20,174,2,1,83,83,ja,175,1,1,Te'u lo pa'i cho ga,Chucchundara-kalpa,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+473,473,KG,83,83,ja,21,175,1,1,83,83,ja,186,1,1,gShin rje'i gshed dgra nag po'i 'khor lo las thams cad grub par byed pa zhes bya ba'i rgyud kyi rgyal po,Yam_ri-k___akarma-sarvacakra-siddhikara-n_ma-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+474,474,KG,83,83,ja,22,186,1,1,83,83,ja,215,1,1,dPal gshin rje'i gshed dmar po zhes bya ba'i rgyud kyi rgyal po,_r_-raktayam_ri-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+475,475,KG,83,83,ja,23,215,1,1,83,83,ja,245,1,1,dPal ldan gshin rje gshed dmar po'i rgyud kyi rgyal po,_r_mad-raktayam_ri-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+476,476,KG,83,83,ja,24,245,1,1,83,83,ja,247,4,2,dPal bcom ldan 'das ral pa gcig pa'i brtag pa'i rgyud kyi rgyal po chen po,_r_-bhagavadekaja__-mah_kalpa-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+477,477,KG,83,83,ja,25,247,4,2,83,83,ja,303,1,2,dPal zla gsang thig le zhes bya ba rgyud kyi rgyal po chen po,_r_-candraguhyatilaka-n_ma-mah_tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+478,478,KG,83,83,ja,26,303,1,2,83,83,ja,336,3,1,dPal ldan gshin rje'i gshed dmar po'i rgyud kyi rgyal po,_r_mad-raktayam_ri-tantrar_ja,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+479,479,KG,84,84,nya,1,1,1,2,84,84,nya,142,1,2,De bzhin gshegs pa thams cad kyi de kho na nyid bsdus pa zhes bya ba theg pa chen po'i mdo,Sarvatath_gata-tattvasa_graha-n_ma-mah_y_na-s_tra,K rGyud,rGyud 'bum,[ rNal-'byor-rgyud? ]
+480,480,KG,84,84,nya,2,142,1,2,84,84,nya,274,5,1,gSang ba rnal 'byor chen po'i rgyud rdo rje rtse mo,Vajra_ekhara-mah_guhya-yogatantra,K rGyud,rGyud 'bum,[ rNal-'byor-rgyud? ]
+481,481,KG,85,85,ta,1,1,1,2,85,85,ta,10,1,1,Thams cad gsang ba zhes bya ba rgyud kyi rgyal po,Sarvarahasya-n_ma-tantrar_ja,K rGyud,rGyud 'bum,[ rNal-'byor-rgyud? ]
+482,482,KG,85,85,ta,2,10,1,1,85,85,ta,58,1,2,'Jig rten gsum las rnam par rgyal ba rtog pa'i rgyal po chen po,Trailokyavijaya-mah_kalpar_ja,K rGyud,rGyud 'bum,[ rNal-'byor-rgyud? ]
+483,483,KG,85,85,ta,3,58,1,2,85,85,ta,96,3,1,De bzhin gshegs pa dgra bcom pa yang dag par rdzogs pa'i sangs rgyas ngan song thams cad yongs su sbyong ba gzi brjid kyi rgyal po'i brtag pa zhes bya ba,Sarvadurgati-pari_odhana-tejor_jasya tath_gatasya arhata_ samyaksambuddhasya kalpa-n_ma,K rGyud,rGyud 'bum,[ rNal-'byor-rgyud? ]
+484,484,KG,85,85,ta,4,96,3,1,85,85,ta,96,1,2,mNgon spyod kyi las,Paricary_karma*,K rGyud,rGyud 'bum,[ rNal-'byor-rgyud? ]
+485,485,KG,85,85,ta,5,96,1,2,85,85,ta,146,1,2,De bzhin gshegs pa dgra bcom pa yang dag par rdzogs pa'i sangs rgyas ngan song thams cad yongs su sbyong ba gzi brjid kyi rgyal po'i brtag pa phyogs gcig pa,Sarvadurgati-pari_odhana-tejor_jasya tath_gatasya arhata_ samyaksambuddhasya kalpaikade_a,K rGyud,rGyud 'bum,[ rNal-'byor-rgyud? ]
+486,486,KG,85,85,ta,6,146,1,2,85,85,ta,150,1,2,Rab tu gnas pa mdor bsdus pa'i rgyud,Suprati__ha-tantra-sa_graha,K rGyud,rGyud 'bum,[ rNal-'byor-rgyud? ]
+487,487,KG,85,85,ta,7,150,1,2,85,85,ta,173,4,1,dPal mchog dang po zhes bya ba theg pa chen po'i rtog pa'i rgyal po,_r_-param_dya-n_ma-mah_y_na-kalpa-r_ja,K rGyud,rGyud 'bum,[ rNal-'byor-rgyud? ]
+488,488,KG,85,85,ta,8,173,4,1,85,85,ta,266,1,1,dPal mchog dang po'i sngags kyi rtog pa'i dum bu,_r_-param_dya-mantra-kalpa-kha__a,K rGyud,rGyud 'bum,[ rNal-'byor-rgyud? ]
+489,489,KG,85,85,ta,9,266,1,1,85,85,ta,272,7,1,Shes rab kyi pha rol tu phyin pa'i tshul brgya lnga bcu pa,Praj–_p_ramit_-naya-_atapa–ca_atik_,K rGyud,rGyud 'bum2,[ rNal-'byor-rgyud? ]
+490,490,KG,86,86,tha,1,1,1,2,86,86,tha,82,1,2,dPal rdo rje snying po rgyan zhes bya ba'i rgyud kyi rgyal po chen po,_r_-vajrama__al_la_k_ra-n_ma-mah_tantrar_ja,K rGyud,rGyud 'bum,[ rNal-'byor-rgyud? ]
+491,491,KG,86,86,tha,2,82,1,2,86,86,tha,83,1,2,Shes rab kyi pha rol tu phyin pa'i sgo nyi shu rtsa lnga pa zhes bya ba theg pa chen po'i mdo,Pa–cavi__atik_-praj–_-p_ramit_-mukha-n_ma-mah_y_na-s_tra,K rGyud,rGyud 'bum,[ rNal-'byor-rgyud? ]
+492,492,KG,86,86,tha,3,83,1,2,86,86,tha,119,5,2,De bzhin gsheg pa thams cad kyi sku gsung thugs kyi gsang ba rgyan gyi bkod pa zhes bya ba'i rgyud kyi rgyal po,Sarvatath_gatak_yav_kcitta-guhy_la_k_ra-vy_ha-tantrar_ja,K rGyud,rGyud 'bum,[ rNal-'byor-rgyud? ]
+493,493,KG,86,86,tha,4,119,5,2,86,86,tha,151,2,2,gSang ba nor bu thig le zhes bya ba'i mdo,Guhyama_itilaka-nama-s_tra,K rGyud,rGyud 'bum,[ rNal-'byor-rgyud? ]
+494,494,KG,86,86,tha,5,151,2,2,86,86,tha,261,1,2,rNam par snang mdzad chen po mngon par rdzogs par byang chub pa rnam par sprul pa byin gyis rlob pa shin tu rgyas pa mdo sde'i dbang po'i rgyal po zhes bya ba'i chos kyi rnam grangs,Mah_vairocan_bhisambodhi-vikurvit_dhi__h_na-vaipulya-s_trendrar_ja-n_ma-dharma-pary_ya,K rGyud,rGyud 'bum,[ sPyod-rgyud ]
+495,495,KG,86,86,tha,6,261,1,2,86,86,tha,322,7,1,De bzhin gshegs pa thams cad kyi khor bo'i rgyal po 'phags pa mi g.yo ba de'i stobs dpag tu med pa rtul phod pa 'dul bar gsungs pa zhes bya ba'i rtog pa,Acala-mah_krodhar_jasya-sarvatath_gatasya bal_parimitav_ra-vinaya-sv_khy_ta-n_ma -kalpa,K rGyud,rGyud 'bum,[ sPyod-rgyud ]
+496,496,KG,87,87,da,1,1,1,2,87,87,da,157,1,1,Lag na rdo rje dbang bskur ba'i rgyud chen po,Vajrap__i-abhi_eka-mah_tantra,K rGyud,rGyud 'bum,[ sPyod-rgyud ]
+497,497,KG,87,87,da,2,157,1,1,87,87,da,158,6,1,lHa mo brgyad kyi gzungs,A__adev_-dh_ra__,K rGyud,rGyud 'bum,[ sPyod-rgyud ]
+498,498,KG,87,87,da,3,158,6,1,87,87,da,167,3,1,bCom ldan 'das phyag na rdo rje gos sngon po can gyi rgyud,Bhagavan-n_l_mbaradhara-vajrap__i-tantra,K rGyud,rGyud 'bum,[ sPyod-rgyud ]
+499,499,KG,87,87,da,4,167,3,1,87,87,da,172,1,2,Lag na rdo rje gos sngon po can rdo rje sa 'og ces bya ba'i rgyud,Vajrap__i-n_l_mbaradhara-vajrap_t_la-n_ma-tantra,K rGyud,rGyud 'bum,[ sPyod-rgyud ]
+500,500,KG,87,87,da,5,172,1,2,87,87,da,177,1,1,rDo rje sa gsum du rgyu ba zhes bya ba'i rtog pa'i rgyal po,Vajrabh_mi-tricara_a-r_jakalpa,K rGyud,rGyud 'bum,[ sPyod-rgyud ]
+501,501,KG,87,87,da,6,177,1,1,87,87,da,181,2,1,Lag na rdo rje gos sngon po can zhes bya ba 'jig rten gsum 'dul ba'i rgyud,Vajrap__i-n_l_mbaradhara-trilokavinaya-n_ma-tantra,K rGyud,rGyud 'bum,[ sPyod-rgyud ]
+502,502,KG,87,87,da,7,181,2,1,87,87,da,248,1,2,Dam tshig gsum bkod pa'i rgyal po zhes bya ba'i rgyud,Trisamaya-vy_har_j_-n_ma-tantra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+503,503,KG,87,87,da,8,248,1,2,87,87,da,274,1,1,De bzhin gshegs pa bdun gyi sngon gyi smon lam gyi khyad par rgyas pa zhes bya ba theg pa chen po'i mdo,Saptatath_gata-p_rvapra_i-dh_na-vi_e_avist_ra-n_ma-mah_y_na-s_tra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+504,504,KG,87,87,da,9,274,1,1,87,87,da,284,1,1,bCom ldan 'das sman gyi bla bai .duu+r+ya'i 'od kyi sngon gyi smon lam gyi khyad par rgyas pa zhes bya ba theg pa chen po'i mdo,Bhagavato bhai_ajyaguru-vai__rya-prabhasya p_rva-pra_idh_na-vi_e_avist_ra-n_ma- mah_y_na-s_tra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+505,505,KG,87,87,da,10,284,1,1,87,87,da,286,6,1,De bzhin gshegs pa'i ting nge 'dzin gyi stobs bskyed pa bai .duu+r+ya'i 'od ces bya ba'i gzungs,Tath_gata-vai__ryaprabh_-n_ma-bal_dh_na-sam_dhi-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+506,506,KG,87,87,da,12,286,1,2,87,87,da,309,6,1,Nor bu chen po rgyas pa'i gzhal med khang shin tu rab tu gnas pa gsang ba dam pa'i gsang ba'i cho ga zhib mo'i rgyal po zhes bya ba'i gzungs,Mah_ma_ivipulavim_na-suprati__hita-guhyaparamarahasya-kalpar_ja-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+507,507,KG,88,88,na,1,1,1,2,88,88,na,7,3,2,De bzhin gshegs pa thams cad kyi byin gyis brlabs kyi snying po gsang ba ring bsrel gyi za ma tog ces bya ba'i gzungs theg pa chen po'i mdo,Sarvatath_gat_dhi__h_na-h_daya-guhya-dh_tukara__a-n_ma-dh_ra__-mah_y_na-s_tra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+508,508,KG,88,88,na,2,7,3,2,88,88,na,24,6,2,Byang chub snying po'i rgyan 'bum zhes bya ba'i gzungs,Bodhima__ala-lak__la_k_ra-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+509,509,KG,88,88,na,3,24,6,2,88,88,na,25,1,2,Byang chub kyi snying po'i rgyan 'bum gyi gzungs,Bodhigarbh_la_k_ralak_a-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+510,510,KG,88,88,na,4,25,1,2,88,88,na,35,4,2,'Od zer dri ma med pa rnam par dag pa'i 'od ces bya ba'i gzungs,Ra_mivimala-vi_uddhaprabh_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+511,511,KG,88,88,na,5,35,4,2,88,88,na,39,1,1,Sangs rgyas bcu gnyis pa zhes bya ba theg pa chen po'i mdo,Dv_da_abuddhaka-n_ma-mah_y_na-s_tra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+512,512,KG,88,88,na,6,39,1,1,88,88,na,43,1,1,Sangs rgyas bdun pa zhes bya ba theg pa chen po'i mdo,Saptabuddhaka-n_ma-mah_y_na-s_tra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+513,513,KG,88,88,na,7,43,1,1,88,88,na,44,2,2,Sangs rgyas thams cad kyi yan lag dang ldan pa zhes bya ba'i gzungs,Sarvabuddh__gavat_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+514,514,KG,88,88,na,8,44,2,2,88,88,na,46,6,2,Sangs rgyas kyi snying po zhes bya ba'i gzungs kyi chos kyi rnam grangs,Buddhah_daya-n_ma-dh_ra__-dharmapary_ya,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+515,515,KG,88,88,na,9,46,6,2,88,88,na,48,6,1,Sangs rgyas kyi snying po zhes bya ba'i gzungs,Buddhah_daya-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+516,516,KG,88,88,na,10,48,6,1,88,88,na,50,2,2,Me tog brtsegs pa zhes bya ba'i gzungs,Pu_pak__a-n_ma-dh_r__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+517,517,KG,88,88,na,11,50,2,2,88,88,na,54,5,1,Dri ma med pa zhes bya pa'i gzungs,Vimal_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+518,518,KG,88,88,na,12,54,5,1,88,88,na,56,2,1,Tsa+n+dan gyi yan lag ces bya ba'i gzungs,Candan__g_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+519,519,KG,88,88,na,13,56,2,1,88,88,na,58,7,1,rTen cing 'brel bar 'byung ba'i snying po'i cho ga'i gzungs,Prat_tyasamutp_da-h_daya-vidhi-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+520,520,KG,88,88,na,14,58,7,1,88,88,na,59,4,1,rTen cing 'brel bar 'byung ba zhes bya ba theg pa chen po'i mdo,Prat_tyasamutp_da-n_ma-mah_y_na-s_ta,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+521,521,KG,88,88,na,15,59,4,1,88,88,na,59,7,1,rTen cing 'brel bar 'byung ba'i snying po zhes bya ba,Prat_tyasamutp_da-h_daya-n_ma,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+522,522,KG,88,88,na,16,59,7,1,88,88,na,60,4,2,Ye shes ta la la zhes bya ba'i gzungs 'gro ba thams cad yongs su sbyong ba,J–_nolk_-n_ma-dh_ra__-sarvagati-pari_odhan_,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+523,523,KG,88,88,na,17,60,4,2,88,88,na,62,1,1,Sa'i dbang po chen po zhes bya ba'i gzungs,Mah_mah_ndra-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+524,524,KG,88,88,na,18,62,1,1,88,88,na,62,6,1,gDon mi za ba zhes bya ba'i gzungs,Ava_y_-n_ma-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+525,525,KG,88,88,na,19,62,6,1,88,88,na,71,1,1,sGo mtha' yas pas bsgrub pa zhes bya ba'i gzungs,Anantamukha-s_dhaka-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+526,526,KG,88,88,na,20,71,1,1,88,88,na,71,4,2,sGo drug pa zhes bya ba'i gzungs,.Sa_mukh_ n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+527,527,KG,88,88,na,21,71,4,2,88,88,na,85,1,2,Chos thams cad kyi yon tan bkod pa'i rgyal po zhes bya ba theg pa chen po'i mdo,Sarvadharmagu_avy_har_ja-n_ma-mah_y_na-s_tra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+528,528,KG,88,88,na,22,85,1,2,88,88,na,90,3,2,Rig sngags kyi rgyal po sgron ma mchog gi gzungs,Agraprad_pa-dh_ra__-vidy_r_ja,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+529,529,KG,88,88,na,23,90,3,2,88,88,na,92,6,2,gZungs chen po,Mah_dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+530,530,KG,88,88,na,24,92,6,2,88,88,na,94,1,2,Shes rab kyi pha rol tu phyin pa yi ge nyung ngu zhes bya ba theg pa chen po'i mdo,Svalp_k_ar_-praj–_p_ramit_-n_ma-mah_y_na-s_tra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+531,531,KG,88,88,na,25,94,1,2,88,88,na,95,4,2,bCom ldan 'das ma shes rab kyi pha rol tu phyin pa'i snying po,Bhagavat_-praj–_p_ramit_-h_daya,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+532,532,KG,88,88,na,26,95,4,2,88,88,na,99,3,2,Sangs rgyas bcom ldan 'das kyi mtshan brgya rtsa brgyad pa gzungs sngags dang bcas pa,Buddha-bhagavad-a__a_at_n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+533,533,KG,88,88,na,27,99,3,2,88,88,na,99,4,2,Shaa+kya thub pa'i snying po'i gzungs,__kyamuni-h_daya-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+534,534,KG,88,88,na,28,99,4,2,88,88,na,99,7,2,rNam par snang mdzad kyi snying po zhes bya ba'i gzungs,Vairocana-h_daya-n_ma-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+535,535,KG,88,88,na,29,99,7,2,88,88,na,100,2,1,Zla 'od kyi mtshan rjes su dran pa'i gzungs,Candraprabha-n_ma-anusm_ti-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+536,536,KG,88,88,na,30,100,2,1,88,88,na,100,3,1,De bzhin gshegs pa spyi'i snying po rjes su dran pa'i gzungs,S_m_nyatath_gata-h_daya-anusm_ti-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+537,537,KG,88,88,na,31,100,3,1,88,88,na,100,5,1,Sangs rgyas rin chen gtsug tor can gyi mtshan rjes su dran pa,Ratno____abuddha-n_ma-anusm_ti *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+538,538,KG,88,88,na,32,100,5,1,88,88,na,100,3,2,mChod pa'i sprin zhes bya ba'i gzungs,P_j_megha-n_ma-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+539,539,KG,88,88,na,33,100,3,2,88,88,na,100,7,2,Rin po che brdar ba'i gzungs,Ratnasa_ghar_a_a-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+540,540,KG,88,88,na,35,101,5,1,88,88,na,101,3,2,Su ruu pa zhes bya ba'i gzungs,Sur_p_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+541,541,KG,88,88,na,36,101,3,2,88,88,na,102,3,1,'Jigs pa chen po brgyad las sgrol ba zhes bya ba'i gzungs,A__amah_bhayat_ra__-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+542,542,KG,88,88,na,37,102,3,1,88,88,na,105,1,1,Khyad par can zhes bya ba'i gzungs,Vi_e_avat_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+543,543,KG,88,88,na,38,105,1,1,88,88,na,351,6,1,'Jam dpal gyi rtsa ba'i rgyud,Ma–ju_r_-m_latantra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+544,544,KG,89,89,pa,1,1,1,2,89,89,pa,13,6,1,dPa' bo gcig bu grub pa zhes bya ba'i rgyud kyi rgyal po chen po,Siddhaikav_ra-mah_tantrar_ja,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+545,545,KG,89,89,pa,2,13,6,1,89,89,pa,13,5,2,'Jam dpal gyi zhal nas gsungs ba zhes bya ba'i gzungs,Ma–ju_r_-sv_khy_ta-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+546,546,KG,89,89,pa,3,13,5,2,89,89,pa,14,5,1,'Jam dpal gyis dmod btsugs pa zhes bya ba'i gzungs,Ma–ju_r___pa_ha-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+547,547,KG,89,89,pa,4,14,5,1,89,89,pa,14,1,2,'Jam dpal gyis dam bcas pa'i gzungs,Ma–ju_r_-pratij–_-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+548,548,KG,89,89,pa,5,14,1,2,89,89,pa,14,3,2,'Jam dpal gyi mtshan,Ma–ju_r_-n_ma *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+549,549,KG,89,89,pa,6,14,3,2,89,89,pa,14,7,2,rJe btsun 'phags pa 'jam dpal gyi shes rab dang blo 'phel ba zhes bya ba'i gzungs,Ma–ju_r_-bha___raka-praj–_-buddhivardhana-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+550,550,KG,89,89,pa,7,14,7,2,89,89,pa,15,4,1,'Jam dpal gyi sngags yi ge 'bru gcig pa'i cho ga,Ma–ju_r_-mantraik_k_ara-vidhi *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+551,551,KG,89,89,pa,8,15,4,1,89,89,pa,15,6,2,bCom ldan 'das kyis 'jam dpal rnon po la bstod pa,Bhagavate t_k__ama–ju_riye stotram *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+552,552,KG,89,89,pa,9,15,6,2,89,89,pa,16,4,1,'Jam dpal ngag gi dbang phyug la bu mo brgyad kyis bstod pa,A___n__ kum_r____ v_g__vara-ma–ju_riye stotram *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+553,553,KG,89,89,pa,10,16,4,1,89,89,pa,17,4,2,Shes rab kyi pha rol tu phyin pa'i mtshan brgya rtsa brgyad pa zhes bya ba,Praj–_p_ramit_-n_m___a_ataka,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+554,554,KG,89,89,pa,11,17,4,2,89,89,pa,19,1,1,Shes rab kyi pha rol tu phyin pa kau shi ka zhes bya ba,Kau_ika-praj–_p_ramit_-n_ma,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+555,555,KG,89,89,pa,12,19,1,1,89,89,pa,151,1,2,gSer 'od dam pa mchog tu rnam par rgyal ba'i mdo sde'i rgyal po theg pa chen po'i mdo,Suvar_ottaramaparamavijaya-s_tra-r_ja-n_ma-mah_y_na-s_tra *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+556,556,KG,89,89,pa,13,151,1,2,89,89,pa,273,7,1,gSer 'od dam pa mdo sde'i dbang po'i rgyal po zhes bya ba theg pa chen po'i mdo,Suvar_aprabh_sottama-s_trendrar_ja-n_ma-mah_y_na-s_tra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+557,557,KG,90,90,pha,1,1,1,2,90,90,pha,63,1,2,gSer 'od dam pa mdo sde'i dbang po'i rgyal po zhes bya ba theg pa chen po'i mdo,Suvar_aprabh_sottama-s_trendrar_ja-n_ma-mah_y_na-s_tra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+558,558,KG,90,90,pha,2,63,1,2,90,90,pha,87,1,2,sTong chen mo rab tu 'joms pa zhes bya ba'i mdo,Mah_sahasrapramardana-n_ma-s_tra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+559,559,KG,90,90,pha,3,87,1,2,90,90,pha,117,5,1,Rig sngags kyi rgyal mo rma bya chen mo,Mah_m_y_r_vidy_r_j–_,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+560,560,KG,90,90,pha,4,117,5,1,90,90,pha,117,4,2,Rig sngags kyi rgyal mo rma bya'i yang snying,M_y_r_-vidy_garbha,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+561,561,KG,90,90,pha,5,117,4,2,90,90,pha,138,6,2,Rig pa'i rgyal mo so sor 'brang ba chen mo,Mah_pratisar_-vidy_r_j–_,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+562,562,KG,90,90,pha,6,138,6,2,90,90,pha,150,2,2,bSil ba'i tshal chen po'i mdo,Mah___tavana-s_tra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+563,563,KG,90,90,pha,7,150,2,2,90,90,pha,156,1,2,gSang sngags chen po rjes su 'dzin pa'i mdo,Mah_mantr_nudh_ri-s_tra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+564,564,KG,90,90,pha,8,156,1,2,90,90,pha,158,2,2,'Od zer can zhes bya ba'i gzungs,M_r_c_-n_ma-dhara__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+565,565,KG,90,90,pha,9,158,2,2,90,90,pha,165,5,2,sGyu ma'i 'od zer can 'byung ba'i rgyud las 'byung ba'i rtog pa'i rgyal po,M_y_m_r_c_j_ta-tantr_d uddh_ta-kalpar_ja,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+566,566,KG,90,90,pha,10,165,5,2,90,90,pha,186,3,1,'Od zer can gyi dkyil 'khor gyi cho ga 'od zer can 'byung ba'i rgyud stong phrag bcu gnyis pa las phyung ba'i rtog pa'i snying po bdun brgya pa,M_r_c_-ma__alavidhi-m_r_c_j_ta-dv_da_asahasr_d uddh_ta-kalpa-h_daya-sapta_ataka,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+567,567,KG,90,90,pha,11,186,3,1,90,90,pha,191,3,2,Rig sngags kyi rgyal mo chen mo rgyal ba can zhes bya ba,Jayavat_-n_ma-mah_vidy_r_ja,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+568,568,KG,90,90,pha,12,191,3,2,90,90,pha,195,6,1,rGyal ba can zhes bya ba'i gzungs,Jayavat_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+569,569,KG,90,90,pha,13,195,6,1,90,90,pha,196,4,2,dBang bskur ba zhes bya ba'i gzungs,Abhi_ecan_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+570,570,KG,90,90,pha,14,196,4,2,90,90,pha,198,6,1,dByig dang ldan pa zhes bya ba'i gzungs,Hira_yavat_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+571,571,KG,90,90,pha,15,198,6,1,90,90,pha,199,4,1,Dug sel zhes bya ba'i rig sngags,J__guli-n_ma-vidy_,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+572,572,KG,90,90,pha,16,199,4,1,90,90,pha,200,2,1,bKlags pas grub pa bcom ldan 'das ma 'phags ma sor mo can,Siddhapa_hita-bhagavat_-_ry__gul_-n_ma-vidy_r_j–_,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+573,573,KG,90,90,pha,17,200,2,1,90,90,pha,200,7,1,Chos thams cad kyi yum zhes bya ba'i gzungs,Sarvadharma-m_t_k_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+574,574,KG,90,90,pha,18,200,7,1,90,90,pha,202,3,1,gTsug gi nor bu zhes bya ba'i gzungs,C___ma_i-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+575,575,KG,90,90,pha,19,202,3,1,90,90,pha,202,5,2,Yi ge drug pa'i rig sngags,.Sa_ak_ara-vidy_,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+576,576,KG,90,90,pha,20,202,5,2,90,90,pha,203,1,1,Shes rab kyi pha rol tu phyin pa stong phrag brgya pa'i gzungs,Praj–_p_ramit_-_atas_hasrik_-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+577,577,KG,90,90,pha,21,203,1,1,90,90,pha,203,3,1,Shes rab kyi pha rol tu phyin pa stong phrag nyi shu lnga pa'i gzungs,Praj–_p_ramit_-pa–cavi__ati-s_hasrik_-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+578,578,KG,90,90,pha,22,203,3,1,90,90,pha,203,5,1,Shes rab kyi pha rol tu phyin pa brgyad stong pa'i gzungs,Praj–_p_ramit_-a__as_hasrik_-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+579,579,KG,90,90,pha,23,203,5,1,90,90,pha,203,1,2,Pha rol tu phyin pa drug gi snying po'i gzungs,.Sa_p_ramit_-h_daya-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+580,580,KG,90,90,pha,24,203,1,2,90,90,pha,203,5,2,Pha rol tu phyin pa drug gzung bar 'gyur ba'i gzungs,.Sa_p_ramit_-dh_rik_-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+581,581,KG,90,90,pha,25,203,5,2,90,90,pha,203,6,2,Pha rol tu phyin pa bcu thob par 'gyur ba'i gzungs,Da_ap_ramit_-pr_pik_-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+582,582,KG,90,90,pha,26,203,6,2,90,90,pha,204,1,1,Tshad med pa bzhi thob par 'gyur ba'i gzungs,Caturpram__apr_pik_-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+583,583,KG,90,90,pha,27,204,1,1,90,90,pha,204,3,1,Shes rab kyi pha rol tu phyin pa stong phrag brgya pa gzungs bar 'gyur ba'i gzungs,Praj–_p_ramit_-_atas_hasrik_-dh_rik_-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+584,584,KG,90,90,pha,28,204,3,1,90,90,pha,204,5,1,Phal po che gzung bar 'gyur ba'i gzungs,Avata_saka-dh_rik_-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+585,585,KG,90,90,pha,29,204,5,1,90,90,pha,204,6,1,sDong po bkod pa'i snying po ,Ga__avy_ha-h_daya *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+586,586,KG,90,90,pha,30,204,6,1,90,90,pha,204,0.5,2,Ting nge 'dzin gyi rgyal po'i mdo gzung bar 'gyur ba'i gzungs,Sam_dhir_ja-s_tra-dh_rik_-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+587,587,KG,90,90,pha,31,204,0.5,2,90,90,pha,204,1.5,2,rMa bya chen mo'i snying po,Mah_m_y_r_-h_daya *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+588,588,KG,90,90,pha,32,204,1.5,2,90,90,pha,204,3,2,So sor 'brang ma chen mo gzung bar 'gyur ba'i gzungs,Pratisar_-dh_rik_-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+589,589,KG,90,90,pha,33,204,3,2,90,90,pha,205,1,1,Lang kar gshegs pa'i mdo thams cad bklags par 'gyur ba'i gzungs sngags,Sarv_la_k_vat_ra-s_tra-p__hik_-mantra-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+590,590,KG,90,90,pha,34,205,1,1,90,90,pha,212,7,2,De bzhin gshegs pa thams cad kyi gtsug tor nas byung ba gdugs dkar po can zhes bya ba gzhan gyis mi thub ma phyir zlog pa'i rig sngags kyi rgyal mo chen mo,Sarvatath_gato____a-sit_ta-patr_-n_ma-apar_jitapratya_gir_-mah_vidy_r_j–_,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+591,591,KG,90,90,pha,35,212,7,2,90,90,pha,219,7,1,De bzhin gshegs pa'i gtsug tor nas byung ba'i gdugs dkar po can gzhan gyis mi thub pa phyir zlog pa chen mo mchog tu grub pa zhes bya ba'i gzungs,Tath_gato___sa-sit_tapatr_-apar_jitamah_pratya_gir_-parama-siddh_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+592,592,KG,90,90,pha,36,219,7,1,90,90,pha,224,2,2,De bzhin gshegs pa'i gtsug tor nas byung ba'i gdugs dkar po can gzhan gyis mi thub pa zhes bya ba'i gzungs,Tath_gato____a-sit_tapatre apar_jit_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+593,593,KG,90,90,pha,37,224,2,2,90,90,pha,230,1,1,De bzhin gshegs pa'i gtsug tor nas byung ba'i gdugs dkar po can gzhan gyis mi thub pa zhes bya ba'i gzungs,Tath_gato____a-sit_tapatr_-n_ma-apar_jit_-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+0594?,594,KG,90,90,pha,38,230,1,1,90,90,pha,237,4,2,De bzhin gshegs pa thams cad kyi gtsug tor rnam par rgyal ba zhes bya ba'i gzungs rtog pa dang bcas pa,Sarvatath_gato____avijay_-n_ma-dh_ra__-kalpasahit_,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+595,595,KG,90,90,pha,39,237,4,2,90,90,pha,242,6,1,De bzhin gshegs pa thams cad kyi gtsug tor rnam par rgyal ba zhes bya ba'i gzungs rtog pa dang bcas pa,Sarvatath_gato____avijay_-n_ma-dh_ra__-kalpasahit_,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+596,596,KG,90,90,pha,40,242,6,1,90,90,pha,243,1,2,De bzhin gshegs pa thams cad kyi gtsug tor rnam par rgyal ba zhes bya ba'i gzungs rtog pa dang bcas pa,Sarvatath_gato____avijay_-n_ma-dh_ra__-kalpasahit_,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+597,597,KG,90,90,pha,41,243,1,2,90,90,pha,248,3,1,Ngan 'gro thams cad yongs su sbyong ba gtsug tor rnam par rgyal ba zhes bya ba'i gzungs,Sarvadurgati-pari_odhan_-u____avijay_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+598,598,KG,90,90,pha,42,248,3,1,90,90,pha,250,5,1,De bzhin gshegs pa thams cad kyi gtsug tor rnam par rgyal ma'i gzungs zhes by ba'i rtog pa,Sarvatath_gato____avijay_-n_ma-dh_ra__-kalpa,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+599,599,KG,90,90,pha,43,250,5,1,90,90,pha,260,1,1,Kun nas sgor 'jug pa'i 'od zer gtsug tor dri ma med par snang ba de bzhin gshegs pa thams cad kyi snying po dang dam tshig la rnam par lta ba zhes bya ba'i gzungs,Samantamukha-prave_a-ra_mivimalo____a-prabh_sa-sarvatath_gata-h_daya-samayavilokita-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+600,600,KG,90,90,pha,44,260,1,1,90,90,pha,260,3,1,gTsug tor 'bar ba zhes bya ba'i gzungs,U____ajv_l_-n_ma-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+601,601,KG,90,90,pha,45,260,3,1,90,90,pha,266,4,2,Shes pa thams cad mthar phyin par grub pa'i mchod rten zhes bya ba'i gzungs,Sarvapraj–_nta-p_ramit_-siddhi-caitya-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+602,602,KG,90,90,pha,46,266,4,2,90,90,pha,267,3,1,mChod rten gcig btab na bye ba btab par 'gyur ba'i gzungs,Ekacaityanirvapa_e ko_icaitya nirvapa_akar_-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+603,603,KG,90,90,pha,47,267,3,1,90,90,pha,269,3,1,sNying rje'i mchog ces bya ba'i gzungs,Karu__gr_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+604,604,KG,90,90,pha,48,269,3,1,91,91,ba,36,1,1,Khro bo rnam par rgyal ba'i rtog pa gsang ba'i rgyud,Krodha-vijaya-kalpa-guhya-tantra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+605,605,KG,91,91,ba,2,36,1,1,91,91,ba,37,2,1,rDo rje 'jigs byed kyi gzungs,Vajrabhairava-dh_ra__-n_ma,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+606,606,KG,91,91,ba,3,37,2,1,91,91,ba,39,5,1,Be con chen po zhes bya ba'i gzungs,Mah_da__a-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+607,607,KG,91,91,ba,4,39,5,1,91,91,ba,40,7,2,gZhan gyis mi thub pa rin po che'i phreng ba zhes bya ba,Ratnam_l_-n_ma-apar_jit_,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+608,608,KG,91,91,ba,5,40,7,2,91,91,ba,41,6,2,Bar du gcod pa thams cad rnam par sbyong ba zhes bya ba'i gzungs,Sarv_ntar_yika-vi_odhan_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+609,609,KG,91,91,ba,6,41,6,2,91,91,ba,43,3,1,Thams cad la mi 'jigs pa rab tu sbyin pa zhes bya ba'i gzungs,Sarv_bhayaprad_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+610,610,KG,91,91,ba,7,43,3,1,91,91,ba,45,3,1,'Gro lding ba'i rig sngags kyi rgyal po,Drami_a-vidy_r_ja,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+611,611,KG,91,91,ba,8,45,3,1,91,91,ba,45,1,2,Tshigs su bcad pa gnyis pa'i gzungs,G_th_dvaya-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+612,612,KG,91,91,ba,9,45,1,2,91,91,ba,46,5,2,rGyal mtshan gyi rtse mo'i dpung rgyan zhes bya ba'i gzungs,Dhvaj_grakey_ra-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+613,613,KG,91,91,ba,10,46,5,2,91,91,ba,47,1,2,lHa mo skul byed ma zhes bya ba'i gzungs,Cund_dev_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+614,614,KG,91,91,ba,11,47,1,2,91,91,ba,52,5,1,sGo bzang po zhes bya ba'i gzungs,Sumukh_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+615,615,KG,91,91,ba,12,52,5,1,91,91,ba,52,6,2,Bu mang po rton pa zhes bya ba'i gzungs,Bahuputra-pratisara_a-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+616,616,KG,91,91,ba,13,52,6,2,91,91,ba,56,7,1,Ro langs bdun pa zhes bya ba'i gzungs,Saptavet__aka-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+617,617,KG,91,91,ba,14,56,7,1,91,91,ba,58,3,2,mTshan mo bzang po zhes bya ba'i mdo,Bhadrar_tr_-n_ma-s_tra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+618,618,KG,91,91,ba,15,58,3,2,91,91,ba,59,6,1,mDangs phyir 'phrog pa zhes bya ba'i mdo,Oja_pratya–jana-s_tra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+619,619,KG,91,91,ba,16,59,6,1,91,91,ba,60,4,2,Mig rnam par sbyong ba zhes bya ba'i rig sngags,Cak_urvi_odhana-n_ma-vidy_mantra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+620,620,KG,91,91,ba,17,60,4,2,91,91,ba,61,2,1,Mig nad rab tu zhi bar byed pa'i mdo,Ak_irogapra_aman_-s_tra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+621,621,KG,91,91,ba,18,61,2,1,91,91,ba,62,1,1,gZhang 'brum rab tu zhi bar byed pa'i mdo,Ar_apra_aman_-s_tra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+622,622,KG,91,91,ba,19,62,1,1,91,91,ba,62,1,2,Nad thams cad rab tu zhi bar byed pa zhes bya ba'i gzungs,Sarvarogapra_aman_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+623,623,KG,91,91,ba,20,62,1,2,91,91,ba,62,2,2,Nad thams cad rab tu zhi bar byed pa'i gzhugs,Sarvarogapra_aman_-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+624,624,KG,91,91,ba,21,62,2,2,91,91,ba,62,3,2,Rims nad zhi ba'i gzungs,Jvarapra_aman_-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+625,625,KG,91,91,ba,22,62,3,2,91,91,ba,63,4,1,Rims nad rab tu zhi bar byed pa zhes bya ba'i gzungs,Jvarapra_aman_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+626,626,KG,91,91,ba,23,63,4,1,91,91,ba,63,4.5,1,'Brum bu'i nad zhi bar byed pa'i gzungs,Vispho_akarogapra_aman_-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+627,627,KG,91,91,ba,24,63,4.5,1,91,91,ba,63,6,1,mDangs phyir mi 'phrog pa zhes bya ba,Tejo 'pratihara_a-n_ma *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+628,628,KG,91,91,ba,25,63,6,1,91,91,ba,67,2,1,Yangs pa'i grong khyer du 'jug pa'i mdo chen po,Vai__l_prave_a-mah_s_tra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+629,629,KG,91,91,ba,26,67,2,1,91,91,ba,67,4,2,Mi rgod rnam par 'joms pa zhes bya ba'i gzungs,Cauravidhva_san_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+630,630,KG,91,91,ba,27,67,4,2,91,91,ba,68,3,1,Bar du gcod pa thams cad sel ba'i gzungs sngags,Sarv_ntar_yika-sa_gr_sa-dh_ra__-mantra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+631,631,KG,91,91,ba,28,68,3,1,91,91,ba,81,1,1,Mi g.yo ba zhes bya ba'i gzungs,Acala-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+632,632,KG,91,91,ba,29,81,1,1,91,91,ba,103,1,1,rDo rje khro bo'i rgyal po'i rtog pa bsdus pa'i rgyud,Vajrakrodhar_jakalpa-laghutantra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+633,633,KG,91,91,ba,30,103,1,1,91,91,ba,105,3,1,gSer can zhes bya ba'i gzungs,K_–canavat_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+634,634,KG,91,91,ba,31,105,3,1,91,91,ba,107,1,2,sPyan ras gzigs dbang phyug gi mtshan brgya rtsa brgyad pa gzungs sngags dang bcas pa,Avalokite_vara-a__ottara_ataka-n_ma-dh_ra__-mantrasahita,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+635,635,KG,91,91,ba,32,107,1,2,91,91,ba,109,5,1,Byams pa'i mtshan brgya rtsa brgyad pa gzungs sngags dang bcas pa,Maitreya-n_m___ottara_ataka-n_ma-dh_ra__-mantrasahita,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+636,636,KG,91,91,ba,33,109,5,1,91,91,ba,112,4,1,Nam mkha'i snying po'i mtshan brgya rtsa brgyad pa gzungs sngags dang bcas pa,Khagarbha-a__ottara_ataka-n_ma-dh_ra__-mantra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+637,637,KG,91,91,ba,34,112,4,1,91,91,ba,116,2,1,Kun tu bzang po'i mtshan brgya rtsa brgyad pa gzungs sngags dang bcas pa,Samantabhadra--a__ottara_ataka-n_ma-dh_ra__-mantrasahita,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+638,638,KG,91,91,ba,35,116,2,1,91,91,ba,118,5,2,Lag na rdo rje'i mtshan brgya rtsa brgyad pa gzungs sngags dang bcas pa,Vajrap__ya__ottara_ataka-n_ma-dh_ra__-mantrasahita,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+639,639,KG,91,91,ba,36,118,5,2,91,91,ba,122,2,1,'Jam dpal gzhon nur 'gyur pa'i mtshan brgya rtsa brgyad pa gzungs sngags dang bcas pa,Ma–ju_r_kum_rabh_t__tottara_ataka-n_ma-dh_ra__-mantrasahita,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+640,640,KG,91,91,ba,37,122,2,1,91,91,ba,124,5,1,sGrib pa thams cad rnam par sel ba'i mtshan brgya rtsa brgyad pa gzungs sngags dang bcas pa,Sarvanivara_a-vi_kambhin_-n_ma-a__ottara_ataka-dh_ra__-mantrasahita *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+641,641,KG,91,91,ba,38,124,5,1,91,91,ba,126,6,1,Sa'i snying po'i mtshan brgya rtsa brgyad pa gzungs sngags dang bcas pa,K_itigarbha-a__ottara_ataka-n_ma-dh_ra__-mantrasahita,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+642,642,KG,91,91,ba,39,126,6,1,91,91,ba,127,2,2,'Jam dpal gyi mtshan brgya rtsa brgyad pa zhes bya ba,Ma–ju_r_-n_ma-a__a_ataka,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+643,643,KG,91,91,ba,40,127,2,2,91,91,ba,128,3,1,Byams pas dam bcas pa zhes bya ba'i gzungs,Maitreyapratij–_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+644,644,KG,91,91,ba,41,128,3,1,91,91,ba,129,3,1,dKyil 'khor brgyad pa zhes bya ba theg pa chen po'i mdo,A__ama__alaka-n_ma-mah_y_na-s_tra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+645,645,KG,91,91,ba,42,129,3,1,91,91,ba,130,1,1,bDud rtsi 'byung ba zhes bya ba'i gzungs,Am_tabhav_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+646,646,KG,91,91,ba,43,130,1,1,91,91,ba,132,2,2,Yi dwags kha nas me 'bar ba la skyabs mdzad pa zhes bya ba'i gzungs,Pretamukha-agnijv_l__v_sana-balividhi *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+647,647,KG,91,91,ba,44,132,2,2,91,91,ba,134,6,1,Yi dwags mo kha 'bar ma dbugs dbyung ba'i gtor ma'i cho ga,Pretamukhajv_l_sam__v_sana-balividhi *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+648,648,KG,91,91,ba,45,134,6,1,91,91,ba,136,7,1,'Jur 'gegs zhes bya ba'i gzungs,Pretavighn_-n_ma-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+649,649,KG,91,91,ba,46,136,7,1,91,91,ba,136,4,2,Ye shes skar mda'i snying po,J–_naprad_pah_daya *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+650,650,KG,91,91,ba,47,136,4,2,91,91,ba,136,7,2,Shes rab skyed pa zhes bya ba'i gzungs,Praj–_vardhan_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+651,651,KG,91,91,ba,48,136,7,2,91,91,ba,137,2,1,Thos pa 'dzin pa'i gzungs,_rutidh_rik_ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+652,652,KG,91,91,ba,49,137,2,1,91,91,ba,137,5,1,rGyal ba'i bla ma'i gzungs,Jinaguru-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+653,653,KG,91,91,ba,50,137,5,1,91,91,ba,146,1,1,mDo chen po 'dus pa chen po'i mdo zhes bya ba,Mah_sam_ja-s_tra-n_ma-mah_s_tra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+654,654,KG,91,91,ba,51,146,1,1,91,91,ba,149,2,1,Chos kyi rgya mtsho zhes bya ba'i gzungs,Dharmas_gar_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+655,655,KG,91,91,ba,52,149,2,1,91,91,ba,149,7,1,bGegs sel ba'i gzungs,Vighnavin_yak_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+656,656,KG,91,91,ba,54,149,2,2,91,91,ba,163,1,1,mDo chen po kun tu rgyu ba dang kun tu rgyu ba ma yin pa dang mthun pa'i mdo zhes bya ba,___n___ya-s_tra-n_ma-mah_s_tra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+657,657,KG,91,91,ba,55,163,1,1,91,91,ba,175,3,2,sPrin chen po,Mah_megha,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+658,658,KG,91,91,ba,56,175,3,2,91,91,ba,180,4,1,sPrin chen po rlung gi dkyil 'khor gyi le'u klu thams cad kyi snying po zhes bya ba theg pa chen po'i mdo,Mah_megha-v_yu-ma__ala-parivarta-sarvan_ga-h_daya-n_ma-mah_y_na-s_tra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+659,659,KG,91,91,ba,57,180,4,1,91,91,ba,180,5,2,Klu'i rgyal po gzi can gyis zhus pa zhes bya ba'i gzungs,Tejasvin_gar_ja-parip_cch_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+660,660,KG,91,91,ba,58,180,5,2,91,91,ba,183,5,2,gZa' rnams kyi yum zhes bya ba'i gzungs,Graham_t_k_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+661,661,KG,91,91,ba,59,183,5,2,91,91,ba,186,5,1,gZa' rnams kyi yum zhes bya ba'i gzungs,Graham_t_k_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+662,662,KG,91,91,ba,60,186,5,1,91,91,ba,190,3,1,Nor gyi rgyun zhes bya ba'i gzungs,Vasudh_r_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+663,663,KG,91,91,ba,61,190,3,1,91,91,ba,191,2,1,bCom ldan 'das ma nor rgyun ma'i rtog pa,Bhagavat_-vasudh_r_-kalpa *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+664,664,KG,91,91,ba,62,191,2,1,91,91,ba,192,4,2,bCom ldan 'das ma nor rgyun ma'i gzungs kyi rtog pa,Bhagavat_-vasudh_r_-dh_ra__-kalpa *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+665,665,KG,91,91,ba,63,192,4,2,91,91,ba,193,7,1,Tshogs kyi bdag po'i snying po,Ga_apati-h_daya,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+666,666,KG,91,91,ba,64,193,7,1,91,91,ba,199,6,1,Tshogs kyi bdag po che po'i rgyud,Mah_ga_apati-tantra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+667,667,KG,91,91,ba,65,199,6,1,91,91,ba,201,3,2,dPal nag po chen po'i rgyud,_r_-mah_k_la-tantra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+668,668,KG,91,91,ba,66,201,3,2,91,91,ba,202,3,1,dPal mgon po nag po zhes bya ba'i gzungs,_r_-mah_k_la-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+669,669,KG,91,91,ba,67,202,3,1,91,91,ba,202,1,2,Nag po chen po'i gzungs rims nad thams cad las thar bar byed pa,Mah_k___asarvajvaramocan_ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+670,670,KG,91,91,ba,68,202,1,2,91,91,ba,202,6,2,lHa mo nag mo chen mo'i gzungs,Dev_mah_k_l_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+671,671,KG,91,91,ba,69,202,6,2,91,91,ba,209,5,2,dPal lha mo nag mo'i bstod pa rgyal po'i rgyud,_r_-dev_k_l_-pra_a_s_-r_ja-tantra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+672,672,KG,91,91,ba,70,209,5,2,91,91,ba,211,6,1,dPal lha mo nag mo'i mtshan brgya rtsa brgyad pa,_r_-dev_k_l_-n_m___a_ataka,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+673,673,KG,91,91,ba,71,211,6,1,91,91,ba,211,1,2,lHa'i dbang po brgya byin gyis bstod pa,Devendre_ak_ta-stotram *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+674,674,KG,91,91,ba,73,211,2,2,91,91,ba,216,7,1,Tshe dang ye shes dpag tu med pa zhes bya ba theg pa chen po'i mdo,Aparimit_yurj–_na-n_ma-mah_y_na-s_tra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+675,675,KG,91,91,ba,74,216,7,1,91,91,ba,220,5,2,Tshe dang ye shes dpag tu med pa zhes bya ba theg pa chen po'i mdo,Aparimit_yurj–_na-n_ma-mah_y_na-s_tra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+676,676,KG,91,91,ba,75,220,5,2,91,91,ba,222,1,2,Tshe dang ye shes dpag tu med pa'i snying po zhes bya ba'i gzungs,Aparimit_yurj–_na-h_daya-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+677,677,KG,91,91,ba,76,222,1,2,91,91,ba,222,6,2,bCom ldan 'das snang ba mtha' yas kyi gzungs sngags,Bhagavad-amit_bha-dh_ra__-mantra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+678,678,KG,91,91,ba,77,222,6,2,91,91,ba,223,1,1,sNang ba mtha' yas rjes su dran pa,Amit_bh_nusm_ti *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+679,679,KG,91,91,ba,78,223,1,1,91,91,ba,223,5,1,Yon tan bsngags pa dpag tu med pa zhes bya ba'i gzung,Aparimitagu__nu_a_s_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+680,680,KG,91,91,ba,79,223,5,1,91,91,ba,224,1,2,bDe ldan gyi snying po,Sukh_vat_h_daya *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+681,681,KG,91,91,ba,80,224,1,2,91,91,ba,278,1,2,sPyan ras gzigs dbang phyug gi rtsa ba'i rgyud kyi rgyal po pa+d+ma dra ba,Avalokite_vara-padmaj_la-m_latantrar_ja,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+682,682,KG,91,91,ba,81,278,1,2,91,91,ba,284,1,2,Don yod zhags pa'i snying po zhes bya ba theg pa chen po'i mdo,Amoghap__a-h_daya-n_ma-mah_y_na-s_tra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+683,683,KG,91,91,ba,82,284,1,2,91,91,ba,287,1,2,Don yod zhags pa'i snying po zhes bya ba'i gzungs,Amoghap__a-h_daya-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+684,684,KG,91,91,ba,83,287,1,2,91,91,ba,290,5,1,Sred med kyi bus zhus pa 'phags pa sgyu ma chen mo rnam par rgyal ba thob par byed pa zhes bya ba'i gzungs,N_r_ya_aparip_cch_-_rya-mah_m_y_-vijayav_hin_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+685,685,KG,91,91,ba,84,290,5,1,91,91,ba,291,2,1,Klus byin pa'i gzungs klu'i snying po,N_gadatta-dh_ra__-n_gah_daya,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+686,686,KG,92,92,ma,1,1,1,2,93,93,tsa,58,1,1,Don yod pa'i zhags pa'i cho ga zhib mo'i rgyal po,Amoghap__a-kalpar_ja,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+687,687,KG,93,93,tsa,2,58,1,1,93,93,tsa,59,3,2,Don yod zhags pa'i pha rol tu phyin pa drug yongs su rdzogs par byed pa zhes bya ba'i gzungs,Amoghap__a-p_ramit_-.sa_pari-p_rika-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+688,688,KG,93,93,tsa,3,59,3,2,93,93,tsa,62,3,1,Sa bcu pa'i gzungs,Da_abh_mi-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+689,689,KG,93,93,tsa,4,62,3,1,93,93,tsa,66,1,1,Don yod zhags pa'i rtog pa'i rgyal po'i cho ga,Amoghap__a-kalpar_ja-vidhi-n_ma,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+690,690,KG,93,93,tsa,5,66,1,1,93,93,tsa,94,1,2,Byang chub sems dpa' 'phags pa spyan ras gzigs dbang phyug lag pa stong dang mig stong dang ldan pa'i cho ga zhib mo,Sahasrabujasahasralocana-bodhisattva-avalokite_vara-s_k_ma-vidhi,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+691,691,KG,93,93,tsa,6,94,1,2,93,93,tsa,129,7,2,Byang chub sems dpa' spyan ras gzigs dbang phyug phyag stong spyan stong dang ldan pa thogs pa mi mnga' ba'i thugs rje chen po'i sems rgya cher yongs su rdzogs pa zhes bya ba'i gzungs,Sahasrabhujasahasralocana-apratihata-mah_k_ru_ika-suparini_panna-cittabodhisattva-avalokite_vara-h_daya-n_ma-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+692,692,KG,93,93,tsa,7,129,7,2,93,93,tsa,137,1,2,sPyan ras gzigs dbang phyug gi gsang ba'i mdzod thogs pa med pa'i yid bzhin gyi 'khor lo'i snying po zhes bya ba'i gzungs,Apratihataprabh_sako_amano-maya-cakra-avalokite_vara-h_daya-n_ma-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+693,693,KG,93,93,tsa,8,137,1,2,93,93,tsa,139,1,2,sPyan ras gzigs dbang phyug zhal bcu gcig pa zhes bya ba'i gzungs,Avalokite_varaik_da_amukha-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+694,694,KG,93,93,tsa,9,139,1,2,93,93,tsa,147,1,2,Zhal bcu gcig pa'i rig sngags kyi snying po zhes bya ba'i gzungs,Mukhaik_da_a-vidy_-mantra-h_daya-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+695,695,KG,93,93,tsa,10,147,1,2,93,93,tsa,147,3,2,sPyan ras gzigs kyi snying po,Avalokite_vara-h_daya *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+696,696,KG,93,93,tsa,11,147,3,2,93,93,tsa,148,3,1,sPyan ras gzigs dbang phyug gi gzungs,Avalokite_vara-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+697,697,KG,93,93,tsa,12,148,3,1,93,93,tsa,149,1,2,Nii la ka.n+.tha zhes bya ba'i gzungs,N_laka__ha-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+698,698,KG,93,93,tsa,13,149,1,2,93,93,tsa,150,5,1,sNying rjes mi bshol ba zhes bya ba'i gzungs,Karu__n_v_tta-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+699,699,KG,93,93,tsa,14,150,5,1,93,93,tsa,152,1,2,Kun tu bzang po zhes bya ba'i gzungs,Samantabhadra-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+700,700,KG,93,93,tsa,15,152,1,2,93,93,tsa,157,2,2,'Jig rten dbang phyug gi rtog pa,Loke_vara-kalpa,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+701,701,KG,93,93,tsa,16,157,2,2,93,93,tsa,164,4,2,Pa+d+ma cod pan zhes bya ba'i rgyud,Padmamuku_a-tantra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+702,702,KG,93,93,tsa,17,164,4,2,93,93,tsa,165,5,2,Seng ge sgra'i rgyud,Si_han_da-tantra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+703,703,KG,93,93,tsa,18,165,5,2,93,93,tsa,171,5,1,sPyan ras gzigs dbang phyug seng ge sgra'i gzungs,Avalokite_vara-si_han_da-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+704,704,KG,93,93,tsa,19,171,5,1,93,93,tsa,171,1,2,Seng ge sgra'i gzungs,Si_han_da-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+705,705,KG,93,93,tsa,20,171,1,2,93,93,tsa,173,6,1,sPyan ras gzigs dbang phyug gi mtshan brgya rtsa brgyad pa,Avalokite_vara-n_ma-a__a_ataka,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+706,706,KG,93,93,tsa,21,173,6,1,93,93,tsa,175,1,1,sPyan ras gzigs dbang phyug gi mtshan brgya rtsa brgyad pa,Avalokite_vara-n_ma-a__a_ataka,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+707,707,KG,93,93,tsa,22,175,1,1,93,93,tsa,176,1,2,Lus kyi dbyibs mdzes pa zhes bya ba'i gzungs,Rucir__gaya__i-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+708,708,KG,93,93,tsa,23,176,1,2,93,93,tsa,177,6,2,gZhan gyis mi thub pa mi 'jigs pa spyin pa zhes bya ba,Abhayaprad_-n_ma-apar_jit_,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+709,709,KG,93,93,tsa,24,177,6,2,93,93,tsa,178,1,1,gZhan gyis mi thub pa'i rig pa chen mo,Apar_jitamah_vidy_ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+710,710,KG,93,93,tsa,25,178,1,1,93,93,tsa,178,7,1,sTong 'gyur zhes bya ba'i gzungs,Sahasrabhavi_yam___-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+711,711,KG,93,93,tsa,26,178,7,1,93,93,tsa,178,2,2,Sh+lo ka brgya lobs pa,_ata_loka_ik_a__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+712,712,KG,93,93,tsa,27,178,2,2,93,93,tsa,178,4,2,Sh+lo ka brgya lobs pa,_ata_loka_ik_a__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+713,713,KG,93,93,tsa,28,178,4,2,93,93,tsa,178,6,2,Sh+lo ka stong lobs pa'i gzungs,Sahasra_loka_ik_a__-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+714,714,KG,93,93,tsa,29,178,6,2,93,93,tsa,179,2,1,Sh+lo ka stong lobs pa'i gzungs,Sahasra_loka_ik_a__-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+715,715,KG,93,93,tsa,30,179,2,1,93,93,tsa,179,5,1,Sh+lo ka stong lobs pa'i gzungs,Sahasra_loka_ik_a__-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+716,716,KG,93,93,tsa,31,179,5,1,93,93,tsa,179,1,2,Sh+lo ka sum stong lobs pa'i gzungs,Trisahasra_loka_ik_a__-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+717,717,KG,93,93,tsa,32,179,1,2,93,93,tsa,179,2,2,Mi brjed pa'i gzungs,Avismara__-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+718,718,KG,93,93,tsa,33,179,2,2,93,93,tsa,180,2,1,Shes rab skyed pa zhes bya ba'i gzungs,Praj–_vardhan_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+719,719,KG,93,93,tsa,34,180,2,1,93,93,tsa,180,4,1,Shes rab skyed pa zhes bya ba'i gzungs,Praj–_vardhan_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+720,720,KG,93,93,tsa,35,180,4,1,93,93,tsa,180,1,2,Thos pa 'dzin pa'i gzungs,_r_dh_rik_-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+721,721,KG,93,93,tsa,36,180,1,2,93,93,tsa,200,1,1,De bzhin gshegs pa thams cad kyi byin gyis rlabs sems can la gzigs shing sangs rgyas kyi zhing gi bkod pa kun tu ston pa zhes bya ba theg pa chen po'i mdo,Sarvatath_gata-adhi__h_na-sattv_valokena buddhak_etra-nirde_ana-vy_ha-n_ma- mah_y_na-s_tra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+0722?,722,KG,93,93,tsa,37,200,1,1,93,93,tsa,201,3,2,sPyan ras gzigs dbang phyug yid bzhin gyi nor bu'i rtog pa las smon lam 'byung ba,Cint_ma_i-avalokite_vara-kalpoddh_ta-pra_idh_na *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+723,723,KG,93,93,tsa,38,201,3,2,93,93,tsa,205,1,2,sPyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon mdor bsdus pa,Mah_k_ru_ika-n_ma-_ry_valokite_vara-dh_ra__-anu_a_s_hitas_tr_t s_g_h_t_,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+724,724,KG,93,93,tsa,39,205,1,2,94,94,tsha,200,1,2,Ral pa gyen brdzes kyi rtog pa chen po'i rnam par phrul ba le'u rab 'byam las bcom ldan 'das ma 'phags ma sgrol ma'i rtsa ba'i rtog pa,_rdhvaja__-mah_kalpa-mah_bodhisattva-vikurv__apa_alavistar_d bhagavat_- _ryat_r_-m_lakalpa,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+725,725,KG,94,94,tsha,2,200,1,2,94,94,tsha,202,1,1,sPyan ras gzigs dbang phyug gi yum zhes bya ba'i gzungs,Avalokite_varam_t_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+726,726,KG,94,94,tsha,3,202,1,1,94,94,tsha,217,2,1,De bzhin gshegs pa thams cad kyi yum sgrol ma las sna tshogs 'byung ba zhes bya ba'i rgyud,Sarvatath_gata-m_t_t_r_-vi_vakarma-bhava-tantra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+727,727,KG,94,94,tsha,4,217,2,1,94,94,tsha,219,6,1,rJe btsun ma 'phags ma sgrol ma'i mtshan brgya rtsa brgyad pa,T_r_bha___rik_-n_ma-a__a_ataka,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+728,728,KG,94,94,tsha,5,219,6,1,94,94,tsha,222,6,1,lHa mo sgrol ma'i mtshan brgya rtsa brgyad pa zhes bya ba,T_r_dev_-n_ma-a__a_ataka,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+729,729,KG,94,94,tsha,6,222,6,1,94,94,tsha,222,7,1,sGrol ma'i gzungs,T_r_-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+730,730,KG,94,94,tsha,7,222,7,1,94,94,tsha,222,5,2,sGrol ma rang gis dam bcas pa zhes bya ba'i gzungs,T_r_svapratij–_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+731,731,KG,94,94,tsha,8,222,5,2,94,94,tsha,224,1,2,sGrol ma 'jigs pa brgyad las skyob pa'i mdo,Tar___aghorat_ra__-s_tra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+732,732,KG,94,94,tsha,9,224,1,2,94,94,tsha,225,3,1,Grags ldan ma'i gzungs,Ya_ovat_-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+733,733,KG,94,94,tsha,10,225,3,1,94,94,tsha,225,7,2,sPyan ras gzigs dbang phyug ha ya grii ba'i gzungs,Avalokite_vara-hayagr_va-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+734,734,KG,94,94,tsha,11,225,7,2,94,94,tsha,227,7,1,Phyir zlog pa 'phags pa rnam par rgyal ba can zhes bya ba,Vijayavat_-n_ma-pratya_gir_,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+735,735,KG,94,94,tsha,12,227,7,1,94,94,tsha,228,1,2,Pa+r+.n+.na sha ba ri'i mdo,Par_a_avar_-s_tra *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+736,736,KG,94,94,tsha,13,228,1,2,94,94,tsha,229,4,1,Ri khrod lo ma gyon ma zhes bya ba'i gzungs,Par_a_avar_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+737,737,KG,94,94,tsha,14,229,4,1,94,94,tsha,229,4,2,Phyir zlog pa stobs can zhes bya ba,Balavat_-n_ma-pratya_gir_,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+738,738,KG,94,94,tsha,15,229,4,2,94,94,tsha,230,7,1,dPal lha mo sgra dbyangs la bstod pa,_r_-dev_sarasvat_-stotra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+739,739,KG,94,94,tsha,16,230,7,1,94,94,tsha,234,2,2,lHa mo chen mo dpal lung bstan pa,_r_mah_dev_-vy_kara_a,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+740,740,KG,94,94,tsha,17,234,2,2,94,94,tsha,235,4,1,dPal chen mo'i mdo,Mah_lak_m_-s_tra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+741,741,KG,94,94,tsha,18,235,4,1,94,94,tsha,235,5,2,dPal gyi lha mo mtshan bcu gnyis pa,_r_-dev_dv_da_aka-n_ma *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+742,742,KG,94,94,tsha,19,235,5,2,94,94,tsha,236,3,1,mChog thob pa'i rig sngags,Agra-vidy_-mantra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+743,743,KG,94,94,tsha,20,236,3,1,94,94,tsha,237,1,1,Las kyi sgrib pa thams cad rnam par sbyong ba zhes bya ba'i gzungs,Sarvakarm_vara_a-vi_odhan_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+744,744,KG,94,94,tsha,21,237,1,1,94,94,tsha,266,1,2,rDo rje sa 'og gi rgyud kyi rgyal po zhes bya ba,Vajrap_t_la-n_ma-tantrar_ja,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+745,745,KG,94,94,tsha,22,266,1,2,94,94,tsha,268,7,1,rJe btsun ma 'phags ma sgrol ma'i mtshan brgya rtsa brgyad pa,T_r_bha___rik_-n_ma-a__a_ataka,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+746,746,KG,95,95,dza,1,1,1,2,95,95,dza,238,1,1,Rig pa mchog gi rgyud chen po,Vidyottama-mah_tantra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+747,747,KG,95,95,dza,2,238,1,1,95,95,dza,263,1,2,'Byung po 'dul ba zhes bya ba'i rgyud kyi rgyal po chen po,Bh_ta__mara-mah_tantrar_ja,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+0748?,748,KG,95,95,dza,3,263,1,2,95,95,dza,264,1,2,Lag na rdo rje gos sngon po can gyi cho ga zhes bya ba'i gzungs,N_l_mbaradhara-vajrap__i-vidhi-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+749,749,KG,95,95,dza,4,264,1,2,95,95,dza,265,3,2,Lag na rdo rje mtshan brgyad pa gsang sngags dang bcas pa,Vajrap__ya__akan_ma-guhyamantrasahita *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+750,750,KG,95,95,dza,5,265,3,2,95,95,dza,267,1,1,rDo rje rnam par 'joms pa zhes bya ba'i gzungs,Vajravid_ra__-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+751,751,KG,95,95,dza,6,267,1,1,95,95,dza,295,7,1,rDo rje'i ri rab chen po'i rtse mo'i khang pa brtsegs pa'i gzungs,Mah_vajrameru-_ikhara-k___g_ra-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+752,752,KG,96,96,wa,1,1,1,2,96,96,wa,4,4,2,rDo rje mi 'pham pa me ltar rab tu rmongs byed ces bya ba'i gzungs,Vajr_jit_nalapramohan_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+753,753,KG,96,96,wa,2,4,4,2,96,96,wa,5,7,1,rDo rje phra mo thogs pa med pa zhes bya ba'i gzungs,Vajrasuk_m_-pratihat_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+754,754,KG,96,96,wa,3,5,7,1,96,96,wa,6,5,1,Lag na rdo rje bcu'i snying po,Da_avajrap__i-h_daya,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+755,755,KG,96,96,wa,4,6,5,1,96,96,wa,7,4,2,bDud rtsi thab sbyor gyi snying po bzhi pa zhes bya ba'i gzungs,Am_ta-ku__al_(prayoga)h_daya-caturth_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+756,756,KG,96,96,wa,5,7,4,2,96,96,wa,8,7,1,Khro bo'i rgyal po sme brtsegs la bstod pa'i sngags,Krodhabhurku_k__ar_ja-stotra-mantra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+757,757,KG,96,96,wa,6,8,7,1,96,96,wa,19,5,1,sTobs po che zhes bya ba theg pa chen po'i mdo,Mah_bala-n_ma-mah_y_na-s_tra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+758,758,KG,96,96,wa,7,19,5,1,96,96,wa,27,4,2,rDo rje lu gu rgyud ma'i rgyud kyi rtog pa,Vajra___khal_-tantrakalpa,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+759,759,KG,96,96,wa,8,27,4,2,96,96,wa,50,4,1,rDo rje mchu zhes bya ba klu'i dam tshig go,Vajratu__a-n_ma-n_gasamaya,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+760,760,KG,96,96,wa,9,50,4,1,96,96,wa,52,2,1,rDo rje gnam lcags mchu zhes bya ba'i gzungs,Vajralohatu__a-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+761,761,KG,96,96,wa,10,52,2,1,96,96,wa,53,6,1,lCags mchu zhes bya ba'i gzungs,Lohatu__a-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+762,762,KG,96,96,wa,11,53,6,1,96,96,wa,54,3,1,lCags kyi mchu zhes bya ba'i gzungs,Lohatu__a-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+763,763,KG,96,96,wa,12,54,3,1,96,96,wa,56,1,1,lCags mchu nag po,K____ya-stu__a,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+764,764,KG,96,96,wa,13,56,1,1,96,96,wa,56,2,2,Nor bu bzang po'i gzungs zhes bya ba,Ma_ibhadra-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+765,765,KG,96,96,wa,14,56,2,2,96,96,wa,69,7,1,gNod sbyin nor bu bzang po'i rtog pa,Ma_ibhadra-yak_asena-kalpa,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+766,766,KG,96,96,wa,15,69,7,1,96,96,wa,81,7,2,gNod sbyin gyi sde dpon chen po gar mkhan mchog gi brtag pa,Mah_yak_asen_patinartakaparakalpa,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+767,767,KG,96,96,wa,16,81,7,2,96,96,wa,89,1,1,gNod sbyin gar mkhan mchog gi rgyud,Yak_aparamana_a-tantra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+768,768,KG,96,96,wa,17,89,1,1,96,96,wa,89,7,2,gNod 'dzin dpal zhes bya ba'i gzungs,Jambhala_r_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+769,769,KG,96,96,wa,18,89,7,2,96,96,wa,90,6,1,gNod 'dzin chu dbang snying rje can gyi gzungs bde byed,K_ru_ik_ryajambhala-jalendra-su_a_kara-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+770,770,KG,96,96,wa,19,90,6,1,96,96,wa,104,3,1,gNod gnas dbang po ci ltar 'byung ba'i rtog pa,Jambhala-jalendrayath_labdha-kalpa,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+771,771,KG,96,96,wa,20,104,3,1,96,96,wa,105,7,2,gNod 'dzin gyi mtshan brgya rtsa brgyad pa zhes bya ba,Jambhala-n_m___a_ataka,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+772,772,KG,96,96,wa,21,105,7,2,96,96,wa,112,1,1,Me kha laa zhes bya ba'i gzungs,Mekhal_-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+773,773,KG,96,96,wa,22,112,1,1,96,96,wa,112,4,2,Rig sngags kyi rgyal po bdugs chen po zhes bya ba,Vidy_r_ja-mah_tantra *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+774,774,KG,96,96,wa,23,112,4,2,96,96,wa,112,5,2,Rin po che bdar ba'i gzungs,Ratnasa_ghar_a_a-mantra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+775,775,KG,96,96,wa,24,112,5,2,96,96,wa,112,7,2,bsKor ba'i gzungs,Pradak_i__-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+776,776,KG,96,96,wa,25,112,7,2,96,96,wa,113,3,1,dKon mchog gi rten la bskor ba bya ba'i gzungs zhes bya ba,Pradak_i__-ratnatraya-n_ma-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+777,777,KG,96,96,wa,26,113,3,1,96,96,wa,113,1,2,Yon yongs su sbyong ba,Dak_i__-pari_odhan_,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+778,778,KG,96,96,wa,27,113,1,2,96,96,wa,113,3,2,Yon yongs su sbyong ba,Dak_i__-pari_odhan_,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+779,779,KG,96,96,wa,28,113,3,2,96,96,wa,113,5,2,Phyag bya ba'i gzungs,Namask_ra-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+780,780,KG,96,96,wa,29,113,5,2,96,96,wa,114,1,1,Gos brgya thob pa'i gzungs,_atavastrapr_pik_-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+781,781,KG,96,96,wa,30,114,1,1,96,96,wa,114,2,1,Mi dga' bar byed pa'i gzungs,Ar_gak_rik_-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+782,782,KG,96,96,wa,31,114,2,1,96,96,wa,114,5,1,Ngan song thams cad yongs su sbyong ba zhes bya ba'i gzungs,Sarvadurgatipari_odhan_-n_ma-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+783,783,KG,96,96,wa,32,114,5,1,96,96,wa,114,7,1,sKran zhi ba'i gzungs,Gulmapra_aman_-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+784,784,KG,96,96,wa,33,114,7,1,96,96,wa,114,1,2,Ma zhu ba'i nad 'byang ba'i gzungs,Apacanaroganiv_ra__-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+785,785,KG,96,96,wa,34,114,1,2,96,96,wa,114,3,2,sDang ba thams cad rab tu zhi bar byed ba'i gzungs,Sarvadve_apra_aman_-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+786,786,KG,96,96,wa,35,114,3,2,96,96,wa,114,5,2,sDig pa thams cad rab tu zhi bar byed pa zhes bya ba'i gzungs,Sarvap_papra_aman_-n_ma-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+787,787,KG,96,96,wa,36,114,5,2,96,96,wa,114,7,2,Khro ba zhi bar byed pa'i gzungs,Krodhapra_aman_-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+788,788,KG,96,96,wa,37,114,7,2,96,96,wa,115,1,1,Khros pa zhi bar byed pa'i gzungs,Krodhapra_aman_-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+789,789,KG,96,96,wa,38,115,1,1,96,96,wa,115,4,1,Tshig bstan pa'i gzungs,Vacanaprabh_vakar_-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+790,790,KG,96,96,wa,39,115,4,1,96,96,wa,115,5,1,bDag bsrung ba'i gzungs,_tmarak__-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+791,791,KG,96,96,wa,40,115,5,1,96,96,wa,115,1,2,Yid du 'ong ba,Manoj–_ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+792,792,KG,96,96,wa,41,115,1,2,96,96,wa,115,3,2,mGrin pa snyan pa'i gzungs,Ka__hapriya_kar_-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+793,793,KG,96,96,wa,42,115,3,2,96,96,wa,115,5,2,Don thams cad 'grub pa'i gzungs,Sarv_rthasiddhikar_-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+794,794,KG,96,96,wa,43,115,5,2,96,96,wa,116,2,1,Las grub pa'i gzungs,Karmasiddhikar_-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+795,795,KG,96,96,wa,44,116,2,1,96,96,wa,116,5,1,Dug zhi bar byed pa,Vi_apra_aman_ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+796,796,KG,96,96,wa,45,116,5,1,96,96,wa,116,6,1,bCings pa las grol ba'i gzungs,Bandhanamocan_-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+797,797,KG,96,96,wa,46,116,6,1,96,96,wa,116,1,2,bDud thams cad skrag par byed pa,Sarvam_ra-tr_sakar_ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+798,798,KG,96,96,wa,47,116,1,2,96,96,wa,116,3,2,rMa 'byor bar byed pa zhes bya ba'i gzungs sngags,Vra_apari_odhan_-n_ma-mantra-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+799,799,KG,96,96,wa,48,116,3,2,96,96,wa,116,4,2,Me'i zug rngu rab tu zhi bar byed pa'i gzungs,Pittaroganiv_ra_a-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+800,800,KG,96,96,wa,49,116,4,2,96,96,wa,116,6,2,mKhris pa'i nad sel ba'i sngags,Pittaroganiv_ra_a-mantra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+801,801,KG,96,96,wa,50,116,6,2,96,96,wa,116,7,2,Bad kan gyi nad sel ba'i gzungs,Prasekaroganiv_ra_a-dh_ra_i *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+802,802,KG,96,96,wa,51,116,7,2,96,96,wa,117,2,1,K+.sa ya'i nad sel ba'i sngags,K_ayaroganiv_ra_a-mantra *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+803,803,KG,96,96,wa,52,117,2,1,96,96,wa,117,4,1,Rims dang srog chags kyis mi tshugs pa zhes bya ba'i gzungs,Jvare_a-jantun_ ca n_vasara-pr_ptikara-mantra *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+804,804,KG,96,96,wa,53,117,4,1,96,96,wa,118,1,1,Lus kyi zag pa sbyin par gtang ba'i gzungs,K_y__ravad_nakar_-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+805,805,KG,96,96,wa,54,118,1,1,96,96,wa,141,1,1,dPung bzangs gis zhus pa zhes bya ba'i rgyud,Sub_huparip_cch_-n_ma-tantra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+806,806,KG,96,96,wa,55,141,1,1,96,96,wa,168,1,1,dKyil 'khor thams cad kyi spyi'i cho ga gsang ba'i rgyud,Sarvama__ala-s_m_nyavidh_n_m-guhya-tantra,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+807,807,KG,96,96,wa,56,168,1,1,96,96,wa,223,1,1,Legs par grub par byed pa'i rgyud chen po las sgrub pa'i thabs rim par phye ba,Susiddhikara-mah_tantra-s_dhanop_yika-pa_ala,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+808,808,KG,96,96,wa,57,223,1,1,96,96,wa,226,1,1,bSam gtan gyi phyi ma rim par phye ba,Dhy_nottara-pa_ala-krama,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+809,809,KG,96,96,wa,58,226,1,1,96,96,wa,229,3,1,dGongs pa'i rgyud kyi phreng ba chen po byang chub sems dpa'i rnam par nges pa chen po bstan pa las nor bu rin po che la mkhas pa bstan pa yongs su bsngo ba chen po'i rgyal po zhes bya ba,Sandhim_l_-mah_tantra-bodhisattva-mah_vini_caya-nirde__n mah_ma_iratna- kau_alyanirde_a-mah_pari__ma-r_ja-n_ma,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+810,810,KG,96,96,wa,59,229,3,1,96,96,wa,250,4,2,Yongs su bsngo ba'i rgyal po chen po sngags dang bcas pa,Mah_pari__mar_ja-samantraka,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+811,811,KG,96,96,wa,60,250,4,2,96,96,wa,251,5,1,dPal legs par grub par byed pa'i rgyud chen po las byung ba'i smon lam,_r_-susiddhikara-mah_tantroddh_ta-pra_idh_na *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+812,812,KG,96,96,wa,61,251,5,1,96,96,wa,253,2,1,sPyan ras gzigs dbang phyug yid bzhin gyi nor bu'i rtog pa las smon lam 'byung ba,Avalokite_varacint_ma_i-kalpoddh_tapra_idh_na,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+813,813,KG,96,96,wa,62,253,2,1,96,96,wa,254,6,1,sTong chen mo rab tu 'joms pa las gsungs pa'i smon lam,Mah_sahasrapramardana-prokta-pra_idh_na *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+814,814,KG,96,96,wa,63,254,6,1,96,96,wa,254,4,2,Rig sngags kyi rgyal mo rma bya chen mo las gsungs ba'i smon lam dang bden tshig,Vidy_mantrar_j–_-mah_m_y_r_-bh__ita-pra_idh_na-satyav_kya *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+815,815,KG,96,96,wa,64,254,4,2,96,96,wa,256,7,1,sByin pa'i rabs las 'byung ba'i smon lam,D_n_vasaroddh_tapra_idh_na *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+816,816,KG,96,96,wa,65,256,7,1,96,96,wa,257,5,1,Yangs pa'i grong khyer du 'jug pa'i mdo las 'byung ba'i bde legs kyi tshigs su bcad pa,Vai__l_nagaraprave_a-s_troddh_ta-svastig_th_ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+817,817,KG,96,96,wa,66,257,5,1,96,96,wa,258,7,2,bDe legs kyi tshigs su bcad pa,Svastig_th_,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+818,818,KG,96,96,wa,67,258,7,2,96,96,wa,259,1,2,bDe legs su 'gyur ba'i tshigs su bcad pa,Svastyayanag_th_,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+0819?,819,KG,96,96,wa,68,259,1,2,96,96,wa,260,5,1,lHas zhus pa'i bkra shis kyi tshigs su bcad pa,Devaparip_cch_-ma_galag_th_,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+820,820,KG,96,96,wa,69,260,5,1,96,96,wa,261,1,1,De bzhin gshegs pa rigs lnga 'khor dang bcas pa lha sum cu rtsa bdun gyi bkra shis tshigs su bcad pa,Pa–cakula-tath_gata-sapariv_ra-trayatri__addeva-ma_galag_tha *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+821,821,KG,96,96,wa,70,261,1,1,96,96,wa,261,1,2,Sangs rgyas rabs bdun gyi bkra shis kyi tshigs su bcad pa,Saptabuddhaparampar_-ma_gala-g_th_ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+822,822,KG,96,96,wa,71,261,1,2,96,96,wa,261,7,2,De bzhin gshegs pa lnga'i bkra shis kyi tshigs su bcad pa,Pa–catath_gata-ma_galag_th_,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+823,823,KG,96,96,wa,72,261,7,2,96,96,wa,262,3,1,dPal rigs gsum gyi bkra shis,_r_trikula-ma_gala *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+824,824,KG,96,96,wa,73,262,3,1,96,96,wa,262,7,1,dKon mchog gsum gyi bkra shis kyi tshigs su bcad pa,Ratnatraya-ma_galag_th_,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+825,825,KG,96,96,wa,74,262,7,1,96,96,wa,262,3,2,Rigs gsum gyi bkra shis,Trikulama_gala *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+826,826,KG,96,96,wa,75,262,3,2,96,96,wa,263,7,2,bKra shis kyi tshigs su bcad pa,Ma_galag_th_,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+827,827,KG,96,96,wa,76,263,7,2,96,96,wa,264,6,1,dKon mchog gsum gyi bkra shis kyi tshigs su bcad pa,Ratnatrayasvasti-g_th_,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+828,828,KG,97,97,ka,1,1,1,2,97,97,ka,86,1,2,Chos thams cad rdzogs pa chen po byang chub kyi sems kun byed rgyal po,Sarvadharma-mah_sa_dhi-bodhicitta-kular_ja,K rNying rgyud,rNying rgyud,"[ mDzog-chen, Sems-sde Root tantra ]"
+829,829,KG,97,97,ka,2,86,1,2,97,97,ka,290,1,2,De bzhin gshegs pa thams cad kyi thugs gsang ba'i ye shes don gyi snying po rdo rje bkod pa'i rgyud rnal 'byor grub pa'i lung kun 'dus rig pa'i mdo theg pa chen po mngon par rtogs pa chos kyi rnam grangs rnam par bkod pa zhes bya ba'i mdo,Sarvatath_gatacittaj–_na-guhy_rthagarbha-vy_ha-vajratantra-siddhi-yog_gama-sam_ja-sarvavidy_-s_tra-mah_y_na-abhisamaya-dharmapary_ya-vy_ha-n_ma-s_tra,K rNying rgyud,rNying rgyud,[ Anuyoga Root tantra ]
+830,830,KG,97,97,ka,3,290,1,2,97,97,ka,358,7,1,De bzhin gshegs pa thams cad kyi gsang ba gsang ba'i mdzod chen po mi zad pa gter gyi sgron ma brtul zhugs chen po bsgrub pa'i rgyud ye shes rngam pa glog gi 'khor lo zhe bya ba theg pa chen po'i mdo,Sarvatath_gata-guhya-mah_guhya-ko__k_ayanidhid_pa-mah_prat_pa-s_dhana-tantra-j–_n__caryadyuticakra-n_ma-mah_y_na-s_tra,K rNying rgyud,rNying rgyud,[ Anuyoga? ]
+831,831,KG,98,98,kha,1,1,1,2,98,98,kha,110,1,2,De bzhin gshegs pa thams cad kyi thugs gsang ba'i ye shes don gyi snying po khro bo rdo rje'i rigs kun 'dus rig pa'i mdo rnal 'byor grub pa'i rgyud ces bya ba theg pa chen po'i mdo,Sarvatath_gata-citta-guhya-j–_n_rthagarbha-krodha-vajrakula-tantra-pi__artha-vidyas_tra-yogasiddha-n_ma-mah_y_na-s_tra,K rNying rgyud,rNying rgyud,[ Anuyoga? ]
+832,832,KG,98,98,kha,2,110,1,2,98,98,kha,132,1,2,dPal gsang ba'i snying po de kho na nyid rnam par nges pa,_r_-guhyagarbha-tattva-vini_caya,K rNying rgyud,rNying rgyud,[ rNal-'byor-chen-po ]
+833,833,KG,98,98,kha,3,132,1,2,98,98,kha,198,1,2,rDo rje sems dpa'i sgyu 'phrul dra ba gsang ba thams cad gyi me long zhes bya ba'i rgyud,Vajrasattva-m_y_j_la-guhya-sarv_dar_a-n_ma-tantra,K rNying rgyud,rNying rgyud,[ rNal-'byor-chen-po ]
+834,834,KG,98,98,kha,4,198,1,2,98,98,kha,299,1,1,gSang ba'i snying po de kno na nyid nges pa,Guhyagarbhatattvanir_ayakar_*,K rNying rgyud,rNying rgyud,[ rNal-'byor-chen-po ]
+835,835,KG,98,98,kha,5,299,1,1,98,98,kha,311,7,1,Thabs kyi zhags pa pa+d+mo'i phreng zhes bya ba,Up_yap__a-padmam_l_-n_ma *,K rNying rgyud,rNying rgyud,[ rNal-'byor-chen-po ]
+836,836,KG,99,99,ga,1,1,1,2,99,99,ga,34,3,2,lHa mo sgyu 'phrul dra ba chen po zhes bya ba'i rgyud,Dev_j_la-mah_m_y_-tantra-n_ma,K rNying rgyud,rNying rgyud,[ rNal-'byor-chen-po ]
+837,837,KG,99,99,ga,2,34,3,2,99,99,ga,60,5,1,gSang ba'i snying po de kho na nyid nges pa'i bla ma chen po,Mah_guru-guhya-garbha-tattvanir_ayakar_ *,K rNying rgyud,rNying rgyud,[ rNal-'byor-chen-po ]
+838,838,KG,99,99,ga,3,60,5,1,99,99,ga,77,6,1,'Jam dpal las bzhi 'khor lo gsang ba'i rgyud,Ma–ju_r_-karma-catu_cakra-guhya-tantra,K rNying rgyud,rNying rgyud,[ rNal-'byor-chen-po: 1st root tantra  (Manjushrii) of 8 sGrub-sde ]
+839,839,KG,99,99,ga,4,77,6,1,99,99,ga,130,1,1,De bzhin gshegs pa thams cad kyi dgongs pa bla na med pa gsang ba rta mchog rol pa'i rgyud chen po,Sarvatath_gata-buddh_nuttara-guhy__vottama-v___samat_-mah_tantra,K rNying rgyud,rNying rgyud,[ rNal-'byor-chen-po ]
+840,840,KG,99,99,ga,5,130,1,1,99,99,ga,202,3,1,dPal he ru ka snying rje rol pa'i rgyud gsang ba zab mo'i mchog ces bya ba,_r_-heruka-karu__kr__ita-tantra-guhya-ga_bh_rottama-n_ma,K rNying rgyud,rNying rgyud,[ rNal-'byor-chen-po ]
+841,841,KG,99,99,ga,6,202,3,1,99,99,ga,222,5,1,Thams cad bdud rtsi lnga'i rang bzhin dngos grub chen po nye ba'i snying po mchog bam po chen po rgyad pa,Sarvapa–c_m_tas_ra-siddhimahad-gata-h_daya-parivart___aka-prathamaparivarta,K rNying rgyud,rNying rgyud,[ rNal-'byor-chen-po ]
+842,842,KG,99,99,ga,8,223,6,2,99,99,ga,253,3,1,mKha' 'gro ma me lce 'bar ba'i rgyud,.D_kin_-agnijihv_jv_l_-tantra,K rNying rgyud,rNying rgyud,"[ rNal-'byor-chen-po, Grub-sde--Root tantra of 6th of 8 grub-sde tantras ]"
+843,843,KG,99,99,ga,10,253,5,1,99,99,ga,268,1,1,Drag sngags 'dus pa rdo rje rtsa ba'i rgyud,Vajramantrabh_rusandhi-m_latantra,K rNying rgyud,rNying rgyud,"[ rNal-'byor-chen-po, Grub-sde--Root tantra of 8th of 8 grub-sde tantras ]"
+844,844,KG,99,99,ga,11,268,1,1,99,99,ga,287,7,1,'Jig rten mchod bstod sgrub pa rtsa ba'i rgyud ,Lokastotrap_j_kalpa-m_latantra,K rNying rgyud,rNying rgyud,[ rNal-'byor-chen-po ]
+845,845,KG,100,100,shrii,1,1,1,2,100,100,shrii,469,7,1,bsDus pa'i rgyud kyi rgyal po dus kyi 'khor lo'i 'grel bshad rtsa ba'i rgyud kyi rjes su 'jug pa stong phrag bcu gnyis pa dri ma med pa'i 'od,Vimalaprabh_-n_ma-m_latantra-anus_ri__-dv_da_a-s_hasrik_-laghu-k_lacakra-tantrar_ja-.t_k_,K Dus 'khor 'grel bshad,Dus 'khor,
+5545,846,KG,101,101,e,1,1,1,2,101,101,e,3,1,2,sPyan 'dren rgyud gsum pa,_mantra_a-tantra-trika *,K gZungs 'dus,gZungs 'dus,
+847,847,KG,101,101,e,3,3,6,2,101,101,e,55,1,1,dKon mchog ta la la'i gzungs zhes bya ba theg pa chen po'i mdo,Ratnolka-n_ma-dh_ra__-mah_y_na-s_tra,K gZungs 'dus,gZungs 'dus,
+848,848,KG,101,101,e,4,55,1,1,101,101,e,57,1,2,Ye shes ta la la zhes bya ba'i gzungs 'gro ba thams cad yongs su sbyong ba,J–_nolka-n_ma-dh_ra__-sarvagati-pari_odhan_,K gZungs 'dus,gZungs 'dus,
+849,849,KG,101,101,e,5,57,1,2,101,101,e,62,6,1,Tshe dang ye shes dpag tu med pa zhes bya ba theg pa chen po'i mdo,Aparimit_yurj–_na-n_ma-mah_y_na-s_tra,K gZungs 'dus,gZungs 'dus,
+850,850,KG,101,101,e,6,62,6,1,101,101,e,64,3,1,Tshe dang ye shes dpag tu med pa'i snying po zhes bya ba'i gzungs,Aparimit_yurj–_na-h_daya-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+851,851,KG,101,101,e,7,64,3,1,101,101,e,65,1,1,Yon tan bsngags pa dpag tu med pa zhes bya ba'i gzungs,Aparimit_-gu__nu_a_s_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+852,852,KG,101,101,e,8,65,1,1,101,101,e,69,1,1,Sangs rgyas bdun pa zhes bya ba theg pa chen po'i mdo,Saptabuddhaka-n_ma-mah_y_na-s_tra,K gZungs 'dus,gZungs 'dus,
+853,853,KG,101,101,e,9,69,1,1,101,101,e,72,1,2,Sangs rgyas bcu gnyis pa zhes bya ba theg pa chen po'i mdo,Dv_da_abuddhaka-n_ma-mah_y_na-s_tra,K gZungs 'dus,gZungs 'dus,
+854,854,KG,101,101,e,10,72,1,2,101,101,e,74,6,2,Sangs rgyas kyi snying po zhes bya ba'i gzungs kyi chos kyi rnam grangs,Buddhah_daya-n_ma-dh_ra__-dharmapary_ya,K gZungs 'dus,gZungs 'dus,
+855,855,KG,101,101,e,11,74,6,2,101,101,e,76,6,1,Sangs rgyas kyi snying po zhes bya ba'i gzungs,Buddhah_daya-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+856,856,KG,101,101,e,12,76,6,1,101,101,e,77,7,2,Sangs rgyas thams cad kyi yan lag dang ldan pa zhes bya ba'i gzungs,Sarvabuddh__gavat_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+857,857,KG,101,101,e,13,77,7,2,101,101,e,79,5,2,Tsa+n+dan gyi yan lag ces bya ba'i gzungs,Candan__ga-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+858,858,KG,101,101,e,14,79,5,2,101,101,e,85,1,2,Rig sngags kyi rgyal po sgron ma mchog gi gzungs,Agraprad_pa-dh_ra__-vidy_r_ja,K gZungs 'dus,gZungs 'dus,
+859,859,KG,101,101,e,15,85,1,2,101,101,e,87,1,1,dBang bskur ba zhes bya ba'i gzungs,Abhi_ecan_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+860,860,KG,101,101,e,16,87,1,1,101,101,e,87,2,1,Shaa+kya thub pa'i snying po'i gzungs,__kyamuni-h_daya-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+861,861,KG,101,101,e,17,87,2,1,101,101,e,87,6,1,rNam par snang mdzad kyi snying po zhes bya ba'i gzungs,Vairocana-h_daya-n_ma-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+862,862,KG,101,101,e,18,87,6,1,101,101,e,87,1,2,De bzhin gshegs pa sman gyi bla'i snying po'i gzungs,Tath_gata-bhai_ajyaguru-h_daya-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+863,863,KG,101,101,e,19,87,1,2,101,101,e,87,4,2,rGyal ba'i bla ma'i gzungs,Jinaguru-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+864,864,KG,101,101,e,20,87,4,2,101,101,e,88,2,1,bCom ldan 'das snang ba mtha' yas kyi gzungs sngags,Bhagavadamit_bha-dh_ra__-mantra,K gZungs 'dus,gZungs 'dus,
+865,865,KG,101,101,e,21,88,2,1,101,101,e,88,5,1,'Od dpag med mthong ba'i gzungs,Amit_bha-dar_ana-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+866,866,KG,101,101,e,22,88,5,1,101,101,e,88,4,2,Pa+d+ma'i spyan zhes bya ba'i gzungs,Padmalocana-n_ma-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+867,867,KG,101,101,e,23,88,4,2,101,101,e,88,6,2,sNang ba mtha' yas rjes su dran pa,Amit_bh_nusm_ti *,K gZungs 'dus,gZungs 'dus,
+868,868,KG,101,101,e,24,88,6,2,101,101,e,89,2,1,Zla ba'i 'od kyi mtshan rjes su dran pa,Candraprabha-n_ma-anusm_ti *,K gZungs 'dus,gZungs 'dus,
+869,869,KG,101,101,e,25,89,2,1,101,101,e,89,3,1,De bzhin gshegs pa'i spyi'i snying po rjes su dran pa,S_m_nya-tath_gata-h_day_nusm_ti *,K gZungs 'dus,gZungs 'dus,
+870,870,KG,101,101,e,26,89,3,1,101,101,e,89,4,1,Sangs rgyas rin chen gtsug tor gyi mtshan rjes su dran pa,Ratno____abuddha-n_ma-anusm_ti *,K gZungs 'dus,gZungs 'dus,
+871,871,KG,101,101,e,27,89,4,1,101,101,e,92,7,2,Dri ma med pa zhes bya ba'i gzungs,Vimal_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+872,872,KG,101,101,e,28,92,7,2,101,101,e,96,1,1,Khyad par can zhes bya ba'i gzungs,Vi_e_avat_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+873,873,KG,101,101,e,29,96,1,1,101,101,e,100,5,2,Sangs rgyas bcom ldan 'das kyi mtshan brgya rtsa brgyad pa gzungs sngags dang bcas pa,Bhagavato buddhasya a__ottara_atam-n_m_ni mantradh_ra__-sahit_ni *,K gZungs 'dus,gZungs 'dus,
+874,874,KG,101,101,e,30,100,5,2,101,101,e,103,2,1,sPyan ras gzigs dbang phyug gi mtshan brgya rtsa brgyad pa gzungs sngags dang bcas pa,Avalokite_vara-a__ottara_ataka-n_ma-dh_ra__-mantra-sahita *,K gZungs 'dus,gZungs 'dus,
+875,875,KG,101,101,e,31,103,2,1,101,101,e,104,6,2,Byams pa'i mtshan brgya rtsa brgyad pa gzungs sngags dang bcas pa,Maitreyasya a__ottara_atam n_m_ni mantradh_ra__-sahit_ni *,K gZungs 'dus,gZungs 'dus,
+876,876,KG,101,101,e,32,104,6,2,101,101,e,107,3,2,Nam mkha'i snying po'i mtshan brgya rtsa brgyad pa gzungs sngags dang bcas pa,Khagarbh___ottara_ataka-n_ma-dh_ra__-mantra *,K gZungs 'dus,gZungs 'dus,
+877,877,KG,101,101,e,33,107,3,2,101,101,e,111,6,1,Kun tu bzang po'i mtshan brgya rtsa brgyad pa gzungs sngags dang bcas pa,Samantabhadrasya a__ottara_ata_ n_m_ni mantra-dh_ra__-sahit_ni *,K gZungs 'dus,gZungs 'dus,
+878,878,KG,101,101,e,34,111,6,1,101,101,e,114,3,1,Lag na rdo rje'i mtshan brgya rtsa brgyad pa gzungs sngags dang bcas pa,Vajap__er a__ottara_ata_ n_m_ni mantradh_ra__-sahit_ni *,K gZungs 'dus,gZungs 'dus,
+879,879,KG,101,101,e,35,114,3,1,101,101,e,117,2,2,'Jam dpal gzhon nur 'gyur pa'i mtshan brgya rtsa brgyad pa gzungs sngags dang bcas pa,Ma–ju_r_-kum_rabh_tasya a__ottara_ata_ n_m_ni mantra-dh_ra__-sahit_ni *,K gZungs 'dus,gZungs 'dus,
+880,880,KG,101,101,e,36,117,2,2,101,101,e,119,7,2,sGrib pa thams cad rnam par sel ba'i mtshan brgya rtsa brgyad pa gzungs sngags dang bcas pa,Sarvanivara_a-vi_kambhin_-n_ma-a__ottara_ataka-dh_ra__-mantrasahita *,K gZungs 'dus,gZungs 'dus,
+881,881,KG,101,101,e,37,119,7,2,101,101,e,122,2,1,Sa'i snying po'i mtshan brgya rtsa brgyad pa gzungs sngags dang bcas pa,K_itigarbhasya a__ottara_ata_ n_m_ni mantra-dh_ra__-sahit_ni *,K gZungs 'dus,gZungs 'dus,
+882,882,KG,101,101,e,38,122,2,1,101,101,e,123,2,1,dKyil 'khor brgyad pa zhes bya ba theg pa chen po'i mdo,A__ama__alaka-n_ma-mah_y_na-s_tra,K gZungs 'dus,gZungs 'dus,
+883,883,KG,101,101,e,39,123,2,1,101,101,e,129,3,1,De bzhin gshegs pa thams cad kyi byin gyis brlabs kyi snying po gsang ba ring bsrel gyi za ma tog ces bya ba'i gzungs theg pa chen po'i mdo,Sarvatath_gat_dhi__h_na-h_daya-guhya-dh_tukara___-n_ma-dh_ra__-mah_y_na-s_tra *,K gZungs 'dus,gZungs 'dus,
+884,884,KG,101,101,e,40,129,3,1,101,101,e,135,3,2,Shes pa thams cad mthar phyin par grub pa'i mchod rten zhes bya ba'i gzungs,Sarvaj–_nani__h_gatasiddhikara-caity_-n_ma-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+885,885,KG,101,101,e,41,135,3,2,101,101,e,159,1,2,Nor bu chen po rgyas pa'i gzhal med khang shin tu rab tu gnas pa gsang ba dam pa'i gsang ba'i cho go zhib mo'i rgyal po zhes bya ba'i gzungs,Mah_ma_i-vipula-vim_na-suprati__hita-guhya-paramarahasya-kalpar_ja-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+886,886,KG,101,101,e,42,159,1,2,101,101,e,161,3,2,Me tog brtsegs pa zhes bya ba'i gzungs,Pu_pak__a-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+887,887,KG,101,101,e,43,161,3,2,101,101,e,163,2,1,Sa'i dbang po chen po zhes bya ba'i gzungs,Mah_mah_ndra-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+888,888,KG,101,101,e,44,163,2,1,101,101,e,165,1,2,gZungs chen po,Mah_dh_ra__,K gZungs 'dus,gZungs 'dus,
+889,889,KG,101,101,e,45,165,1,2,101,101,e,165,4,2,bDe ldan gyi snying po,Sukh_vat_-h_daya *,K gZungs 'dus,gZungs 'dus,
+890,890,KG,101,101,e,46,165,4,2,101,101,e,166,5,1,Byams pas dam bcas pa zhes bya ba'i gzungs,Maitreya pratij–_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+891,891,KG,101,101,e,47,166,5,1,101,101,e,166,4,2,sGrib pa rnam par sel ba zhes bya ba'i gzungs,_vara_avi_kambhik_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+892,892,KG,101,101,e,48,166,4,2,101,101,e,167,3,1,'Jam dpal gyi zhal nas gsungs pa zhes bya ba'i gzungs,Ma–ju_r_-sv_khy_ta-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+893,893,KG,101,101,e,49,167,3,1,101,101,e,167,3,2,'Jam dpal gyis dmod btsugs pa zhes bya ba'i gzungs,Ma–ju_r___pa_ha-n_ma-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+894,894,KG,101,101,e,50,167,3,2,101,101,e,167,5,2,'Jam dpal gyi mtshan,Ma–ju_r_ *,K gZungs 'dus,gZungs 'dus,
+895,895,KG,101,101,e,51,167,5,2,101,101,e,168,2,1,rJe btsun 'phags pa 'jam dpal gyi shes rab dang blo 'phel ba zhes bya ba'i gzungs,Ma–ju_r_-praj–_-buddhivardhan_-bha___raka-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+896,896,KG,101,101,e,52,168,2,1,101,101,e,168,6,1,'Jam dpal gyi yi ge 'bru gcig pa'i cho ga,Ma–ju_r_-ek_k_ara-vidhi *,K gZungs 'dus,gZungs 'dus,
+897,897,KG,101,101,e,53,168,6,1,101,101,e,205,5,1,Byang chub sems dpa' spyan ras gzigs dbang phyug phyag stong spyan stong dang ldan pa thogs pa mi mnga' ba'i thugs rje chen po'i sems rgya cher yongs su rdzogs pa zhes bya ba'i gzungs,Sahasrabhujasahasralocana-apratihata-mah_k_ru_ika-suparini_pannacitta-bodhisattva-avalokite_vara-n_ma *,K gZungs 'dus,gZungs 'dus,
+898,898,KG,101,101,e,54,205,5,1,101,101,e,213,6,1,sPyan ras gzigs dbang phyug gi gsang ba'i mdzod thogs pa med pa'i yid bzhin gyi 'khor lo'i snying po zhes bya ba'i gzungs,Apratihataprabh_sako_a-manomayacakra-avalokite_varah_daya-n_ma-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+899,899,KG,101,101,e,55,213,6,1,101,101,e,215,1,2,sPyan ras gzigs dbang phyug zhal bcu gcig pa zhes bya ba'i gzungs,Avalokite_vara-ek_da_amukh_-n_ma-dh_ra_i,K gZungs 'dus,gZungs 'dus,
+900,900,KG,101,101,e,56,215,1,2,101,101,e,217,2,2,sPyan ras gzigs dbang phyug mtshan brgya rtsa brgyad pa,Avalokite_vara-n_ma-a__a_ataka,K gZungs 'dus,gZungs 'dus,
+901,901,KG,101,101,e,57,217,2,2,101,101,e,223,7,2,Don yod zhags pa'i snying po zhes bya ba theg pa chen po'i mdo,Amoghap__a-h_daya-n_ma-mah_y_na-s_tra,K gZungs 'dus,gZungs 'dus,
+902,902,KG,101,101,e,58,223,7,2,101,101,e,226,4,2,Sa bcu pa'i gzungs,Da_abh_mi-dh_ra__,K gZungs 'dus,gZungs 'dus,
+903,903,KG,101,101,e,59,226,4,2,101,101,e,228,3,2,Don yod zhags pa'i pha rol tu phyin pa drug yongs su rdzogs par byed pa zhes bya ba'i gzungs,Amoghap__a-p_ramit_-.sa_parip_rik_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+904,904,KG,101,101,e,60,228,3,2,101,101,e,231,1,1,Kun tu bzang po zhes bya ba'i gzungs,Samantabhadra-n_ma-dh_ra_i,K gZungs 'dus,gZungs 'dus,
+905,905,KG,101,101,e,61,231,1,1,101,101,e,232,7,1,Nii la ka.n+.tha zhes bya ba'i gzungs,N_laka__ha-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+906,906,KG,101,101,e,62,232,7,1,101,101,e,233,5,1,sPyan ras gzigs dbang phyug ha ya g+rii ba'i gzungs,Avalokite_vara-hayagr_va-dh_ra__,K gZungs 'dus,gZungs 'dus,
+907,907,KG,101,101,e,63,233,5,1,101,101,e,239,3,1,Me kha laa zhes bya ba'i gzungs,Mekhal_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+908,908,KG,101,101,e,64,239,3,1,101,101,e,240,2,1,sNying rjes mi bshol ba zhes bya ba'i gzungs,Karu_ay_-'vir_m_-n_ma-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+909,909,KG,101,101,e,65,240,2,1,101,101,e,241,4,2,sPyan ras gzigs dbang phyug gi yum zhes bya ba'i gzungs,Avalokite_varam_t_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+910,910,KG,101,101,e,66,241,4,2,101,101,e,242,4,1,sPyan ras gzigs dbang phyug gi gzungs,Avalokite_vara-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+911,911,KG,101,101,e,67,242,4,1,101,101,e,242,7,1,sPyan ras gzigs kyi snying po,Avalokita-h_daya *,K gZungs 'dus,gZungs 'dus,
+912,912,KG,101,101,e,68,242,7,1,101,101,e,242,3,2,Seng ge sgras dam bcas pa'i gzungs,Si_han_dapratij–_-dhara__ *,K gZungs 'dus,gZungs 'dus,
+913,913,KG,101,101,e,69,242,3,2,101,101,e,244,6,2,sNying rje'i mchog ces bya ba'i gzungs,Karu__gra-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+914,914,KG,101,101,e,70,244,6,2,101,101,e,255,1,1,sGo mtha' yas pas sgrub pa zhes bya ba'i gzungs,Anantamukha-s_dhik_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+915,915,KG,101,101,e,71,255,1,1,101,101,e,260,1,2,sGo bzang po zhes bya ba'i gzungs,Sumukha-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+916,916,KG,101,101,e,72,260,1,2,101,101,e,261,5,1,sGo drug pa zhes bya ba'i gzungs ,.Sa_mukh_ n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+917,917,KG,101,101,e,73,261,5,1,101,101,e,262,2,1,Yi ge drug pa'i rig sngags,.Sa_ak_ara-vidy_,K gZungs 'dus,gZungs 'dus,
+918,918,KG,101,101,e,74,262,2,1,101,101,e,262,1,2,Tshigs su bcad pa gnyis pa'i gzungs,G_th_-dvaya-dh_ra__,K gZungs 'dus,gZungs 'dus,
+919,919,KG,101,101,e,75,262,1,2,101,101,e,264,3,1,Lus kyi dbyibs mdzes zhes bya ba'i gzungs,Rucir_gaya__hi-n_ma-dh_ra_i,K gZungs 'dus,gZungs 'dus,
+920,920,KG,101,101,e,76,264,3,1,101,101,e,265,1,1,Byang chub kyi snying po'i rgyan 'bum gyi gzungs,Bodhigarbh_la_k_ralak_a-dh_ra__,K gZungs 'dus,gZungs 'dus,
+921,921,KG,101,101,e,77,265,1,1,101,101,e,265,1,2,mChod rten gcig btab na bye ba btab par 'gyur ba'i gzungs,Ekacaityanirvapa_e ko_i ( caitya ) nirvapa_akar_-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+922,922,KG,101,101,e,78,265,1,2,101,101,e,267,7,1,gTsug gi nor bu zhes bya ba'i gzungs,C___ma_i-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+923,923,KG,101,101,e,79,267,7,1,101,101,e,268,7,2,rGyal mtshan gyi rtse mo'i dpung rgyan zhes bya ba'i gzungs,Dhvaj_grakey_ra-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+924,924,KG,101,101,e,80,268,7,2,101,101,e,271,5,1,gSer can zhes bya ba'i gzungs,Kanakavat_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+925,925,KG,101,101,e,81,271,5,1,101,101,e,272,4,2,Thams cad la mi 'jigs pa rab tu sbyin pa zhes bya ba'i gzungs,Sarv_bhayaprad_-n_ma-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+926,926,KG,101,101,e,82,272,4,2,101,101,e,273,4,2,Bar du gcod pa thams cad rnam par sbyong ba zhes bya ba'i gzungs,Sarv_ntar_yika-vi_odhan_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+927,927,KG,101,101,e,83,273,4,2,101,101,e,276,1,1,'Gro lding ba'i rig sngags kyi rgyal po,Drami_a-vidy_r_ja,K gZungs 'dus,gZungs 'dus,
+928,928,KG,101,101,e,84,276,1,1,101,101,e,277,4,2,gZhan gyis mi thub pa mi 'jigs pa sbyin pa zhes bya ba,Abhayaprad_-n_ma-apar_jit_,K gZungs 'dus,gZungs 'dus,
+929,929,KG,101,101,e,85,277,4,2,101,101,e,279,7,1,gZhan gyis mi thub pa'i rin po che'i phreng ba zhes bya ba,Ratnam_l_-n_ma-apar_jit_,K gZungs 'dus,gZungs 'dus,
+930,930,KG,101,101,e,86,279,7,1,101,101,e,279,7,2,sTong 'gyur zhes bya ba'i gzungs,Sahasrabh_vin_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+931,931,KG,101,101,e,87,279,7,2,101,101,e,280,2,2,'Jigs pa chen po brgyad las sgrol ba zhes bya ba'i gzungs,A__amah_bhayat_ra__-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+932,932,KG,101,101,e,88,280,2,2,101,101,e,280,6,2,Shes rab kyi pha rol tu phyin pa stong phrag brgya pa'i gzungs,Praj–_p_ramit_-_atas_hasrik_-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+933,933,KG,101,101,e,89,280,6,2,101,101,e,281,2,1,Shes rab kyi pha rol tu phyin pa stong phrag nyi shu lnga pa'i gzungs,Praj–_p_ramit_pa–cavi__atis_hasrik_-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+934,934,KG,101,101,e,90,281,2,1,101,101,e,281,4,1,Shes rab kyi pha rol tu phyin pa brgyad stong pa'i gzungs,Praj–_p_ramit_-a__as_hasrik_-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+935,935,KG,101,101,e,91,281,4,1,101,101,e,281,7,1,Pha rol tu phyin pa drug gi snying po'i gzungs,.Sa_p_ramit_-h_daya-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+936,936,KG,101,101,e,92,281,7,1,101,101,e,281,6,2,Pha rol tu phyin pa drug gzung bar 'gyur ba'i gzungs,.Sa_p_ramit_-dh_rik_-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+937,937,KG,101,101,e,93,281,6,2,101,101,e,282,1,1,Pha rol tu phyin pa bcu thob par 'gyur ba'i gzungs,Da_ap_ramit_-pr_pik_-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+938,938,KG,101,101,e,94,282,1,1,101,101,e,282,4,1,Tshad med pa bzhi thob par 'gyur ba'i gzungs,Caturpram__a-pr_pik_-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+939,939,KG,101,101,e,95,282,4,1,101,101,e,282,6,1,Shes rab kyi pha rol tu phyin pa stong phrag brgya pa gzungs bar 'gyur ba'i gzungs,Praj–_p_ramit_-_atas_hasrik_-dh_rik_-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+940,940,KG,101,101,e,96,282,6,1,101,101,e,282,7,1,Phal po che gzung bar 'gyur ba'i gzungs,Avata_saka-dh_rik_-dh_ra__,K gZungs 'dus,gZungs 'dus,
+941,941,KG,101,101,e,97,282,7,1,101,101,e,282,2,2,sDong po bkod pa'i snying po ,Ga__avy_ha-h_daya *,K gZungs 'dus,gZungs 'dus,
+942,942,KG,101,101,e,98,282,2,2,101,101,e,282,4,2,Ting nge 'dzin gyi rgyal po'i mdo gzung bar 'gyur ba'i gzungs,Sam_dhir_ja-s_tra-dh_rik_-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+943,943,KG,101,101,e,99,282,4,2,101,101,e,282,5,2,rMa bya chen mo'i snying po,Mah_m_yur_-h_daya *,K gZungs 'dus,gZungs 'dus,
+944,944,KG,101,101,e,100,282,5,2,101,101,e,282,6,2,So sor 'brang ma chen mo gzung bar 'gyur ba'i gzungs,Pratisar_-dh_rik_-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+945,945,KG,101,101,e,101,282,6,2,101,101,e,283,5,1,Lang kar gshegs pa'i mdo thams cad bklags par 'gyur ba'i gzungs sngags,Sarvala_k_vat_ra-s_tra-p__hik_-mantra-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+946,946,KG,102,102,wam,1,1,1,2,102,102,wam,30,5,2,rDo rje ri rab chen po'i rtse mo'i khang pa brtsegs pa'i gzungs,Mah_vajrameru-_ikharak___g_ra-dh_ra__,K gZungs 'dus,gZungs 'dus,
+947,947,KG,102,102,wam,2,30,5,2,102,102,wam,41,1,2,sTobs po che zhes bya ba theg pa chen po'i mdo,Mah_bala-n_ma-mah_y_na-s_tra,K gZungs 'dus,gZungs 'dus,
+0948?,948,KG,102,102,wam,3,41,1,2,102,102,wam,42,1,2,Lag na rdo rje gos sngon po can gyi cho ga zhes bya ba'i gzungs,N_l_mbaradhara-vajrap__i-kalpa-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+949,949,KG,102,102,wam,4,42,1,2,102,102,wam,43,6,2,rDo rje rnam par 'joms pa zhes bya ba'i gzungs,Vajravid_ra__-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+950,950,KG,102,102,wam,5,43,6,2,102,102,wam,45,2,1,Lag na rdo rje mtshan brgyad pa gsang sngags dang bcas pa,Vajrap__i-a__akan_ma-guhyamantra-sahita *,K gZungs 'dus,gZungs 'dus,
+951,951,KG,102,102,wam,6,45,2,1,102,102,wam,45,7,2,Lag na rdo rje bcu'i snying po,Da_avajrap__i-h_daya,K gZungs 'dus,gZungs 'dus,
+952,952,KG,102,102,wam,7,45,7,2,102,102,wam,46,1,1,rMi lam mthong ba zhes bya ba'i gzungs,Svapnadar_ana-n_ma-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+953,953,KG,102,102,wam,8,46,1,1,102,102,wam,46,7,2,rDo rje gnod sbyin gyi bdag po'i gzungs,Vajrap__iyak_apati-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+954,954,KG,102,102,wam,9,46,7,2,102,102,wam,50,1,1,rDo rje mi pham pa me ltar rab tu rmongs byed ces bya ba'i gzungs,Vajr_jit_nalapramohan_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+955,955,KG,102,102,wam,10,50,1,1,102,102,wam,50,3,2,rDo rje phra mo thogs pa med pa zhes bya ba'i gzungs,Vajras_k_m_-pratihata-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+0956?,956,KG,102,102,wam,11,50,3,2,102,102,wam,51,4,2,rDo rje 'jigs byed kyi gzungs zhes bya ba,Vajrabhairava-dh_ra__-n_ma,K gZungs 'dus,gZungs 'dus,
+957,957,KG,102,102,wam,12,51,4,2,102,102,wam,53,6,1,bDud rtsi thab sbyor gyi snying po bzhi pa zhes bya ba'i gzungs,Am_ta-ku__al_-h_daya-caturtha-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+958,958,KG,102,102,wam,13,53,6,1,102,102,wam,55,5,2,Be con chen po zhes bya ba'i gzungs,Mah_da__a-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+959,959,KG,102,102,wam,14,55,5,2,102,102,wam,56,5,1,bGegs sel ba'i gzungs,Vighnavin_yaka-dh_ra__,K gZungs 'dus,gZungs 'dus,
+960,960,KG,102,102,wam,15,56,5,1,102,102,wam,56,5,2,Phyir zlog pa stobs can,Balavat_-n_ma-pratya_gir_,K gZungs 'dus,gZungs 'dus,
+961,961,KG,102,102,wam,16,56,5,2,102,102,wam,57,7,1,Mi rgod rnam par 'joms pa zhes bya ba'i gzungs,Cauravidhva_san_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+962,962,KG,102,102,wam,17,57,7,1,102,102,wam,57,2,2,gTsug tor 'bar ba zhes bya ba'i gzungs,U____ajv_l_-n_ma-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+963,963,KG,102,102,wam,18,57,2,2,102,102,wam,58,1,2,Khro bo mi g.yo ba'i gzungs,Acala-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+964,964,KG,102,102,wam,19,58,1,2,102,102,wam,80,1,1,rDo rje mchu zhes bya ba klu'i dam tshig,Vajratu__a-n_ma-n_gasamaya,K gZungs 'dus,gZungs 'dus,
+965,965,KG,102,102,wam,20,80,1,1,102,102,wam,81,5,2,rDo rje gnam lcags mchu zhes bya ba'i gzungs,Vajralohatu__a-n_ma-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+966,966,KG,102,102,wam,21,81,5,2,102,102,wam,83,2,2,lCags mchu nag po,K____ya-stu__a,K gZungs 'dus,gZungs 'dus,
+967,967,KG,102,102,wam,22,83,2,2,102,102,wam,84,4,1,mDangs phyir 'phrogs pa zhes bya ba'i mdo,Oja_pratya–jana-s_tra,K gZungs 'dus,gZungs 'dus,
+968,968,KG,102,102,wam,23,84,4,1,102,102,wam,85,3,2,Phyir zlog pa 'phags pa rnam par rgyal ba can zhes bya ba,Vijayavat_-n_ma-pratya_gir_,K gZungs 'dus,gZungs 'dus,
+969,969,KG,102,102,wam,24,85,3,2,102,102,wam,86,6,1,Rig sngags kyi rgyal po dbugs chen po zhes bya ba,Vidy_r_ja-mah_tantra-n_ma *,K gZungs 'dus,gZungs 'dus,
+970,970,KG,102,102,wam,25,86,6,1,102,102,wam,87,1,1,Nor bu bzang po'i gzungs zhes bya ba,Ma_ibhadra-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+971,971,KG,102,102,wam,26,87,1,1,102,102,wam,87,7,1,gNod 'dzin chu dbang snying rje can gyi gzungs bde byed ces bya ba,K_ru_ik_rya-jambhala-jalendrasu_a_kara-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+972,972,KG,102,102,wam,27,87,7,1,102,102,wam,89,4,1,gNod 'dzin gyi mtshan brgya rtsa brgyad pa zhes bya ba,Jambhala-n_ma-a__a_ataka,K gZungs 'dus,gZungs 'dus,
+973,973,KG,102,102,wam,28,89,4,1,102,102,wam,90,3,1,gNod 'dzin dpal zhes bya ba'i gzungs,Jambhala_r_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+974,974,KG,102,102,wam,29,90,3,1,102,102,wam,92,7,1,mTshan mo bzang po zhes bya ba'i mdo,Bhadrar_tr_-n_ma-s_tra,K gZungs 'dus,gZungs 'dus,
+975,975,KG,102,102,wam,30,92,7,1,102,102,wam,95,7,1,Chos kyi rgya mtsho zhes bya ba'i gzungs,Dharmas_gara-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+976,976,KG,102,102,wam,31,95,7,1,102,102,wam,96,1,1,Bu mang po rton pa zhes bya ba'i gzungs,Bahuputra-pratisara_a-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+977,977,KG,102,102,wam,32,96,1,1,102,102,wam,96,7,1,gDon mi za ba zhes bya ba'i gzungs,Ni_caya-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+978,978,KG,102,102,wam,33,96,7,1,102,102,wam,96,3,2,gZhan gyis mi thub pa'i rig pa chen mo,Mah_vidy_-apar_jit_,K gZungs 'dus,gZungs 'dus,
+979,979,KG,102,102,wam,34,96,3,2,102,102,wam,99,2,1,rTen cing 'brel bar 'byung ba'i snying po'i cho ga'i gzungs,Prat_tyasamutp_da-h_daya-vidhi-dh_ra__,K gZungs 'dus,gZungs 'dus,
+980,980,KG,102,102,wam,35,99,2,1,102,102,wam,99,7,2,rTen cing 'brel bar 'byung ba zhes bya ba'i theg pa chen po'i mdo,Prat_tyasamutp_da-n_ma-mah_y_na-s_tra,K gZungs 'dus,gZungs 'dus,
+981,981,KG,102,102,wam,36,99,7,2,102,102,wam,100,3,1,rTen cing 'brel bar 'byung ba'i snying po zhes bya ba,Prat_tyasamutp_da-h_daya *,K gZungs 'dus,gZungs 'dus,
+982,982,KG,102,102,wam,37,100,3,1,102,102,wam,110,7,2,'Od zer dri ma med pa rnam par dag pa'i 'od ces bya ba'i gzungs,Ra_mivimala-vi_uddhaprabh_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+983,983,KG,102,102,wam,38,110,7,2,102,102,wam,120,1,1,Kun nas sgor 'jug pa'i 'od zer gtsug tor dri ma med par snang ba de bzhin gshegs pa thams cad kyi snying po dang dam tshig la rnam par lta ba zhes bya ba'i gzungs,Samantamukhaprave_a-ra_mivimalo____a-prabh_sa-sarvatath_gata-h_daya-samayavilokita-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+984,984,KG,102,102,wam,39,120,1,1,102,102,wam,124,7,2,Ngan 'gro thams cad yongs su sbyong ba gtsug tor rnam par rgyal ba zhes bya ba'i gzungs,Sarvadurgati-pari_odhan_-u____avijay_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+985,985,KG,102,102,wam,40,124,7,2,102,102,wam,133,3,2,De bzhin gshegs pa thams cad kyi gtsug tor nas byung ba'i gdugs dkar po can zhes bya ba gzhan gyis mi thub ma phyir zlog pa'i rig sngags kyi rgyal mo chen mo,Sarvatath_gato____asit_tapatr_-n_ma-apar_jita-poratya_gir_-mah_vidy_r_j–_,K gZungs 'dus,gZungs 'dus,
+986,986,KG,102,102,wam,41,133,3,2,102,102,wam,138,2,2,De bzhin gshegs pa'i gtsug tor nas byung ba'i gdugs dkar po can gzhan gyis mi thub pa zhes bya ba'i gzungs,Tath_gato_n__asit_tapatre 'par_jit_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+987,987,KG,102,102,wam,42,138,2,2,102,102,wam,142,1,1,dPal lha mo gtsug tor rol pa'i ta+n+t+ra,_r_-devyu____alalita-tantra,K gZungs 'dus,gZungs 'dus,
+988,988,KG,102,102,wam,43,142,1,1,102,102,wam,143,3,1,'Phags ma od zer can zhes bya ba'i gzungs,M_r_c_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+989,989,KG,102,102,wam,44,143,3,1,102,102,wam,143,6,2,lHa mo skul byed ma zhes bya ba'i gzungs,Cund_dev_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+990,990,KG,102,102,wam,45,143,6,2,102,102,wam,144,4,2,Dug sel zhes bya ba'i rig sngags,J__guli-n_ma-vidy_,K gZungs 'dus,gZungs 'dus,
+991,991,KG,102,102,wam,46,144,4,2,102,102,wam,146,2,2,dByig dang ldan pa zhes bya ba'i gzungs,Hira_yavat_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+992,992,KG,102,102,wam,47,146,2,2,102,102,wam,147,4,1,Grags ldan ma'i gzungs,Ya_ovat_-dh_ra__,K gZungs 'dus,gZungs 'dus,
+993,993,KG,102,102,wam,48,147,4,1,102,102,wam,148,3,1,bKlags pas 'grub pa bcom ldan 'das ma 'phags ma sor mo can zhes bya ba rig pa'i rgyal mo,Siddhapa_hita-bhagavat_-_rya-a_gul_-n_ma-vidy_r_j–_ *,K gZungs 'dus,gZungs 'dus,
+994,994,KG,102,102,wam,49,148,3,1,102,102,wam,149,4,1,Pa+r+.n+.na sha ba ri'i mdo,Par_a_avar_-s_tra *,K gZungs 'dus,gZungs 'dus,
+995,995,KG,102,102,wam,50,149,4,1,102,102,wam,149,6,2,Ri khrod lo ma gyon pa'i gzungs,Par_a_avar_-dh_ra__,K gZungs 'dus,gZungs 'dus,
+996,996,KG,102,102,wam,51,149,6,2,102,102,wam,150,4,1,Chos thams cad kyi yum zhes bya ba'i gzungs,Sarvadharmam_t_k_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+997,997,KG,102,102,wam,52,150,4,1,102,102,wam,153,1,2,gZa' rnams kyi yum zhes bya ba'i gzungs,Graham_t_k_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+998,998,KG,102,102,wam,53,153,1,2,102,102,wam,156,3,1,gZa' rnams kyi yum zhes bya ba'i gzungs,Graham_t_k_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+999,999,KG,102,102,wam,54,156,3,1,102,102,wam,157,3,2,lHa mo brgyad kyi gzungs,A__adev_-dh_ra__,K gZungs 'dus,gZungs 'dus,
+1000,1000,KG,102,102,wam,55,157,3,2,102,102,wam,160,2,1,rJe btsun 'phags ma sgrol ma'i mtshan brgya rtsa brgyad pa zhes bya ba,T_r_bha___rik_-n_ma-a__a_ataka,K gZungs 'dus,gZungs 'dus,
+1001,1001,KG,102,102,wam,56,160,2,1,102,102,wam,160,4,1,sGrol ma'i gzungs,T_r_-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1002,1002,KG,102,102,wam,57,160,4,1,102,102,wam,160,3,2,sGrol ma rang gis dam bcas pa zhes bya ba'i gzungs,T_r_svapratij–_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+1003,1003,KG,102,102,wam,58,160,3,2,102,102,wam,167,2,1,Rig sngags kyi rgyal mo chen mo rgyal ba can zhes bya ba,Jayavat_-n_ma-mah_vidy_r_j–_,K gZungs 'dus,gZungs 'dus,
+1004,1004,KG,102,102,wam,59,167,2,1,102,102,wam,171,7,1,rGyal ba can zhes bya ba'i gzungs,Jayavat_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+1005,1005,KG,102,102,wam,60,171,7,1,102,102,wam,172,2,1,dPal chen mo'i mdo,Mah_lak_m_-s_tra,K gZungs 'dus,gZungs 'dus,
+1006,1006,KG,102,102,wam,61,172,2,1,102,102,wam,172,4,2,lHa mo'i mtshan bcu gnyis pa,_r_-dev_dv_da_aka-n_ma *,K gZungs 'dus,gZungs 'dus,
+1007,1007,KG,102,102,wam,62,172,4,2,102,102,wam,176,1,2,Nor gyi rgyun zhes bya ba'i gzungs,Vasudh_r_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+1008,1008,KG,102,102,wam,63,176,1,2,102,102,wam,178,1,1,Mig rnam par sbyong ba zhes bya ba'i rig sngags,Cak_ur-vi_odhan_-n_ma-vidy_-mantra,K gZungs 'dus,gZungs 'dus,
+1009,1009,KG,102,102,wam,64,178,1,1,102,102,wam,179,1,1,Las kyi sgrib pa thams cad rnam par sbyong ba zhes bya ba'i gzungs,Sarvakarm_vara_a-vi_odhan_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+1010,1010,KG,102,102,wam,65,179,1,1,102,102,wam,179,7,1,Bar du gcod pa thams cad sel ba'i gzungs sngags,Sarv_ntar_yika-sa_gr_sa-dh_ra__-mantra,K gZungs 'dus,gZungs 'dus,
+1011,1011,KG,102,102,wam,66,179,7,1,102,102,wam,179,4,2,Yon yongs su sbyong ba,Dak_i__-pari_odhan_,K gZungs 'dus,gZungs 'dus,
+1012,1012,KG,102,102,wam,67,179,4,2,102,102,wam,179,5,2,Yon yongs su sbyong ba'i gzungs,Dak_i__-pari_odhan_-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1013,1013,KG,102,102,wam,68,179,5,2,102,102,wam,180,1,1,Ngan song thams cad yongs su sbyong ba zhes bya ba'i gzungs,Sarvadurgati-pari_odhan_-n_ma-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1014,1014,KG,102,102,wam,69,180,1,1,102,102,wam,180,2,2,Nad thams cad rab tu zhi bar byed pa zhes bya ba'i gzungs,Sarvarogapra_aman_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+1015,1015,KG,102,102,wam,70,180,2,2,102,102,wam,180,4,2,Nad rab tu zhi bar byed pa'i gzungs,Sarvarogapra_aman_-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1016,1016,KG,102,102,wam,71,180,4,2,102,102,wam,181,5,1,Rims nad rab tu zhi bar byed pa zhes bya ba'i gzungs,Jvarapra_aman_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+1017,1017,KG,102,102,wam,72,181,5,1,102,102,wam,181,7,1,Rims nad zhi ba'i gzungs,Jvarapra_aman_-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1018,1018,KG,102,102,wam,73,181,7,1,102,102,wam,181,5,2,Mig nad rab tu zhi bar byed pa'i mdo,Ak_irogapra_aman_-s_tra,K gZungs 'dus,gZungs 'dus,
+1019,1019,KG,102,102,wam,74,181,5,2,102,102,wam,181,7,2,'Brum bu'i nad zhi bar byed pa'i gzungs,Vispho_akaroga-pra_aman_-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1020,1020,KG,102,102,wam,75,181,7,2,102,102,wam,183,1,1,gZhang 'brum rab tu zhi bar byed pa'i mdo,Ar_apra_aman_-s_tra,K gZungs 'dus,gZungs 'dus,
+1021,1021,KG,102,102,wam,76,183,1,1,102,102,wam,183,3,1,Ma zhu ba'i nad 'byung ba'i gzungs,_pacanaroganiv_ra__-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1022,1022,KG,102,102,wam,77,183,3,1,102,102,wam,183,5,1,sDang ba thams cad rab tu zhi bar byed pa zhes bya ba'i gzungs,Sarvadve_a-pra_aman_-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1023,1023,KG,102,102,wam,78,183,5,1,102,102,wam,183,7,1,sDig pa thams cad rab tu zhi bar byed pa zhes bya ba'i gzungs,Sarvap_papra_aman_-n_ma-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1024,1024,KG,102,102,wam,79,183,7,1,102,102,wam,184,1,1,sDug bsngal thams cad rab tu zhi bar byed pa zhes bya ba'i gzungs,Sarvadu_kha-pra_aman_kara-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+1025,1025,KG,102,102,wam,80,184,1,1,102,102,wam,184,2,1,Khro ba zhi bar byed pa'i gzungs,Krodhapra_aman_-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1026,1026,KG,102,102,wam,81,184,2,1,102,102,wam,184,3,1,Khros pa zhi bar byed pa'i gzungs,Krodhapra_aman_-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1027,1027,KG,102,102,wam,82,184,3,1,102,102,wam,184,6,1,Tshig btsan pa'i gzungs,Vacanaprabh_vakar_-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1028,1028,KG,102,102,wam,83,184,6,1,102,102,wam,184,1,2,bDag srung ba'i gzungs,_tmarak__-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1029,1029,KG,102,102,wam,84,184,1,2,102,102,wam,184,3,2,Don thams cad 'grub pa'i gzungs,Sarv_rthasiddhikar_-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1030,1030,KG,102,102,wam,85,184,3,2,102,102,wam,185,1,1,Las grub pa'i gzungs,Karmasiddhikar_-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1031,1031,KG,102,102,wam,86,185,1,1,102,102,wam,185,3,1,Gos brgya thab pa'i gzungs,_atavastrapr_pika-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1032,1032,KG,102,102,wam,87,185,3,1,102,102,wam,185,4,1,Mi dga' bar byed pa'i gzungs,Ar_gak_rik_-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1033,1033,KG,102,102,wam,88,185,4,1,102,102,wam,185,6,1,Yid du 'ong ba'i gzungs,Manoj–_,K gZungs 'dus,gZungs 'dus,
+1034,1034,KG,102,102,wam,89,185,6,1,102,102,wam,185,1,2,mGrin pa snyan pa'i gzungs,Ka__hapriya_kar_-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1035,1035,KG,102,102,wam,90,185,1,2,102,102,wam,185,2,2,bCings pa las grol ba'i gzungs,Bandhanamocan_-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1036,1036,KG,102,102,wam,91,185,2,2,102,102,wam,185,7,2,mChog thob pa'i rig sngags,Agra-vidy_-mantra,K gZungs 'dus,gZungs 'dus,
+1037,1037,KG,102,102,wam,92,185,7,2,102,102,wam,186,7,1,Shes rab skyed pa zhes bya ba'i gzungs,Praj–_vardhan_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+1038,1038,KG,102,102,wam,93,186,7,1,102,102,wam,186,3,2,Shes rab skyed pa zhes bya ba'i gzungs,Praj–_vardhan_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+1039,1039,KG,102,102,wam,94,186,3,2,102,102,wam,186,6,2,Shes rab skyed pa zhes bya ba'i gzungs,Praj–_vardhan_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+1040,1040,KG,102,102,wam,95,186,6,2,102,102,wam,187,1,1,Thos pa 'dzin pa'i gzungs,_rutidh_rik_-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1041,1041,KG,102,102,wam,96,187,1,1,102,102,wam,187,4,1,Thos pa 'dzin pa'i gzungs,_rutidh_rik_-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1042,1042,KG,102,102,wam,97,187,4,1,102,102,wam,187,6,1,Sh+lo ka brgya lobs pa,_ata_loka_ik_a__ *,K gZungs 'dus,gZungs 'dus,
+1043,1043,KG,102,102,wam,98,187,6,1,102,102,wam,187,2,2,Sh+lo ka brgya lobs pa,_ata_loka_ik_a__ *,K gZungs 'dus,gZungs 'dus,
+1044,1044,KG,102,102,wam,99,187,2,2,102,102,wam,187,4,2,Sh+lo ka stong lobs pa'i gzungs,Sahasra_loka_ik_a__-dh_ra__,K gZungs 'dus,gZungs 'dus,
+1045,1045,KG,102,102,wam,100,187,4,2,102,102,wam,187,7,2,Sh+lo ka stong lobs pa'i gzungs,Sahasra_loka_ik_a__-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1046,1046,KG,102,102,wam,101,187,7,2,102,102,wam,188,4,1,Sh+lo ka stong lobs pa'i gzungs,Sahasra_loka_ik_a__-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1047,1047,KG,102,102,wam,102,188,4,1,102,102,wam,188,7,1,Sh+lo ka sum stong lobs pa'i gzungs,Trisahasra_loka_ik_a__-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1048,1048,KG,102,102,wam,103,188,7,1,102,102,wam,188,1,2,Mi brjed pa'i gzungs,_vismara__-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1049,1049,KG,102,102,wam,104,188,1,2,102,102,wam,188,4,2,Phyag bya ba'i gzungs,Namask_ra-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1050,1050,KG,102,102,wam,105,188,4,2,102,102,wam,188,7,2,Rims dang srog chags kyis mi tshugs pa'i gzungs,Jvare_a jantun_ ca n_vasarapr_ptikaro mantra *,K gZungs 'dus,gZungs 'dus,
+1051,1051,KG,102,102,wam,106,188,7,2,102,102,wam,189,2,1,Dug thams cad zhi bar byed pa'i gzungs,Vi_apra_aman_ *,K gZungs 'dus,gZungs 'dus,
+1052,1052,KG,102,102,wam,107,189,2,1,102,102,wam,189,4,1,mDangs phyir mi 'phrog pa,Tejo 'pratihara_a_ *,K gZungs 'dus,gZungs 'dus,
+1053,1053,KG,102,102,wam,108,189,4,1,102,102,wam,189,6,1,bDud thams cad skrag par byed pa,Sarvam_ra-tr_sakar_ *,K gZungs 'dus,gZungs 'dus,
+1054,1054,KG,102,102,wam,109,189,6,1,102,102,wam,189,7,1,rMa 'byor bar byed pa zhes bya ba'i gzungs sngags,Vra_apari_odhan_-n_ma-mantra-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1055,1055,KG,102,102,wam,110,189,7,1,102,102,wam,189,2,2,Me'i zug rngu rab tu zhi bar byed pa'i gzungs,Pittaroganiv_ra_a-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1056,1056,KG,102,102,wam,111,189,2,2,102,102,wam,189,3,2,mKhris pa'i nad sel bar byed pa'i gzungs,Prasekaroganiv_ra_a-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1057,1057,KG,102,102,wam,112,189,3,2,102,102,wam,189,5,2,Bad kan gyi nad sel ba'i gzungs,Prasekaroganiv_ra_a-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1058,1058,KG,102,102,wam,113,189,5,2,102,102,wam,189,6,2,K+.sa ya'i nad sel ba'i gzungs,K_ayaroganiv_ra_a-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1059,1059,KG,102,102,wam,114,189,6,2,102,102,wam,190,1,1,sTong chen mo nas phyung ba sman la sngags kyi gdab pa,Mah_sahasroddh_ta_ bhai_ajye mantra-nirvapa_am *,K gZungs 'dus,gZungs 'dus,
+1060,1060,KG,102,102,wam,116,190,3,1,102,102,wam,190,4,1,sKran zhi ba'i gzungs,Gulmapra_aman_-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1061,1061,KG,102,102,wam,117,190,4,1,102,102,wam,205,5,2,mDo chen po kun tu rgyu ba dang kun tu rgyu ba ma yin pa dang mthun pa'i mdo zhes bya ba,___n___yas_tra-n_ma-mah_s_tra,K gZungs 'dus,gZungs 'dus,
+1062,1062,KG,102,102,wam,118,205,5,2,102,102,wam,216,1,1,mDo chen po 'dus pa chen po'i mdo zhes bya ba,Mah_sam_jas_tra-n_ma-mah_s_tra,K gZungs 'dus,gZungs 'dus,
+1063,1063,KG,102,102,wam,119,216,1,1,102,102,wam,229,3,2,sPrin chen po,Mah_megha [ 1 chapter title: char dbab rlung gi dkyil 'khor related to DK174 and DK339 titles ],K gZungs 'dus,gZungs 'dus,
+1064,1064,KG,102,102,wam,120,229,3,2,102,102,wam,234,1,2,sPrin chen po rlung gi dkyil 'khor gyi le'u klu thams cad kyi snying po zhes bya ba theg pa chen po'i mdo,Mah_meghav_ta-ma__ala-sarvan_ga-h_daya-n_ma-mah_y_na-s_tra,K gZungs 'dus,gZungs 'dus,
+1065,1065,KG,102,102,wam,121,234,1,2,102,102,wam,235,2,1,Klu'i rgyal po gzi can gyis zhus pa zhes bya ba'i gzungs,Tejasvin_gar_ja-parip_cch_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+1066,1066,KG,102,102,wam,122,235,2,1,102,102,wam,235,4,2,sDong po rgyan gyi mchog ces bya ba'i gzungs,Gulm_la_k_r_gra-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+1067,1067,KG,102,102,wam,123,235,4,2,102,102,wam,239,1,1,Sangs rgyas kyi chos gsal zhing yangs pa snang brgyad ces bya ba'i mdo,Buddhadharma-sphu_avi__l___aprabh_sa-n_ma s_tra *,K gZungs 'dus,gZungs 'dus,
+1068,1068,KG,102,102,wam,124,239,1,1,102,102,wam,239,1,2,mChod pa'i sprin zhes bya ba'i gzungs,P_j_megha-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+1069,1069,KG,102,102,wam,125,239,1,2,102,102,wam,239,1.5,2,Phyag bya ba'i gzungs,Namaskriy_-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1070,1070,KG,102,102,wam,126,239,1.5,2,102,102,wam,239,2,2,bsTod pa'i gzungs,Stotra-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1071,1071,KG,102,102,wam,127,239,2,2,102,102,wam,239,2.5,2,mChod pa byin gyis brlab pa'i gzungs,P_j_dhi__h_na-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1072,1072,KG,102,102,wam,128,239,2.5,2,102,102,wam,239,3,2,mChod pa'i sprin 'byung ba'i gzungs,P_j_megha-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1073,1073,KG,102,102,wam,129,239,3,2,102,102,wam,239,4,2,Phyag bya ba'i gzungs,Namaskriy_-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1074,1074,KG,102,102,wam,130,239,4,2,102,102,wam,239,5,2,Rin po che bdar ba'i gzungs,Ratnasa_ghar_a_a-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1075,1075,KG,102,102,wam,131,239,5,2,102,102,wam,239,6,2,bsKor ba'i gzungs,Pradak_i__-dh_ra_i *,K gZungs 'dus,gZungs 'dus,
+1076,1076,KG,102,102,wam,132,239,6,2,102,102,wam,240,3,1,dKon mchog gi rten la bskor ba bya ba'i gzungs,Pradak_i__-ratnatray_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+1077,1077,KG,102,102,wam,133,240,3,1,102,102,wam,240,7,1,Ye shes skar mda'i snying po,J–_naprad_pa-h_daya *,K gZungs 'dus,gZungs 'dus,
+1078,1078,KG,102,102,wam,134,240,7,1,102,102,wam,240,5,2,Su ruu pa zhes bya ba'i gzungs,Sur_pa-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+1079,1079,KG,102,102,wam,135,240,5,2,102,102,wam,242,3,2,Yi dwags mo kha 'bar ma dbugs dbyung ba'i gtor ma'i cho ga,Pretamukhajv_l_sam__v_sana-balividhi *,K gZungs 'dus,gZungs 'dus,
+1080,1080,KG,102,102,wam,136,242,3,2,102,102,wam,245,4,1,Yi dwags kha nas me 'bar ba la skyabs mdzad pa'i gzungs,Pretamukha-agnijv_l__v_sana-balividhi *,K gZungs 'dus,gZungs 'dus,
+1081,1081,KG,102,102,wam,137,245,4,1,102,102,wam,247,7,1,'Jur 'gegs zhes bya ba'i gzungs,Pretavighna-n_ma-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1082,1082,KG,102,102,wam,138,247,7,1,102,102,wam,247,3,2,Lus kyi zag pa spyin par btang ba'i gzungs,K_y_sravad_nakar_-dh_ra__ *,K gZungs 'dus,gZungs 'dus,
+1083,1083,KG,102,102,wam,139,247,3,2,102,102,wam,251,7,1,Ro langs bdun pa zhes bya ba'i gzungs,Saptavet__aka-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+1084,1084,KG,102,102,wam,140,251,7,1,102,102,wam,252,3,1,Tshogs kyi bdag po'i snying po,Ga_apati-h_daya,K gZungs 'dus,gZungs 'dus,
+1085,1085,KG,102,102,wam,141,252,3,1,102,102,wam,252,3,2,dPal mgon po nag po zhes bya ba'i gzungs,_r_-mah_k_la-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+1086,1086,KG,102,102,wam,142,252,3,2,102,102,wam,253,1,1,Nag po chen po'i gzungs rims nad thams cad las thar bar byed pa,Mah_k___a-sarvajvaramocan_ *,K gZungs 'dus,gZungs 'dus,
+1087,1087,KG,102,102,wam,143,253,1,1,102,102,wam,253,6,1,lHa mo nag mo chen mo'i gzungs,Dev_mah_k_l_-n_ma-dh_ra__,K gZungs 'dus,gZungs 'dus,
+1088,1088,KG,102,102,wam,144,253,6,1,102,102,wam,254,7,2,dPal lha mo nag mo'i mtshan brgya rtsa brgyad pa,_r_-dev_k_l_-n_m___a_ataka,K gZungs 'dus,gZungs 'dus,
+5718,1089,KG,102,102,wam,145,254,7,2,102,102,wam,255,2,1,lHa'i dbang po brgya byin gyis bstod pa,Devendre_ak_ta-stotra *,K sMon lam,gZungs 'dus,[ sMon lam ]
+5697,1090,KG,102,102,wam,146,255,2,1,102,102,wam,255,6,2,Nad kyi bdag mo la bstod pa,Rog_dhipatistotra *,K sMon lam,gZungs 'dus,[ sMon lam ]
+5696,1091,KG,102,102,wam,147,255,6,2,102,102,wam,256,3,1,lHa mo nam gru la bstod pa,Devaremat_stotra *,K sMon lam,gZungs 'dus,[ sMon lam ]
+5719,1092,KG,102,102,wam,148,256,3,1,102,102,wam,256,7,2,dPal lha mo sgra dbyangs la bstod pa,_r_dev_sarasvat_-stotra *,K sMon lam,gZungs 'dus,[ sMon lam ]
+5694,1093,KG,102,102,wam,149,256,7,2,102,102,wam,261,1,1,Yangs pa'i grong khyer du 'jug pa'i mdo chen po,Vai__l_prave_a-mah_s_tra,K sMon lam,gZungs 'dus,[ sMon lam ]
+5717,1094,KG,102,102,wam,150,261,1,1,102,102,wam,262,5,2,sPyan ras gzigs dbang phyug yid bzhin gyi nor bu'i rtog pa las smon lam 'byung ba,Avalokite_varacint_ma_i-kalpoddh_ta-pra_idh_na *,K sMon lam,gZungs 'dus,[ sMon lam ]
+5129,1095,KG,102,102,wam,151,262,5,2,102,102,wam,266,4,1,bZang po spyod pa'i smon lam gyi rgyal po,Bhadracary_-pra_idh_na-r_ja,K sMon lam,gZungs 'dus,[ sMon lam ]
+5130,1096,KG,102,102,wam,152,266,4,1,102,102,wam,267,5,1,Byams pa'i smon lam,Maitreya-pra_idh_na *,K sMon lam,gZungs 'dus,[ sMon lam ]
+5131,1097,KG,102,102,wam,153,267,5,1,102,102,wam,268,1,2,mChog gi spyod pa'i smon lam,Agracary_-pra_idh_na,K sMon lam,gZungs 'dus,[ sMon lam ]
+5118,1098,KG,102,102,wam,154,268,1,2,102,102,wam,269,5,2,sTong chen mo rab tu 'joms pa las gsungs pa'i smon lam,Mah_sahasrapramardana-prokta-pra_idh_na *,K sMon lam,gZungs 'dus,[ sMon lam ]
+5119,1099,KG,102,102,wam,155,269,5,2,102,102,wam,270,4,1,Rig sngags kyi rgyal mo rma bya chen mo las gsungs ba'i smon lam dang bden tshig,Vidy_mantrar_j–_-mah_m_y_r_-prokta-pra_idh_na-tatha-satyavacana *,K sMon lam,gZungs 'dus,[ sMon lam ]
+5123,1100,KG,102,102,wam,156,270,4,1,102,102,wam,271,1,1,lHas zhus pa'i bkra shis kyi tshigs su bcad pa,Devaparip_cch_-ma_galag_th_,K sMon lam,gZungs 'dus,[ sMon lam ]
+5121,1101,KG,102,102,wam,157,271,1,1,102,102,wam,272,4,2,bDe legs kyi tshigs su bcad pa,Svastig_th_,K sMon lam,gZungs 'dus,[ sMon lam ]
+5122,1102,KG,102,102,wam,158,272,4,2,102,102,wam,273,5,1,bDe legs su 'gyur ba'i tshigs su bcad pa,Svastyayanag_th_,K sMon lam,gZungs 'dus,[ sMon lam ]
+5132,1103,KG,102,102,wam,159,273,5,1,102,102,wam,274,3,2,bKra shis kyi tshigs su bcad pa,Ma_gala-g_th_,K sMon lam,gZungs 'dus,[ sMon lam ]
+5124,1104,KG,102,102,wam,160,274,3,2,102,102,wam,275,5,1,Sangs rgyas rabs bdun gyi bkra shis kyi tshigs su bcad pa,Saptabuddhaparampar_-ma_gala-g_th_ *,K sMon lam,gZungs 'dus,[ sMon lam ]
+5720,1105,KG,102,102,wam,161,275,5,1,102,102,wam,275,4,2,De bzhin gshegs pa lnga'i bkra shis tshigs su bcad pa,Pa–catath_gata-ma_galag_th_,K sMon lam,gZungs 'dus,[ sMon lam ]
+5721,1106,KG,102,102,wam,162,275,4,2,102,102,wam,275,7,2,Rigs gsum gyi bkra shis,Trikulama_gala,K sMon lam,gZungs 'dus,[ sMon lam ]
+5133,1107,KG,102,102,wam,163,275,7,2,102,102,wam,278,2,1,Shis par brjod pa'i tshigs su bcad pa,___rav_dag_th_ *,K sMon lam,gZungs 'dus,[ sMon lam ]
+5125,1108,KG,102,102,wam,164,278,2,1,102,102,wam,278,7,1,dKon mchog gsum gyi bkra shis kyi tshigs su bcad pa,Ratnatrayasvasti-g_th_,K sMon lam,gZungs 'dus,[ sMon lam ]
+5127,1059A,KG,102,102,wam,115,190,1,1,102,102,wam,190,3,1,sMan gtong ba'i tshe sman la sngags kyis gdab pa,Vai__rya-mantra *,K gZungs 'dus,gZungs 'dus,
+5110,359A,KG,76,76,a.h,14,281,1,2,76,76,a.h,289,3,1,Dum bu zhe gnyis pa zhes bya ba'i mdo,Dv_catv_ri__at-kha__a-s_tra-n_ma *,K mDo sde,mDo sde,
+5299,417-418,KG,80,80,nga,1,1,1,2,80,80,nga,30,4,1,Kye'i rdo rje zhes bya ba rgyud kyi rgyal po,Hevajra-tantrar_ja [Both chapters],K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud ]
+5111,460A,KG,83,83,ja,8,39,6,2,83,83,ja,40,1,1,rMi lam mthong ba zhes bya ba'i gzungs,Svapnadar_ana-dh_ra__ *,K rGyud,rGyud 'bum,[ bLa-na-med-pa'i-rgyud? ]
+5112,505A,KG,87,87,da,11,286,6,1,87,87,da,286,1,2,sMan gtong ba'i tshe sman la sngags kyis gdabs pa'i gzungs,Vai__rya-mantra-dh_r__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+5115,539A,KG,88,88,na,34,100,7,2,88,88,na,101,5,1,Pa+d+ma'i spyan zhes bya ba'i gzungs,Padmalocana-n_ma-dh_ra__ *,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+5606,655A,KG,91,91,ba,53,149,7,1,91,91,ba,149,2,2,Khyim du 'byung bo gnod pa dag la rab tu bsngags so,,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+5116,673A,KG,91,91,ba,72,211,1,2,91,91,ba,211,2,2,Tshe dang ye shes dpag tu med pa'i gzungs,Aparimit_yurj–_na-dh_ra__,K rGyud,rGyud 'bum,[ Bya-rgyud ]
+5097,7A,KG,12,12,na,2,92,1,2,13,13,pa,313,5,1,'Dul ba gzhung dam pa,Vinaya-uttaragrantha,K 'Dul ba,'Dul ba,
+5544,841A,KG,99,99,ga,7,222,5,1,99,99,ga,223,6,2,rDo rje khros pas zhe sdang,,K rNying rgyud,rNying rgyud,[ rNal-'byor-chen-po ]
+5616,842A,KG,99,99,ga,9,253,3,1,99,99,ga,253,5,1,mChod na rgyal ba rigs lnga rtag tu mchod,,K rNying rgyud,rNying rgyud,"[ rNal-'byor-chen-po, Grub-sde--Root tantra of 6th of 8 grub-sde tantras ]"
+5546,846A,KG,101,101,e,2,3,1,2,101,101,e,3,6,2,sPyan 'dren rgyud gsum pa,_mantra_a-tantra-trika *,K gZungs 'dus,gZungs 'dus,

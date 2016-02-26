@@ -22,23 +22,32 @@ new_texts_dir = base_folder + "catalogs/xml/kt/d/texts-new/"
 proofed = None
 proofednum = 0
 
-def extract_one_text_from_proofed_data():
-    """Extracts a single text based on locations set and creates a catalog XML file for it
+def extract_one_text_from_proofed_data(volname=False, textnum=False):
+    """Extracts a single text based on       locations set and creates a catalog XML file for it
+
+    Args:
+        volname (string): the full name of volume with extension
+        textnum (integer/string): the integer number for the text ID or string representation of that number
 
     Returns:
         true if successful
     """
     global proofed
 
+    # Return fals if either volname or textnum is not given
+    if volname == False or textnum == False:
+        return False
+
     # testout_dir = "/Users/thangrove/Documents/Project Data/THL/DegeKT/ProofedVols/test-out/"
 
-    source_dir = "/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/source-vols/"
-    source_in = source_dir + "005 FINAL tags.txt"
+    #source_dir = "/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/source-vols/"
+    source_in = proof_folder + volname
 
     texts_clone_dir = "/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/texts-clone/"
     texts_in_dir = texts_clone_dir + "catalogs/xml/kt/d/texts/"
     texts_out_dir = texts_clone_dir + "catalogs/xml/kt/d/texts-new/"
-    test_text = "0002/kt-d-0002-text.xml"
+    textnum = str(textnum).zfill(4)
+    test_text = "{0}/kt-d-{0}-text.xml".format(textnum)
     text_in_url = texts_in_dir + test_text
     text_out_url = texts_out_dir + test_text
 
@@ -63,6 +72,7 @@ def extract_one_text_from_proofed_data():
 def extract_folder(fpath='', outpath=''):
     """Scans a folder in texts folder and extracts recreates its contents with proofed data
         NOTE: FOR TESTING ONLY. Only works with text contained in a single volume.
+
     Args:
         fpath (string): Path to folder to copy
         outpath (string): Path to folder for writing output
@@ -100,8 +110,7 @@ def extract_proofed_text(xmldoc):
         NOTE: "proofed" is global variable set elsewhere.
 
     Args:
-        fpath (string): path to the folder containing the file
-        fname (string): name of the file with extension
+        xmldoc (THLText): an initiated THLText object
 
     Returns:
         A string containing the XML to print out to a file
@@ -182,7 +191,7 @@ def convert_text(inpath, outpath):
     """Creates a proofed version of files in a text folder of any type
 
     Args:
-        tpath (string): path to text folder, e.g. .../oldtexts/0003
+        inpath (string): path to text folder, e.g. .../oldtexts/0003
         outpath (string): directory in which to write the new files, e.g. ..../newtexts/0003.
     """
     global proofed
@@ -202,7 +211,8 @@ def convert_text(inpath, outpath):
     bibl = THLBibl(get_bibl_path(inpath))
     vols = bibl.get_volnums()
     volnum = vols[0]
-
+    print "Volume number is: {0}".format(volnum)
+    #   volnum = 56 # to override texts without bibls
     if len(dfiles) == 1:  # Only a single file in the text folder
         # Need to read bibl and get vol number from it
         #print "only 1 file: {0}".format(dfiles[0])
@@ -293,8 +303,8 @@ if __name__ == "__main__":
 
         # Print standard out to file for documentation
         outbase = '/Users/thangrove/Documents/Project_Data/THL/DegeKT/conversions'
-        sttxt = 64
-        endtxt = 67
+        sttxt = 1
+        endtxt = 65
         outurl = '{0}/kt-d-v{1}-{2}-conversion.log'.format(outbase, sttxt, endtxt)
         sys.stdout = codecs.open(outurl, 'w', encoding='utf-8')
         for n in range(sttxt, endtxt + 1):
