@@ -387,6 +387,10 @@ class THLText(object):
         mss = self.xml_text.xpath(xp)
         if len(mss) < 2:
             return False
+
+        # Sometime first milestone has no n attribute value so use the next one
+        if not mss[0]:
+            return [mss[1],  mss.pop()]
         else:
             return [mss[0],  mss.pop()]
 
@@ -476,6 +480,7 @@ class THLPageIterator:
         pts = st.split('.')
         # go back one line to include start line given
         stpg = pts[0]
+        print pts
         stln = int(pts[1]) - 1
         if stln == 0:
             if stpg.find('b') > -1:
@@ -485,9 +490,14 @@ class THLPageIterator:
             stln = self.numlines
         self.pg = stpg
         self.ln = int(stln)
-        pts = en.split('.')
-        self.endpg = pts[0]
-        self.endln = pts[1]
+        if en:
+            pts = en.split('.')
+            self.endpg = pts[0]
+            self.endln = pts[1]
+        else:
+            self.endpg = stpg
+            self.endln = int(stln)
+            print "Warning! No End line found in page iterator. Assuming one line text!"
 
     def __iter__(self):
         return self

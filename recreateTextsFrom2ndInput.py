@@ -6,7 +6,7 @@
 import sys
 import codecs   # For Unicode Processing
 from os import listdir, makedirs
-from os.path import exists, isfile, join
+from os.path import exists, isfile, join, isdir
 import shutil
 from THLTextProcessing import THLSource, THLText, THLBibl  # Custom class for text processing
 # from lxml import etree
@@ -16,9 +16,9 @@ base_folder = "/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/te
 # Old proof_folder used in commented out line ~165
 #proof_folder = "/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/source-vols/"
 proof_folder = '/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/source-vols-latest/eKangyur_W4CZ5369-normalized-nocr/'
-ed_dir = base_folder + "catalogs/xml/kt/d/"
+ed_dir = "/usr/local/projects/thlib-texts/cocoon/texts/catalogs/xml/kt/d/"
 texts_dir = ed_dir + "texts/"
-new_texts_dir = base_folder + "catalogs/xml/kt/d/texts-new/"
+new_texts_dir = "/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/texts-clone/catalogs/xml/kt/d/texts-new/"
 proofed = None
 proofednum = 0
 
@@ -45,6 +45,7 @@ def extract_one_text_from_proofed_data(volname=False, textnum=False):
 
     texts_clone_dir = "/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/texts-clone/"
     texts_in_dir = texts_clone_dir + "catalogs/xml/kt/d/texts/"
+    texts_in_dir = '/usr/local/projects/thlib-texts/cocoon/texts/catalogs/xml/kt/d/texts'
     texts_out_dir = texts_clone_dir + "catalogs/xml/kt/d/texts-new/"
     textnum = str(textnum).zfill(4)
     test_text = "{0}/kt-d-{0}-text.xml".format(textnum)
@@ -196,6 +197,10 @@ def convert_text(inpath, outpath):
     """
     global proofed
 
+    if not isdir(inpath):
+        print "Warning: the source directory, {0}, does not exist. Cannot create new text.".format(inpath)
+        return
+
     if not exists(outpath):
         makedirs(outpath)
 
@@ -230,6 +235,11 @@ def convert_text(inpath, outpath):
 
     else:
         maindoc = [f for f in dfiles if "-text.xml" in f]
+        if not maindoc:
+            print "Warning: No *-main doc found in directory, {0}! " \
+                  "Cannot continue with conversion of this text.".format(inpath)
+            return
+
         print "Main doc file: {0}".format(maindoc[0])
         maindocpath = inpath + maindoc[0]
         maindocout = outpath + maindoc[0]
@@ -303,9 +313,10 @@ if __name__ == "__main__":
 
         # Print standard out to file for documentation
         outbase = '/Users/thangrove/Documents/Project_Data/THL/DegeKT/conversions'
-        sttxt = 1
-        endtxt = 65
+        sttxt = 479
+        endtxt = 500
         outurl = '{0}/kt-d-v{1}-{2}-conversion.log'.format(outbase, sttxt, endtxt)
+        print "Logging output to: {0}".format(outurl)
         sys.stdout = codecs.open(outurl, 'w', encoding='utf-8')
         for n in range(sttxt, endtxt + 1):
             tnum = str(n).zfill(4)
