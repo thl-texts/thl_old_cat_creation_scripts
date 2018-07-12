@@ -8,6 +8,7 @@ import codecs   # For Unicode Processing
 from os import listdir, makedirs
 from os.path import exists, isfile, join, isdir
 import shutil
+import time
 from THLTextProcessing import THLSource, THLText, THLBibl  # Custom class for text processing
 # from lxml import etree
 # import pprint
@@ -18,7 +19,7 @@ base_folder = "/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/te
 proof_folder = '/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/source-vols-latest/eKangyur_W4CZ5369-normalized-nocr/'
 ed_dir = "/usr/local/projects/thlib-texts/cocoon/texts/catalogs/xml/kt/d/"
 texts_dir = ed_dir + "texts/"
-new_texts_dir = "/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/texts-clone/catalogs/xml/kt/d/texts-new/"
+new_texts_dir = "/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/texts-clone/catalogs/xml/kt/d/texts-new-first-201608/"
 proofed = None
 proofednum = 0
 
@@ -46,7 +47,7 @@ def extract_one_text_from_proofed_data(volname=False, textnum=False):
     texts_clone_dir = "/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/texts-clone/"
     texts_in_dir = texts_clone_dir + "catalogs/xml/kt/d/texts/"
     texts_in_dir = '/usr/local/projects/thlib-texts/cocoon/texts/catalogs/xml/kt/d/texts'
-    texts_out_dir = texts_clone_dir + "catalogs/xml/kt/d/texts-new/"
+    texts_out_dir = texts_clone_dir + "catalogs/xml/kt/d/texts-new-first-201608/"
     textnum = str(textnum).zfill(4)
     test_text = "{0}/kt-d-{0}-text.xml".format(textnum)
     text_in_url = texts_in_dir + test_text
@@ -174,6 +175,7 @@ def load_proofed_vol(vnum):
     vnum = vnum.zfill(3)
     #volpath = proof_folder + "{0}/".format(vnum) # goes with old proof_folder
     volfilepath = proof_folder + "{0}-FINAL-tags-cvd.txt".format(vnum)
+    print "Reading volume: {0}".format(volfilepath)
     proofed = THLSource(volfilepath)
     # volfiles = listdir(volpath)
     # print volpath, volfiles
@@ -193,12 +195,12 @@ def convert_text(inpath, outpath):
 
     Args:
         inpath (string): path to text folder, e.g. .../oldtexts/0003
-        outpath (string): directory in which to write the new files, e.g. ..../newtexts/0003.
+        outpath (string): directory in which to write the new-first files, e.g. ..../newtexts/0003.
     """
     global proofed
 
     if not isdir(inpath):
-        print "Warning: the source directory, {0}, does not exist. Cannot create new text.".format(inpath)
+        print "Warning: the source directory, {0}, does not exist. Cannot create new-first text.".format(inpath)
         return
 
     if not exists(outpath):
@@ -226,12 +228,16 @@ def convert_text(inpath, outpath):
         load_proofed_vol(volnum)
         xmltxt = THLText(fpath)
         msrange = xmltxt.getrange()
-        chunk = proofed.getchunk(msrange[0], msrange[1], 'p')  # wraps in <p> tag
+        if msrange:
+            chunk = proofed.getchunk(msrange[0], msrange[1], 'p')  # wraps in <p> tag
 
-        outtext = xmltxt.replace_p(chunk)
-        fout = codecs.open(foutpath, 'w', encoding="utf-8")
-        fout.write(outtext)
-        fout.close()
+            outtext = xmltxt.replace_p(chunk)
+            fout = codecs.open(foutpath, 'w', encoding="utf-8")
+            fout.write(outtext)
+            fout.close()
+        else:
+            print "Warning: Could not get range for text: {0}".format(fpath)
+            return
 
     else:
         maindoc = [f for f in dfiles if "-text.xml" in f]
@@ -264,8 +270,12 @@ def process_doc(docnm, dinpath, doutpath):
     docxml = THLText(dinpath + docnm)
     msrange = docxml.getrange()
 
-    if proofed is not None:
+    if not msrange:
+        print "Cannot get range for text {0}".format(docnm)
+        return
 
+    if proofed is not None:
+        #print "msrange", str(msrange)
         chunk = proofed.getchunk(msrange[0], msrange[1], 'p')  # wraps in <p> tag
         outtext = docxml.replace_p(chunk)
         foutpath = doutpath + docnm
@@ -303,7 +313,7 @@ if __name__ == "__main__":
             docpath = "{0}/{1}".format(str(svolnum).zfill(4), sdocnm)
             basepath = '/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/texts-clone/catalogs/xml/kt/d'
             sinpath = '{0}/texts/'.format(basepath)
-            soutpath = '{0}/texts-new/'.format(basepath)
+            soutpath = '{0}/texts-new-first/'.format(basepath)
             print "Processing {0}".format(sdocnm)
             process_single_doc(svolnum, docpath, sinpath, soutpath)
 
@@ -313,18 +323,26 @@ if __name__ == "__main__":
 
         # Print standard out to file for documentation
         outbase = '/Users/thangrove/Documents/Project_Data/THL/DegeKT/conversions'
-        sttxt = 479
-        endtxt = 500
-        outurl = '{0}/kt-d-v{1}-{2}-conversion.log'.format(outbase, sttxt, endtxt)
+        sttxt = 11
+        endtxt = 1118
+        outurl = '{0}/kt-d-texts-{1}-{2}-conversion.log'.format(outbase, sttxt, endtxt)
         print "Logging output to: {0}".format(outurl)
         sys.stdout = codecs.open(outurl, 'w', encoding='utf-8')
+        print "Beginning conversion of texts: {0} to {1}".format(sttxt, endtxt)
+        print "Time: {0}".format(time.strftime("%c"))
+        starttime = time.time()
         for n in range(sttxt, endtxt + 1):
             tnum = str(n).zfill(4)
             print "****** Text {0} ******".format(tnum)
+            print "Time: {0}".format(time.strftime("%c"))
             txt_path = texts_dir + tnum
             out_path = new_texts_dir + tnum
             convert_text(txt_path, out_path)
-
+        endtime = time.time()
+        dtime = endtime - starttime
+        secs = (dtime/1000) % 60
+        mins = (dtime/(1000*60))
+        print "Finished at {0}. Total time: {1} mins, {2} secs.".format(time.strftime("%c"), mins, secs)
     else:
         # Final else is for testing/debugging
         bobj = get_text_bibl('kt-d-', 45)

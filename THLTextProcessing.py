@@ -158,7 +158,8 @@ class THLSource(object):
         newsource = re.sub(r'\[([^\.]+\.[\d])\]', r'<milestone n="\1" unit="line"/>', newsource)
         self.xml_text = u'<div><p>' + newsource + u'</p></div>'
         ftxt = StringIO(self.xml_text)
-        self.mytree = etree.parse(ftxt)
+        magical_parser = etree.XMLParser(encoding='utf-8', recover=True)  # prevents failing on encoding errors
+        self.mytree = etree.parse(ftxt, magical_parser)
         self.source = self.mytree.getroot()
         self.is_xml = True
 
@@ -197,7 +198,18 @@ class THLSource(object):
 
         """
         srctxt = self.sourcetxt
-        self.sourcetxt = ''.join(srctxt.splitlines())
+
+        # remove paragraph returns in middle of line before page/line numbers
+        srcjoined = ''.join(srctxt.splitlines())
+        p = u'([ཀ-ྼ་])།([ཀ-ྼ])'
+        r = u'\g<1>། \g<2>'
+        srcjoined = re.sub(p, r, srcjoined)
+
+        # Add paragraph return after each space
+        p = u' '
+        r = u" \n"
+        srcjoined = re.sub(p, r, srcjoined)
+        self.sourcetxt = srcjoined
 
 
     def getmilestone(self, msnum):
@@ -272,6 +284,16 @@ class THLSource(object):
         elif len(wrapper) > 0:
             outchunk += u'</{0}>'.format(wrapper)
         return outchunk
+
+    def getlastline(self, mode="number"):
+        lpath = '/*//milestone[@unit="line"][last()]'
+        if mode == "number":
+            lpath += '/@n'
+        msel = self.source.xpath(lpath)
+        if len(msel) > 0:
+            return msel[0]
+        else:
+            return False
 
     @staticmethod
     def get_xml_root_of_url(url):
@@ -356,7 +378,7 @@ class THLText(object):
             bibl_root (Element): root element of bibl
     """
     def __init__(self, text_url='', bibl_url=''):
-        self.xml_text_url = text_url                        # Url for the text XML file
+        self.xml_text_url = text_url.replace('//', '/')                        # Url for the text XML file
         if exists(self.xml_text_url):
             self.exists = True
             self.tree = None
@@ -371,11 +393,35 @@ class THLText(object):
                 self.file_name = pts.pop()
         else:
             self.exists = False
+            self.xml_text = False
 
     def set_bibl(self, bibl_url):
         """Function for setting the bibl url and element of a text"""
         self.bibl_url = bibl_url
         self.bibl = self.get_xml_root(self.bibl_url)
+
+    def get_page_file(self, pgnum):
+        """
+        Only for use with -text.xml files the list subfiles, finds the subfile containing that page.
+        :param pgnum: string pagenumber as in "123b.4"
+        :return: THLText file with that page
+        """
+        mtc = re.findall(r"(\d+)[ab]\.\d", pgnum)
+        pgnum = mtc.pop() if mtc else False
+        if pgnum:
+            pgnum = int(pgnum)
+            xp = '/*//body//div[@type="vol"]//list/item/num[@type="pages"]'
+            pitems = self.xml_text.xpath(xp)
+            for pi in pitems:
+                rng = pi.text.split("-")
+                if len(rng) == 2:
+                    if int(rng[0]) <= pgnum <= int(rng[1]):
+                        # Previous tag is the xref
+                        lind = self.xml_text_url.rfind("/") + 1
+                        newurl = self.xml_text_url[0:lind] + pi.getprevious().text
+                        return THLText(newurl)
+
+        return self
 
     def getrange(self):
         """Returns the page rage of text as a 2 item list, first item is start line, second is end line
@@ -383,16 +429,19 @@ class THLText(object):
         Returns:
             array containing start and end milestone n attribute or False if no or just one milestone found
         """
-        xp = '/*//body//milestone[@unit="line"]/@n'
-        mss = self.xml_text.xpath(xp)
-        if len(mss) < 2:
-            return False
+        if self.xml_text is not None:
+            xp = '/*//body//milestone[@unit="line"]/@n'
+            mss = self.xml_text.xpath(xp)
+            if len(mss) < 2:
+                return False
 
-        # Sometime first milestone has no n attribute value so use the next one
-        if not mss[0]:
-            return [mss[1],  mss.pop()]
+            # Sometime first milestone has no n attribute value so use the next one
+            if not mss[0]:
+                return [mss[1],  mss.pop()]
+            else:
+                return [mss[0],  mss.pop()]
         else:
-            return [mss[0],  mss.pop()]
+            return False
 
     def getline(self, lnum, mstype='line'):
         """Returns a single line from the text"""
@@ -407,11 +456,11 @@ class THLText(object):
         return mss
 
     def replace_p(self, newp='<p></p>'):
-        """Replaces the content of the text'sp element with new (proofed) Tibetan text"""
+        """Replaces the content of the text'sp element with new-first (proofed) Tibetan text"""
         # Check if multiple <p> elements and write warning
         pct = len(self.xml_text.xpath('/*//text//p'))
         if pct > 1:
-            print "{0} <p> elements found in {1}. Replacing all with new text!".format(pct, self.file_name)
+            print "{0} <p> elements found in {1}. Replacing all with new-first text!".format(pct, self.file_name)
         # Read in file
         fout = codecs.open(self.xml_text_url, 'r', encoding='utf-8')
         mytext = fout.read()
@@ -524,11 +573,21 @@ class THLPageIterator:
 
 if __name__ == "__main__":
 
-    mycatpath = '/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/' \
-                'texts-clone/catalogs/xml/kt/d/kt-d-cat.xml'
-    cat = THLCatalog(mycatpath, 'mycat')
-    tl = cat.get_text_list('nobibl')
-    print tl
+    srcpath = '/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/source-vols-latest/'\
+                'eKangyur_W4CZ5369-normalized-nocr/031-FINAL-tags-cvd.txt'
+    voltxt = THLSource(srcpath)
+    print "Last line is: {0}".format(voltxt.getlastline())
+    #lastmile = voltxt.getlastline("el")
+    #print lastmile.tail
+
+    ms = voltxt.getline("206b.2")
+    print ms
+
+    #mycatpath = '/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/' \
+    #            'texts-clone/catalogs/xml/kt/d/kt-d-cat.xml'
+    #cat = THLCatalog(mycatpath, 'mycat')
+    #tl = cat.get_text_list('nobibl')
+    #print tl
 
     # myurl = '/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/test-out/crlftest.txt'
     # srcobj = THLSource(myurl)

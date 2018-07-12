@@ -1,0 +1,82 @@
+<tibbibl id="kt-d-0512-bib" level="text" rend="place-holder">
+    <controlinfo>
+        <sysid>kt-d-0512-bib</sysid>
+        <date/>
+        <respStmt>
+            <resp>Cataloguer</resp>
+            <name/>
+        </respStmt>
+        <revisionDesc>
+            <change>
+                <date/>
+                <respStmt>
+                    <resp>Proofer</resp>
+                    <name/>
+                </respStmt>
+                <item>Proofed data against original.</item>
+            </change>
+            <change>
+                <date/>
+                <respStmt>
+                    <resp>XML Document Creator</resp>
+                    <name>ndg</name>
+                </respStmt>
+                <item>Used Python script to create XML unproofed bibl doc using data from Phil Stanley's database.</item>
+            </change>
+        </revisionDesc>
+        <resources>
+            <xref n="parent-cat">kt/d/kt-d-cat.xml</xref>
+        </resources>
+    </controlinfo>
+    <tibiddecl scheme="thl">
+        <head> Identification Information </head>
+        <tibid type="collection" system="sigla">KT<tibid type="edition" system="letter">Degé<altid lang="tib"><!--sde dge-->སྡེ་དགེ</altid>
+                <tibid type="edition" system="sigla">D<tibid type="text" system="number">512</tibid>
+                    <tibid type="volume" system="number">88<altid system="letter" lang="tib">na</altid>
+                        <tibid type="text" system="number">3</tibid>
+                    </tibid>
+                </tibid>
+            </tibid>
+            <!--
+            <tibid type="edition" system="letter">P<tibid type="text" system="number"></tibid>
+            </tibid>
+            <tibid type="edition" system="letter">Toh<tibid type="text" system="number"></tibid>
+            </tibid>
+            <tibid type="edition" system="letter">Dp<tibid type="text" system="number"></tibid>
+                <tibid type="volume" system="number"><altid system="number" n="pagination"></altid>
+                </tibid>
+            </tibid>-->
+        </tibid>
+        <idno type="master" n="fmpdb"/>
+    </tibiddecl>
+    <physdecl>
+        <head> Physical Description </head>
+        <pagination>
+            <rs type="vol" n="88">
+                <rs type="pagination" n="start">
+                    <num type="page">24b</num>
+                    <num type="line">6</num>
+                </rs>
+                <rs type="pagination" n="end">
+                    <num type="page">25b</num>
+                    <num type="line">1</num>
+                </rs>
+            </rs>
+        </pagination>
+        <physfacet type="illustrations">No</physfacet>
+        <physfacet lang="tib" type="script"><!--dbu can/-->དབུ་ཅན།</physfacet>
+    </physdecl>
+    <intelldecl>
+        <head> Intellectual Description </head>
+        <doxography type="relation">KG</doxography>
+        <doxography type="category" lang="tib" subtype="assigned" n="kt-d-k-2-4-1-1-1">རིགས་ཀྱི་གཙོ་བོའི་རྒྱུད།<!--rigs kyi gtso bo'i
+                                          rgyud/--></doxography>
+    </intelldecl>
+    <titlegrp>
+        <head> Title Information </head>
+        <titledecl n="normalized-title">
+            <title lang="tib" type="normalized-title">བྱང་ཆུབ་ཀྱི་སྙིང་པོའི་རྒྱན་འབུམ་གྱི་གཟུངས།<!--byang chub kyi snying po'i rgyan 'bum gyi gzungs/--></title>
+            <source>kt-d-cat.xml</source>
+        </titledecl>
+    </titlegrp>
+</tibbibl>

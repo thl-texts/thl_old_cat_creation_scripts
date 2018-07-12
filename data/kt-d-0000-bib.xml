@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE tibbibl SYSTEM "http://texts.thlib.org/catalogs/xtibbibl3.dtd">--><tibbibl id="kt-d-0064-bib" level="text">
+	  <controlinfo>
+		    <sysid>{SYSID}kt-d-0064-bib.xml</sysid>
+		    <date>{DATE}2009-01-26</date>
+		    <respStmt>
+			      <resp>Cataloguer</resp>
+			      <name>None</name>
+		    </respStmt>
+		    <revisionDesc>
+			      <change>
+				        <date>{DATE}</date>
+				        <respStmt>
+					          <resp>Created by Python Script</resp>
+					          <name>ndg</name>
+				        </respStmt>
+				        <item>Used Python script to create a shell bibliographic record with ID, Volume and pagination based on THL’s digital input text.</item>
+			      </change>
+		    </revisionDesc>
+	  </controlinfo>
+	  <tibiddecl scheme="thl">
+		    <head> Identification Information </head>
+		    <tibid type="collection" system="sigla">KT<tibid type="edition" system="letter">Degé<altid lang="tib"><!--sde dge-->སྡེ་དགེ</altid>
+            <tibid type="edition" system="sigla">D<tibid type="text" system="number">{TEXTNUM}</tibid>
+				           <tibid type="volume" system="number">{VOLNUM}<altid system="letter" lang="tib">{VOLLET}<!--nga-->ང</altid>
+					             <tibid type="text" system="number">{NUMINVOL}4</tibid>
+				           </tibid>
+		          </tibid>
+         </tibid>
+		    </tibid>
+		    <!--idno type="master" n="fmpdb"></idno-->
+	  </tibiddecl>
+	  <physdecl>
+		    <head> Physical Description </head>
+		    <pagination>
+         <rs type="vol" n="{VOLNUM}">
+            <rs type="pagination" n="start">
+               <num type="page">{STARTPAGE}</num>
+               <num type="line">{STARTLINE}</num>
+            </rs>
+            <rs type="pagination" n="end">
+               <num type="page">{ENDPAGE}</num>
+               <num type="line">{ENDLINE}</num>
+            </rs>
+         </rs>
+      </pagination>  
+		    <extentdecl type="sides">
+			      <extent class="differential"/>
+			      <extent class="total">{TOTALSIDES}</extent>
+		    </extentdecl>
+		    <!--<divdecl type="cle">
+			      <divcount class="total">7</divcount>
+			      <divcount class="front">2</divcount>
+			      <divcount class="body">3
+				<name lang="tib" type="designation">
+				   <rs lang="tib"><!-\-bam po/-\->བམ་པོ།</rs>
+            </name>
+			      </divcount>
+			      <divcount class="back">2</divcount>
+		    </divdecl>-->
+		    <physfacet type="illustrations">No</physfacet>
+		    <physfacet lang="tib" type="script"><!--dbu can/-->དབུ་ཅན།</physfacet>
+	  </physdecl>
+	  <intelldecl>
+		    <head> Intellectual Description </head>
+		    <doxography type="relation">KG</doxography>
+	     <doxography type="category" lang="tib" subtype="assigned"><!--{DOXCATWYL}-->{DOXCATTIB}</doxography>
+	     <doxography type="category" lang="end" subtype="assigned">{DOXCATENG}</doxography>
+	  </intelldecl>
+   <origination><head>Provenance</head><respdecl type="translator">
+      <persName type="indian"  lang="eng">Uncataloged.</persName>
+      <persName type="tibetan" lang="eng">Uncataloged.</persName>
+   </respdecl><discussion type="provenance">As bibliographic record was programmatically created from input text, provenance and other information has not yet been cataloged.</discussion>
+   </origination>
+	  <titlegrp>
+		    <head> Title Information </head>
+		    <titledecl n="normalized-title">
+         <title lang="tib" type="normalized-title"><!--{TITLEWYL}-->{TITLETIB}</title>
+         <source>kt-d-cat.xml</source>
+      </titledecl>
+      <!--<titleinfo>
+         <head> Title Variants </head>
+         <titlediv type="front" subtype="title-line" n="1">
+            <titledecl>
+               <title lang="tib"></title>
+            </titledecl>
+            <pagination>
+               <rs type="pagination" n="start">
+                  <num type="page"></num>
+                  <num type="line"></num>
+               </rs>
+               <rs type="pagination" n="end">
+                  <num type="page"></num>
+                  <num type="line"></num>
+               </rs>
+            </pagination>
+         </titlediv>
+         
+      </titleinfo>-->
+	  </titlegrp>
+	  <sections>
+<p>Sections have not been cataloged yet.</p>
+      <!--<tibanal n="1">
+         <head>Front Sections</head>
+         <tibbibl level="chapter">
+            <head>Title line</head>
+            <tibiddecl scheme="thl">
+               <tibid type="chapter" system="number">a1</tibid>
+            </tibiddecl>
+            <physdecl>
+               <pagination>
+                  <rs type="pagination" n="start">
+                     <num type="page">257b</num>
+                     <num type="line">1</num>
+                  </rs>
+                  <rs type="pagination" n="end">
+                     <num type="page">257b</num>
+                     <num type="line">2</num>
+                  </rs>
+               </pagination>
+            </physdecl>
+         </tibbibl>
+         <tibbibl level="chapter">
+            <head>Author's homage</head>
+            <tibiddecl scheme="thl">
+               <tibid type="chapter" system="number">a2</tibid>
+            </tibiddecl>
+            <physdecl>
+               <pagination>
+                  <rs type="pagination">
+                     <num type="page">257b</num>
+                     <num type="line">2</num>
+                  </rs>
+               </pagination>
+            </physdecl>
+         </tibbibl>
+      </tibanal>
+
+
+      <tibanal n="2">
+
+         <head>Body Sections</head>
+         <tibbibl level="chapter">
+            <head>Chapter 1</head>
+            <tibiddecl scheme="thl">
+               <tibid type="chapter" system="number">b1</tibid>
+            </tibiddecl>
+            <titledecl>
+               <title lang="tib" type="chapter"><!-\-bam po dang po/-\->བམ་པོ་དང་པོ།</title>
+               <source>
+                  <rs type="pagination">
+                     <num type="page">257b</num>
+                     <num type="line">1</num>
+                  </rs>
+               </source>
+            </titledecl>
+            <physdecl>
+               <pagination>
+                  <rs type="pagination" n="start">
+                     <num type="page">257b</num>
+                     <num type="line">1</num>
+                  </rs>
+                  <rs type="pagination" n="end">
+                     <num type="page">266a</num>
+                     <num type="line">5</num>
+                  </rs>
+               </pagination>
+            </physdecl>
+         </tibbibl>
+         <tibbibl level="chapter">
+            <head>Chapter 2</head>
+            <tibiddecl scheme="thl">
+               <tibid type="chapter" system="number">b2</tibid>
+            </tibiddecl>
+            <titledecl>
+               <title lang="tib" type="chapter"><!-\-bam po gnyis pa/-\->བམ་པོ་གཉིས་པ།</title>
+               <source>
+                  <rs type="pagination">
+                     <num type="page">266a</num>
+                     <num type="line">5</num>
+                  </rs>
+               </source>
+            </titledecl>
+            <physdecl>
+               <pagination>
+                  <rs type="pagination" n="start">
+                     <num type="page">266a</num>
+                     <num type="line">5</num>
+                  </rs>
+                  <rs type="pagination" n="end">
+                     <num type="page">275b</num>
+                     <num type="line">7</num>
+                  </rs>
+               </pagination>
+            </physdecl>
+         </tibbibl>
+         <tibbibl level="chapter">
+            <head>Chapter 3</head>
+            <tibiddecl scheme="thl">
+               <tibid type="chapter" system="number">b3</tibid>
+            </tibiddecl>
+            <titledecl>
+               <title lang="tib" type="chapter"><!-\-bam po gsum pa/-\->བམ་པོ་གསུམ་པ།</title>
+               <source>
+                  <rs type="pagination">
+                     <num type="page">275b</num>
+                     <num type="line">7</num>
+                  </rs>
+               </source>
+            </titledecl>
+            <physdecl>
+               <pagination>
+                  <rs type="pagination" n="start">
+                     <num type="page">275b</num>
+                     <num type="line">7</num>
+                  </rs>
+                  <rs type="pagination" n="end">
+                     <num type="page">288a</num>
+                     <num type="line">3</num>
+                  </rs>
+               </pagination>
+            </physdecl>
+         </tibbibl>
+      </tibanal>
+
+
+      <tibanal n="3">
+
+         <head>Back Sections</head>
+         <tibbibl level="chapter">
+            <head>Closing section</head>
+            <tibiddecl scheme="thl">
+               <tibid type="chapter" system="number">c1</tibid>
+            </tibiddecl>
+            <physdecl>
+               <pagination>
+                  <rs type="pagination">
+                     <num type="page">288a</num>
+                     <num type="line">3</num>
+                  </rs>
+               </pagination>
+            </physdecl>
+         </tibbibl>
+         <tibbibl level="chapter">
+            <head>Translator's colophon</head>
+            <tibiddecl scheme="thl">
+               <tibid type="chapter" system="number">c2</tibid>
+            </tibiddecl>
+            <physdecl>
+               <pagination>
+                  <rs type="pagination" n="start">
+                     <num type="page">288a</num>
+                     <num type="line">3</num>
+                  </rs>
+                  <rs type="pagination" n="end">
+                     <num type="page">288a</num>
+                     <num type="line">4</num>
+                  </rs>
+               </pagination>
+            </physdecl>
+         </tibbibl>
+      </tibanal>-->
+	  </sections>
+
+   <!-- NOTES 
+
+
+-->
+</tibbibl>

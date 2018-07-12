@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE tibbibl SYSTEM "http://texts.thlib.org/catalogs/xtibbibl3.dtd">
-<tibbibl id="kt-d-0000-bib" level="text" rend="place-holder">
+<tibbibl id="kt-d-0000-bib" level="text">
     <controlinfo>
         <sysid></sysid>
-        <date></date>
+        <date>2018-07-09</date>
         <respStmt>
-            <resp>Cataloguer</resp>
-            <name></name>
+            <resp>Cataloger</resp>
+            <name>ndg</name>
         </respStmt>
         <revisionDesc>
             <change>
-                <date></date>
-                <respStmt>
-                    <resp>Proofer</resp>
-                    <name/>
-                </respStmt>
-                <item>Proofed data against original.</item>
-            </change>
-            <change>
-                <date></date>
+                <date>2018-07-09</date>
                 <respStmt>
                     <resp>XML Document Creator</resp>
                     <name>ndg</name>

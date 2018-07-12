@@ -9,7 +9,12 @@ from os.path import exists
 import re
 from THLTextProcessing import THLPageIterator, THLSource, THLText  # Custom class for text processing
 import sys
-# from lxml import etree
+from Tkinter import *
+
+base_dir = "/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/texts-clone/"
+texts_root = base_dir + "catalogs/xml/kt/d/"
+old_texts = texts_root + "texts/"
+new_texts = texts_root + "texts-new-first/"
 
 
 def normspace(txt2norm=''):
@@ -47,7 +52,7 @@ def compare_one_file(oldtext, newtext):
         # If line does not exist in proofed text
         newline = normspace(newtext.getline(linenum))
         if newline is False:
-            #print "{0} does not exist in new text".format(linenum)
+            #print "{0} does not exist in new-first text".format(linenum)
             missingNT.append(linenum)
             continue
 
@@ -114,13 +119,10 @@ def compare_one_file(oldtext, newtext):
     #percchar = "never mind"
     print "Characters Different: {0}, Out of total chars: {1} ({2})".format(totalchardiffs, totalchars, percchar)
 
-if __name__ == "__main__":
-    """Compares a whole folder of a texts document set at tnum"""
 
-    base_dir = "/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/texts-clone/"
-    texts_root = base_dir + "catalogs/xml/kt/d/"
-    old_texts = texts_root + "texts/"
-    new_texts = texts_root + "texts-new/"
+def compare_whole_texts():
+    """Compares a whole folder of a texts document set at tnum"""
+    global base_dir, texts_root, old_texts, new_texts
 
     mode = 'whole-text'
     print "\n"
@@ -165,3 +167,78 @@ if __name__ == "__main__":
                 if not newtxt.exists:
                     print "{0} doesn't exist".format(newtxt.xml_text_url)
             sys.stdout.close()
+
+
+def get_texts_text_file(basefold, tnum):
+    """Find the -text file in a folder"""
+    tnum = str(tnum).zfill(4)
+    tfold = basefold + "/" + tnum
+    files = listdir(tfold)
+    txtnm = [f for f in files if "-text" in f].pop(0)
+    return THLText(tfold + "/" + txtnm)
+
+
+def compare_single_lines(text_num, lnnum):
+    """Compares old and new-first versions of a single line of a text
+        :param text_num string the text number
+        :param lnnum string the line number
+    """
+    global old_texts, new_texts
+    print old_texts
+    print new_texts
+    print "Comparing line {0} from text {1}:".format(lnnum, text_num)
+    txt = get_texts_text_file(old_texts, text_num)
+    txt = txt.get_page_file(lnnum)
+    ln = txt.getline(lnnum)
+    txt2 = get_texts_text_file(new_texts, text_num)
+    txt2 = txt2.get_page_file(lnnum)
+    ln2 = txt2.getline(lnnum)
+    oldln = re.sub(r'\s+', ' ', ln).replace("  ", " ")
+    newln = re.sub(r'\s+', ' ', ln2)
+    print_lines(oldln, newln)
+
+
+def print_lines(oldln, newln):
+    rootwin = Tk()
+    fm = Frame(rootwin, height=200, width=500)
+    fm.pack_propagate(0) # don't shrink
+    fm.pack()
+    wintxt = Text(fm, font=("Jommolhari", 24))
+    wintxt.insert(INSERT, "Enter a line number in the box:")
+    wintxt.pack({"side": "left"})
+
+    ent = Entry(rootwin)
+    ent.pack()
+    ent.focus_set()
+
+    def buttoncallback():
+        pgnum = ent.get()
+        wintxt.delete("1.0", END)
+        wintxt.insert(INSERT, "pgnum: " + pgnum)
+        wintxt.pack({"side": "left"})
+
+    b = Button(rootwin, text="Find it", width=100, command=buttoncallback)
+    b.pack()
+    rootwin.mainloop()
+
+
+if __name__ == "__main__":
+
+    tn = "16"
+    pn = "104a.4"
+    compare_single_lines(tn, pn)
+    exit(0)
+
+    doloop = True
+    breakvals = ["", "exit", "quit", "break", "done"]
+    while doloop:
+        varin = raw_input("Enter a text number and line number separated by a colon, eg. 8:156b.3: ")
+        if not varin or varin in breakvals:
+            doloop = False
+        else:
+            pts = varin.split(":")
+            if len(pts) == 2:
+                compare_single_lines(pts[0], pts[1])
+                print "\n----------------------------------------\n"
+            else:
+                print "You did not enter the proper format of text number, colon, line number."
