@@ -225,11 +225,12 @@ class THLSource(object):
         msel = self.source.xpath(lpath)
         if len(msel) > 0:
             if len(msel) > 1:
-                print "More than one milestone with n={0} in {1}".format(msnum, self.source_url)
+                print "\nMore than one milestone with n={0} in {1}\n".format(msnum, self.source_url)
             msel = msel[0]
         else:
-            print "Milestone, {0}, not found!".format(msnum)
-            msel = False
+            #print "Milestone, {0}, not found!".format(msnum)
+            raise THLTextException({'msnum': msnum, 'funcname': 'getMilestone'})
+
         return msel
 
     def getline(self, linenum):
@@ -268,22 +269,30 @@ class THLSource(object):
             A string representation of an XML chunk of text
         """
         outchunk = u''
+        msgs = []
         if isinstance(wrapper, list):
             for en in wrapper:
                 outchunk += u'<{0}>'.format(en)
         elif len(wrapper) > 0:
             outchunk = u'<{0}>'.format(wrapper)
-        print "Start ln {0}; End ln {1}".format(stln, endln)
+        msgs.append("info:Start ln {0}; End ln {1}".format(stln, endln))
         for pn in THLPageIterator(stln, endln):
-            # print "Loading {0}".format(pn)
-            outln = self.getline(pn)
-            outchunk += outln
+            #print "Loading {0}".format(pn)
+            try:
+                outln = self.getline(pn)
+                outchunk += outln
+            except THLTextException as te:
+                msgs.append('error: {0}'.format(te))
+
         if isinstance(wrapper, list):
             for en in reversed(wrapper):
                 outchunk += u'</{0}>'.format(en)
         elif len(wrapper) > 0:
             outchunk += u'</{0}>'.format(wrapper)
-        return outchunk
+        #patt = u'།\W+།'
+        #rep = u'།\xa0།'  # space here is nbsp unichr(160)
+        #outchunk = re.sub(patt, rep, outchunk)
+        return outchunk, msgs
 
     def getlastline(self, mode="number"):
         lpath = '/*//milestone[@unit="line"][last()]'
@@ -333,7 +342,7 @@ class THLBibl(object):
 
     """
     def __init__(self, bibl_url):
-        print "bibl url: {0}".format(bibl_url)
+        #print "bibl url: {0}".format(bibl_url)
         self.bibl_url = bibl_url
         self.root = self.read_bibl()
 
@@ -429,7 +438,7 @@ class THLText(object):
         Returns:
             array containing start and end milestone n attribute or False if no or just one milestone found
         """
-        if self.xml_text is not None:
+        if self.xml_text is not False and self.xml_text is not None:
             xp = '/*//body//milestone[@unit="line"]/@n'
             mss = self.xml_text.xpath(xp)
             if len(mss) < 2:
@@ -459,8 +468,8 @@ class THLText(object):
         """Replaces the content of the text'sp element with new-first (proofed) Tibetan text"""
         # Check if multiple <p> elements and write warning
         pct = len(self.xml_text.xpath('/*//text//p'))
-        if pct > 1:
-            print "{0} <p> elements found in {1}. Replacing all with new-first text!".format(pct, self.file_name)
+        # if pct > 1:
+            #print "{0} <p> elements found in {1}. Replacing all with new-first text!".format(pct, self.file_name)
         # Read in file
         fout = codecs.open(self.xml_text_url, 'r', encoding='utf-8')
         mytext = fout.read()
@@ -499,7 +508,7 @@ class THLText(object):
             return False
 
     def xpath(self, xpstr):
-        print "Xpath query is: {0}".format(xpstr)
+        #print "Xpath query is: {0}".format(xpstr)
         return self.xml_text.xpath(xpstr)
 
     @staticmethod
@@ -529,7 +538,7 @@ class THLPageIterator:
         pts = st.split('.')
         # go back one line to include start line given
         stpg = pts[0]
-        print pts
+        #print pts
         stln = int(pts[1]) - 1
         if stln == 0:
             if stpg.find('b') > -1:
@@ -562,14 +571,22 @@ class THLPageIterator:
                 self.pg = str(npg) + "a"
             self.ln = 1
 
-        if self.pg == self.endpg and int(self.ln) > int(self.endln):
+        # Stop Iteration if...
+        if self.pg == self.endpg and int(self.ln) > int(self.endln): # iterator is on end page at a line past the end
             raise StopIteration
-        elif self.pg == self.endpg.replace('a', 'b'):
-            raise StopIteration
+        elif 'a' in self.endpg and self.pg == self.endpg.replace('a','b'): # iterator is on the b page when the end page is an a page
+           raise StopIteration
         elif int(self.pg.replace('a', '').replace('b', '')) > int(self.endpg.replace('a', '').replace('b', '')):
+            # the number value of the iterators page is greater than the number value of the end page
             raise StopIteration
         else:
             return self.pg + "." + str(self.ln)
+
+class THLTextException(Exception):
+    def __init__(self, eargs):
+        Exception.__init__(self, "Could not find Milestone {0} in THLTextProcessing Function {1}".format(eargs.get('msnum'), eargs.get('funcname')))
+        self.dErrorArguments = eargs
+
 
 if __name__ == "__main__":
 
