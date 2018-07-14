@@ -289,9 +289,13 @@ class THLSource(object):
                 outchunk += u'</{0}>'.format(en)
         elif len(wrapper) > 0:
             outchunk += u'</{0}>'.format(wrapper)
-        #patt = u'།\W+།'
-        #rep = u'།\xa0།'  # space here is nbsp unichr(160)
-        #outchunk = re.sub(patt, rep, outchunk)
+        # Replace spaces with non-breaking spaces
+        patt = u'།\s+'
+        rep = u'།\xa0'  # space here is nbsp unichr(160)
+        outchunk = re.sub(patt, rep, outchunk)
+        patt = u'ག\s+'
+        rep = u'ག\xa0'  # space here is nbsp unichr(160)
+        outchunk = re.sub(patt, rep, outchunk)
         return outchunk, msgs
 
     def getlastline(self, mode="number"):

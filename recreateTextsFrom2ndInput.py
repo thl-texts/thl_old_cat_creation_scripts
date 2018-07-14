@@ -19,7 +19,7 @@ base_folder = "/Users/thangrove/Box Sync/Projects/THL/TextsTib/Kangyur/Dege/DgTe
 proof_folder = base_folder + 'source-vols-latest/eKangyur_W4CZ5369-normalized-nocr/'
 ed_dir = "/Users/thangrove/Sites/texts/production/catalogs/xml/kt/d/"
 texts_dir = ed_dir + "texts/"
-new_texts_dir = base_folder + "texts-clone/catalogs/xml/kt/d/texts-new-201807/"
+new_texts_dir = base_folder + "texts-clone/catalogs/xml/kt/d/texts-new-july-2018/"
 proofed = None
 proofednum = 0
 infolog = None
@@ -49,7 +49,7 @@ def extract_one_text_from_proofed_data(volname=False, textnum=False):
     texts_clone_dir = "/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/texts-clone/"
     texts_in_dir = texts_clone_dir + "catalogs/xml/kt/d/texts/"
     texts_in_dir = '/usr/local/projects/thlib-texts/cocoon/texts/catalogs/xml/kt/d/texts'
-    texts_out_dir = texts_clone_dir + "catalogs/xml/kt/d/texts-new-201807/"
+    texts_out_dir = texts_clone_dir + "catalogs/xml/kt/d/texts-new-july-2018/"
     textnum = str(textnum).zfill(4)
     test_text = "{0}/kt-d-{0}-text.xml".format(textnum)
     text_in_url = texts_in_dir + test_text
@@ -352,15 +352,14 @@ if __name__ == "__main__":
 
         # Print standard out to file for documentation
         outbase = '/Users/thangrove/Box Sync/Projects/THL/TextsTib/Kangyur/Dege/DgTextProcessing/Convert2ndInput/workspace/conversions'
-        sttxt = 2
-        endtxt = 2
+        sttxt = 509
+        endtxt = 599
         ts = int(time.time())
         infologurl = '{0}/ktd-{1}-{2}-txtconv-{3}-info.log'.format(outbase, sttxt, endtxt, ts)
         errorlogurl = '{0}/ktd-{1}-{2}-txtconv-{3}-error.log'.format(outbase, sttxt, endtxt, ts)
         print "Logging output to: {0}".format(infologurl)
         infolog = codecs.open(infologurl, 'w', encoding='utf-8')
         errorlog = codecs.open(errorlogurl, 'w', encoding='utf-8')
-        print "Here"
         convlog("Converting texts: {0} to {1}".format(sttxt, endtxt), 'info', True)
         convlog("Start: {0}".format(time.strftime("%c")), 'info', True)
         starttime = time.time()
@@ -372,8 +371,8 @@ if __name__ == "__main__":
             convert_text(txt_path, out_path)
         endtime = time.time()
         dtime = endtime - starttime
-        secs = dtime % 60
-        mins = dtime / 60
+        secs = int(dtime % 60)
+        mins = int(dtime / 60)
         convlog("Finished at {0}. Total time: {1} mins, {2} secs.".format(time.strftime("%c"), mins, secs), 'info', True)
     else:
         # Final else is for testing/debugging
