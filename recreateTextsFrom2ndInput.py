@@ -352,8 +352,8 @@ if __name__ == "__main__":
 
         # Print standard out to file for documentation
         outbase = '/Users/thangrove/Box Sync/Projects/THL/TextsTib/Kangyur/Dege/DgTextProcessing/Convert2ndInput/workspace/conversions'
-        sttxt = 509
-        endtxt = 599
+        sttxt = 1000
+        endtxt = 1118
         ts = int(time.time())
         infologurl = '{0}/ktd-{1}-{2}-txtconv-{3}-info.log'.format(outbase, sttxt, endtxt, ts)
         errorlogurl = '{0}/ktd-{1}-{2}-txtconv-{3}-error.log'.format(outbase, sttxt, endtxt, ts)
