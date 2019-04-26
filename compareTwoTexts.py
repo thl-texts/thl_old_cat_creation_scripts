@@ -117,7 +117,7 @@ def compare_one_file(oldtext, newtext):
 
     percchar = float(totalchardiffs) / float(totalchars) * 100
     #percchar = "never mind"
-    print "Characters Different: {0}, Out of total chars: {1} ({2})".format(totalchardiffs, totalchars, percchar)
+    print "Characters Different: {0}, out of total chars: {1} ({2})".format(totalchardiffs, totalchars, percchar)
 
 
 def compare_whole_texts():
@@ -134,7 +134,7 @@ def compare_whole_texts():
         filenm = 'kt-d-0009-tha-05.xml'
         outbase = '/Users/thangrove/Documents/Project_Data/THL/DegeKT/comparisons'
         outurl = '{0}/{1}-comparison.txt'.format(outbase, filenm.replace('.xml', ''))
-        print "Out url: {0}".format(outurl)
+        print "out url: {0}".format(outurl)
         sys.stdout = codecs.open(outurl, 'w', encoding='utf-8')
         oldtxt = THLText(old_texts + tnum + "/" + filenm)
         newtxt = THLText(new_texts + tnum + "/" + filenm)

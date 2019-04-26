@@ -257,7 +257,7 @@ class THLSource(object):
             outln += etree.tostring(ln) + tail
         return outln
 
-    def getchunk(self, stln, endln, wrapper=''):
+    def getchunk(self, stln, endln, wrapper='', text_delimiter=False):
         """Returns a chunk of the volume with milestones and optionally wrapped in an element of your choice
 
         Args:
@@ -280,6 +280,15 @@ class THLSource(object):
             #print "Loading {0}".format(pn)
             try:
                 outln = self.getline(pn)
+                if text_delimiter and text_delimiter in outln:
+                    if pn == stln:
+                        pts = outln.split(text_delimiter)
+                        ind = pts[0].rfind('/>') + 2  # Find index for end of the last milestone
+                        mst = pts[0][:ind] # get the string for the milestone(s) could be page and line milestones
+                        outln = u"{0}{1}{2}".format(mst, text_delimiter, pts[1])
+                    if pn == endln:
+                        pts = outln.split(text_delimiter)
+                        outln = pts[0]
                 outchunk += outln
             except THLTextException as te:
                 msgs.append('error: {0}'.format(te))
@@ -534,6 +543,9 @@ class THLText(object):
 class THLPageIterator:
     def __init__(self, st, en, numlines=7):
         self.numlines = numlines
+        #  print "st: {0}, en: {1}".format(st, en)
+        st = st.replace(',', '.')
+        en = en.replace(',', '.')
         # for cases where milestone mistakenly has multiple line values: 101a.1101a.2... etc.
         if st.count('.') > 1:
             st = st[0:st.find('.') + 2]

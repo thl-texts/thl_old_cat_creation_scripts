@@ -13,7 +13,7 @@ from THLTextProcessing import THLSource, THLText, THLBibl  # Custom class for te
 # from lxml import etree
 # import pprint
 
-base_folder = "/Users/thangrove/Box Sync/Projects/THL/TextsTib/Kangyur/Dege/DgTextProcessing/Convert2ndInput/workspace/ProofedVols/"
+base_folder = "/Users/thangrove/Box/Projects/THL/TextsTib/Kangyur/Dege/DgTextProcessing/Convert2ndInput/workspace/ProofedVols/"
 # Old proof_folder used in commented out line ~165
 #proof_folder = "/Users/thangrove/Documents/Project_Data/THL/DegeKT/ProofedVols/source-vols/"
 proof_folder = base_folder + 'source-vols-latest/eKangyur_W4CZ5369-normalized-nocr/'
@@ -232,7 +232,7 @@ def convert_text(inpath, outpath):
         xmltxt = THLText(fpath)
         msrange = xmltxt.getrange()
         if msrange:
-            res = proofed.getchunk(msrange[0], msrange[1], 'p')  # wraps in <p> tag
+            res = proofed.getchunk(msrange[0], msrange[1], 'p', u'༄༅༅།')  # wraps in <p> tag
             chunk = res[0]
             convlog(res[1])
             outtext = xmltxt.replace_p(chunk)
@@ -352,7 +352,7 @@ if __name__ == "__main__":
 
         # Print standard out to file for documentation
         outbase = '/Users/thangrove/Box Sync/Projects/THL/TextsTib/Kangyur/Dege/DgTextProcessing/Convert2ndInput/workspace/conversions'
-        sttxt = 1000
+        sttxt = 479
         endtxt = 1118
         ts = int(time.time())
         infologurl = '{0}/ktd-{1}-{2}-txtconv-{3}-info.log'.format(outbase, sttxt, endtxt, ts)
