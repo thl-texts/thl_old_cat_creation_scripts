@@ -26,7 +26,7 @@ infolog = None
 errorlog = None
 
 def extract_one_text_from_proofed_data(volname=False, textnum=False):
-    """Extracts a single text based on       locations set and creates a catalog XML file for it
+    """Extracts a single text based on locations set and creates a catalog XML file for it
 
     Args:
         volname (string): the full name of volume with extension
