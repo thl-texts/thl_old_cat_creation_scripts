@@ -1,20 +1,11 @@
 ####  THL Source Class ####
 import re
 from io import StringIO
-from lxml import etree
-from . import thl_base
+import html
+from .thl_base import *
 
-
-####  THLSource Class ####
-class THLSource(thl_base.ThlBase):
+class THLSource(THLBase):
     """THL Source: An Object for manipulating XML data about one text in a catalog
-
-        Attributes:
-            source_url : (optional) Url to the source file for the text
-            stype : (default = xml) type of source being loaded (xml or text)
-            text_root : root element of source
-            bibl_url : (optional) URL to the Bibl file
-            bibl_root : root element of bibl
 
         Args:
             source_url (string): the source URL for a volume's text with just pagination in brackets or xml
@@ -30,7 +21,10 @@ class THLSource(thl_base.ThlBase):
 
     def __init__(self, source_url='', is_xml=False):
         super().__init__(source_url, is_xml)
-        if not self.is_xml:
+        self.type = 'source'
+        if self.content is None:
+            print ("No source content to convert!")
+        elif not self.is_xml:
             self.convert_input_to_xml()
             self.is_xml = True
 
@@ -46,39 +40,13 @@ class THLSource(thl_base.ThlBase):
         mysource = mysource.replace('[]', '')  # remove empty brackets anywhere
         newsource = re.sub(r'\[([^\]\.]+)\]', r'<milestone n="\1" unit="page"/>', mysource)
         newsource = re.sub(r'\[([^\.]+\.[\d])\]', r'<milestone n="\1" unit="line"/>', newsource)
-        self.xml_text = u'<div><p>' + newsource + u'</p></div>'
+        self.xml_text = '<div><p>' + newsource + '</p></div>'
         ftxt = StringIO(self.xml_text)
         magical_parser = etree.XMLParser(encoding='utf-8', recover=True)  # prevents failing on encoding errors
         self.mytree = etree.parse(ftxt, magical_parser)
-        self.source = self.mytree.getroot()
+        self.root = self.mytree.getroot()
         self.is_xml = True
 
-    def write(self, outurl):
-        """Writes either the source text or the parsed XML to a file depending on the value of is_xml
-
-        Args:
-            outurl (string): the path and name of the outfile
-
-        """
-        if self.is_xml:
-            # TODO: do something here NEEDS TO BE FLESHED OUT!
-            xfile = codecs.open(outurl, "w", "utf-8")
-
-        else:
-            xfile = codecs.open(outurl, "w", "utf-8")
-            xfile.write(self.xml_text)
-            xfile.close()
-
-    def writetext(self, outurl):
-        """Writes just source text to a file regardless on the value of is_xml
-
-        Args:
-            outurl (string): the path and name of the outfile
-
-        """
-        xfile = codecs.open(outurl, "w", "utf-8")
-        xfile.write(self.sourcetxt)
-        xfile.close()
 
     def removecrlf(self):
         """Removes carriage returns before page and line numbers in brackets
@@ -87,19 +55,19 @@ class THLSource(thl_base.ThlBase):
             outurl (string): the path and name of the outfile
 
         """
-        srctxt = self.sourcetxt
+        srctxt = self.content
 
         # remove paragraph returns in middle of line before page/line numbers
         srcjoined = ''.join(srctxt.splitlines())
-        p = u'([ཀ-ྼ་])།([ཀ-ྼ])'
-        r = u'\g<1>། \g<2>'
+        p = r'([ཀ-ྼ་])།([ཀ-ྼ])'
+        r = '\g<1>། \g<2>'
         srcjoined = re.sub(p, r, srcjoined)
 
         # Add paragraph return after each space
-        p = u' '
-        r = u" \n"
+        p = r'\s+'
+        r = " \n"
         srcjoined = re.sub(p, r, srcjoined)
-        self.sourcetxt = srcjoined
+        self.content = srcjoined
 
     def getmilestone(self, msnum):
         """Returns the milestone element with a given value
@@ -111,11 +79,10 @@ class THLSource(thl_base.ThlBase):
             The milestone as an Element
         """
         lpath = '/*//milestone[@n="{0}"]'.format(msnum)
-        msel = self.source.xpath(lpath)
+        msel = self.xpath(lpath)
         if len(msel) > 0:
             if len(msel) > 1:
-                print
-                "\nMore than one milestone with n={0} in {1}\n".format(msnum, self.source_url)
+                print("\nMore than one milestone with n={0} in {1}\n".format(msnum, self.source_url))
             msel = msel[0]
         else:
             # print "Milestone, {0}, not found!".format(msnum)
@@ -134,17 +101,19 @@ class THLSource(thl_base.ThlBase):
         """
         outln = u''
         if linenum.find(".1") > -1:
+            #  If it's line one, also get the page milestone
             pgnum = linenum.replace(".1", "")
             pg = self.getmilestone(pgnum)
             if pg is not False:
-                pg = convert_milestone(pg)  # See the top of this file for this function
-                outln += etree.tostring(pg)
+                pg = self.convert_milestone(pg)
+                bytstr = etree.tostring(pg)  # No tail on page milestone because folled by line 1
+                outln += bytstr.decode('utf-8')
         ln = self.getmilestone(linenum)
         if ln is not False:
-            ln = convert_milestone(ln)
-            tail = ln.tail if ln.tail is not None else u''
-            ln.tail = u''
-            outln += etree.tostring(ln) + tail
+            ln = self.convert_milestone(ln)
+            bytstr = etree.tostring(ln, with_tail=True)  # Get tail with line milestones to include following text
+            outln += bytstr.decode('utf-8')
+        outln = html.unescape(outln)
         return outln
 
     def getchunk(self, stln, endln, wrapper='', text_delimiter=False):
@@ -158,6 +127,9 @@ class THLSource(thl_base.ThlBase):
         Returns:
             A string representation of an XML chunk of text
         """
+        if self.content is None:
+            return "No data available!"
+
         outchunk = u''
         msgs = []
         if isinstance(wrapper, list):
@@ -175,12 +147,13 @@ class THLSource(thl_base.ThlBase):
                         pts = outln.split(text_delimiter)
                         ind = pts[0].rfind('/>') + 2  # Find index for end of the last milestone
                         mst = pts[0][:ind]  # get the string for the milestone(s) could be page and line milestones
-                        outln = u"{0}{1}{2}".format(mst, text_delimiter, pts[1])
+                        outln = u'{0}{1}{2}'.format(mst, text_delimiter, pts[1])
                     if pn == endln:
                         pts = outln.split(text_delimiter)
-                        outln = pts[0]
+                        outln = u'{}'.format(pts[0])
                 outchunk += outln
-            except THLTextException as te:
+            except thl_base.THLTextException as te:
+                # print('error: {0}'.format(te))
                 msgs.append('error: {0}'.format(te))
 
         if isinstance(wrapper, list):
@@ -189,48 +162,20 @@ class THLSource(thl_base.ThlBase):
         elif len(wrapper) > 0:
             outchunk += u'</{0}>'.format(wrapper)
         # Replace spaces with non-breaking spaces
-        patt = u'།\s+'
-        rep = u'།\xa0'  # space here is nbsp unichr(160)
-        outchunk = re.sub(patt, rep, outchunk)
-        patt = u'ག\s+'
-        rep = u'ག\xa0'  # space here is nbsp unichr(160)
-        outchunk = re.sub(patt, rep, outchunk)
+        # patt = r'།\s+'
+        # rep = u'། '  # space here is nbsp unichr(160)
+        # outchunk = re.sub(patt, rep, outchunk)
+        # patt = r'ག\s+'
+        # rep = u'ག '  # space here is nbsp unichr(160)
+        # outchunk = re.sub(patt, rep, outchunk)
         return outchunk, msgs
 
     def getlastline(self, mode="number"):
         lpath = '/*//milestone[@unit="line"][last()]'
         if mode == "number":
             lpath += '/@n'
-        msel = self.source.xpath(lpath)
+        msel = self.xpath(lpath)
         if len(msel) > 0:
             return msel[0]
         else:
             return False
-
-    @staticmethod
-    def get_xml_root_of_url(url):
-        """Parse an XML document from a URL and return the root element"""
-        if len(url) > 0:
-            xtree = etree.parse(url)
-            return xtree.getroot()
-        else:
-            return False
-
-    @staticmethod
-    def read_doc(url):
-        """Reads in a document from the given local url"""
-        txt = ""
-        try:
-            vol_in_stream = codecs.open(url, 'r', encoding='utf-8')
-            txt = vol_in_stream.read()
-
-        except UnicodeDecodeError:
-            try:
-                vol_in_stream = codecs.open(url, 'r', encoding='utf-16')
-                txt = vol_in_stream.read()
-
-            except UnicodeDecodeError:
-                print
-                "Unable to open volume file as either utf8 or utf16"
-
-        return txt

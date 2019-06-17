@@ -9,10 +9,16 @@ import os
 import os.path
 
 
-class ThlBase(object):
+class THLBase(object):
     path = ''
     filename = ''
     content = ''
+    catname = ''
+    catsig = ''
+    edname = ''
+    edsig = ''
+    id = ''
+    type = 'base'
     is_xml = False
     xmltree = None
     root = None
@@ -22,7 +28,7 @@ class ThlBase(object):
         self.filename = os.path.basename(self.path)
         self.is_xml = is_xml
         if self.is_xml:
-            self.load_xml
+            self.load_xml()
         else:
             self.load_doc()
 
@@ -35,6 +41,17 @@ class ThlBase(object):
     def load_doc(self):
         if self.path is not '':
             self.content = self.read_doc(self.path)
+
+    def read_doc(self, url):
+        """Reads in a document from the given local url"""
+        try:
+           with open(url, 'r', encoding='utf-8') as filein:
+                txt = filein.read()
+
+        except Exception as e:
+                print("Unable to open file: {}".format(e))
+                txt = None
+        return txt
 
     def xpath(self, xpathstr):
         """Perform an xpath search on main catalog document"""
@@ -94,7 +111,7 @@ class THLPageIterator:
     def __iter__(self):
         return self
 
-    def next(self):
+    def __next__(self):
         self.ln += 1
         if self.ln > self.numlines:
             if self.pg.find('a') > -1:
@@ -120,5 +137,5 @@ class THLTextException(Exception):
     def __init__(self, eargs):
         Exception.__init__(self, "Could not find Milestone {0} in THL text processing function {1}".format(
             eargs.get('msnum'), eargs.get('funcname')))
-        self.dErrorArguments = eargs
+        self.ErrorArguments = eargs
 

@@ -1,7 +1,7 @@
 ####  THLCatalog Class ####
-from . import thl_base
+from .thl_base import *
 
-class THLCatalog(thl_base.ThlBase):
+class THLCatalog(THLBase):
     """A class for processing THL catalog documents (not to be confused with OCRProcessing's Catalog)
        Takes a regular THL catalog XML document and extracts information from it
        Initialized with a path to the catalog xml file (catpath) and a machine name/id (name) for the catalog"""
